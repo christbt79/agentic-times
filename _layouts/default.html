@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
-  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -23,7 +23,7 @@
   <header class="masthead">
     <div class="masthead-inner">
       <div class="masthead-rule top-rule"></div>
-      <a href="/" class="masthead-link">
+      <a href="{{ '/' | relative_url }}" class="masthead-link">
         <h1 class="masthead-title">The Agentic Times</h1>
       </a>
       <p class="masthead-sub">The World's Foremost Source on Autonomous AI</p>
@@ -34,12 +34,12 @@
   <nav class="main-nav">
     <div class="nav-inner">
       <ul class="nav-list">
-        <li><a href="/" class="nav-link">Front Page</a></li>
-        <li><a href="/dispatches/" class="nav-link">Dispatches</a></li>
-        <li><a href="/perspective/" class="nav-link">Perspective</a></li>
-        <li><a href="/industry/" class="nav-link">Industry</a></li>
-        <li><a href="/governance/" class="nav-link">Governance</a></li>
-        <li><a href="/about/" class="nav-link">About</a></li>
+<li><a href="{{ '/' | relative_url }}" class="nav-link">Front Page</a></li>
+<li><a href="{{ '/dispatches/' | relative_url }}" class="nav-link">Dispatches</a></li>
+<li><a href="{{ '/perspective/' | relative_url }}" class="nav-link">Perspective</a></li>
+<li><a href="{{ '/industry/' | relative_url }}" class="nav-link">Industry</a></li>
+<li><a href="{{ '/governance/' | relative_url }}" class="nav-link">Governance</a></li>
+<li><a href="{{ '/about/' | relative_url }}" class="nav-link">About</a></li>i>
       </ul>
     </div>
   </nav>
@@ -53,16 +53,16 @@
       <div class="footer-masthead">The Agentic Times</div>
       <p class="footer-tagline">Intelligence in Motion</p>
       <div class="footer-links">
-        <a href="/about/">About</a>
-        <a href="/dispatches/">Dispatches</a>
-        <a href="/perspective/">Perspective</a>
-        <a href="/industry/">Industry</a>
-        <a href="/governance/">Governance</a>
+<a href="{{ '/about/' | relative_url }}">About</a>
+<a href="{{ '/dispatches/' | relative_url }}">Dispatches</a>
+<a href="{{ '/perspective/' | relative_url }}">Perspective</a>
+<a href="{{ '/industry/' | relative_url }}">Industry</a>
+<a href="{{ '/governance/' | relative_url }}">Governance</a>a>
       </div>
       <p class="footer-copy">© {{ site.time | date: '%Y' }} The Agentic Times. All rights reserved.</p>
     </div>
   </footer>
 
-  <script src="/assets/js/main.js"></script>
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
 </body>
 </html>
