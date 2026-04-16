@@ -167,7 +167,7 @@ img { max-width: 100%; height: auto; display: block; }
    SECTION DIVIDER
    ============================================ */
 
-.section-divider { display: flex; align-items: center; gap: 1rem; margin: 2rem 0; grid-column: 1 / -1; }
+.section-divider { display: flex; align-items: center; gap: 1rem; margin: 1rem 0 0.5rem; grid-column: 1 / -1; }
 .section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: var(--rule); }
 .section-divider span { font-family: var(--font-display); font-size: 0.9rem; font-style: italic; color: var(--ink-muted); white-space: nowrap; }
 
@@ -187,7 +187,7 @@ img { max-width: 100%; height: auto; display: block; }
    SECTION PAGES — LIST VIEW
    ============================================ */
 
-.section-header { grid-column: 1 / -1; margin-bottom: 0.5rem; }
+.section-header { grid-column: 1 / -1; margin-bottom: 0; padding-bottom: 0; }
 .section-title { font-family: var(--font-display); font-size: 2rem; font-weight: 900; margin-bottom: 0.3rem; }
 .section-desc { font-size: 1rem; color: var(--ink-muted); font-style: italic; }
 .section-list { grid-column: 1 / -1; }
