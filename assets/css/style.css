@@ -106,8 +106,7 @@ img { max-width: 100%; height: auto; display: block; }
   color: var(--ink);
 }
 
-.nav-link.active,
-.nav-list li:first-child .nav-link {
+.nav-link.active {
   background: var(--paper);
   color: var(--accent);
   border-color: var(--rule);
