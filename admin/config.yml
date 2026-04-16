@@ -1,0 +1,77 @@
+backend:
+  name: github
+  repo: christbt79/agentic-times
+  branch: main
+
+media_folder: "assets/images/uploads"
+public_folder: "/assets/images/uploads"
+
+collections:
+  - name: "dispatches"
+    label: "Dispatches"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    filter:
+      field: category
+      value: Dispatches
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Category", name: "category", widget: "hidden", default: "Dispatches" }
+      - { label: "Deck", name: "deck", widget: "string", required: false }
+      - { label: "Author", name: "author", widget: "string", default: "The Agentic Times" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Hero Image", name: "image", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "perspective"
+    label: "Perspective"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    filter:
+      field: category
+      value: Perspective
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Category", name: "category", widget: "hidden", default: "Perspective" }
+      - { label: "Deck", name: "deck", widget: "string", required: false }
+      - { label: "Author", name: "author", widget: "string", default: "The Agentic Times" }
+      - { label: "Read Time (mins)", name: "read_time", widget: "number", required: false }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Hero Image", name: "image", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "industry"
+    label: "Industry"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    filter:
+      field: category
+      value: Industry
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Category", name: "category", widget: "hidden", default: "Industry" }
+      - { label: "Deck", name: "deck", widget: "string", required: false }
+      - { label: "Author", name: "author", widget: "string", default: "The Agentic Times" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Hero Image", name: "image", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "governance"
+    label: "Governance"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    filter:
+      field: category
+      value: Governance
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Category", name: "category", widget: "hidden", default: "Governance" }
+      - { label: "Deck", name: "deck", widget: "string", required: false }
+      - { label: "Author", name: "author", widget: "string", default: "The Agentic Times" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Hero Image", name: "image", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
