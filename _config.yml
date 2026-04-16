@@ -1,0 +1,29 @@
+title: The Agentic Times
+description: Intelligence in Motion
+url: "https://www.theagentictimes.site"
+baseurl: ""
+
+permalink: /:categories/:title/
+
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown
+highlighter: rouge
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
