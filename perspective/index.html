@@ -1,0 +1,42 @@
+---
+layout: default
+title: Perspective
+description: Analysis and commentary on the forces shaping agentic AI.
+---
+
+<div class="container">
+  <div class="section-header">
+    <h2 class="section-title">Perspective</h2>
+    <p class="section-desc">Analysis and commentary on the forces shaping agentic AI.</p>
+  </div>
+  <div class="section-divider"><span>Latest</span></div>
+  <div class="section-list">
+    {% assign posts = site.posts | where: "category", "Perspective" %}
+    {% if posts.size > 0 %}
+      {% for post in posts %}
+      <article class="list-story">
+        <div class="list-story-main">
+          <div class="article-section-label small">Perspective</div>
+          <h3 class="list-headline">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </h3>
+          <p class="list-deck">{{ post.deck | default: post.excerpt | strip_html | truncatewords: 30 }}</p>
+          <div class="list-meta">
+            <span class="author">By {{ post.author | default: "The Agentic Times" }}</span>
+            <span class="dot">·</span>
+            <span class="pub-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+            {% if post.read_time %}
+            <span class="dot">·</span>
+            <span class="read-time">{{ post.read_time }} min read</span>
+            {% endif %}
+          </div>
+        </div>
+      </article>
+      {% endfor %}
+    {% else %}
+      <div class="empty-state">
+        <p class="empty-desc">No perspectives yet — check back soon.</p>
+      </div>
+    {% endif %}
+  </div>
+</div>
