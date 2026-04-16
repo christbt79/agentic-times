@@ -2,16 +2,19 @@
 layout: default
 title: Front Page
 ---
-
 <div class="container">
 
   {% assign all_posts = site.posts %}
   {% assign hero = all_posts | first %}
-  {% assign secondary = all_posts | offset: 1 | limit: 3 %}
-  {% assign lower = all_posts | offset: 4 | limit: 3 %}
 
-  <!-- HERO + SIDEBAR -->
-  {% if hero %}
+  {% if all_posts.size == 0 %}
+  <div class="empty-state">
+    <h2 class="empty-title">The first dispatch is coming.</h2>
+    <p class="empty-desc">The Agentic Times launches soon. Intelligence in Motion.</p>
+  </div>
+
+  {% else %}
+
   <section class="front-page-grid">
 
     <article class="lead-story">
@@ -45,17 +48,20 @@ title: Front Page
     <aside class="sidebar-right">
       <div class="sidebar-section">
         <h3 class="sidebar-heading">Also Today</h3>
-        {% for post in secondary %}
-        <div class="sidebar-story">
-          <div class="article-section-label small">{{ post.category }}</div>
-          <h4 class="sidebar-story-title">
-            <a href="{{ post.url }}">{{ post.title }}</a>
-          </h4>
-          <p class="sidebar-story-desc">{{ post.deck | default: post.excerpt | strip_html | truncatewords: 25 }}</p>
-        </div>
+        {% assign sidebar_count = 0 %}
+        {% for post in all_posts %}
+          {% if post.url != hero.url and sidebar_count < 3 %}
+            <div class="sidebar-story">
+              <div class="article-section-label small">{{ post.category }}</div>
+              <h4 class="sidebar-story-title">
+                <a href="{{ post.url }}">{{ post.title }}</a>
+              </h4>
+              <p class="sidebar-story-desc">{{ post.deck | default: post.excerpt | strip_html | truncatewords: 25 }}</p>
+            </div>
+            {% assign sidebar_count = sidebar_count | plus: 1 %}
+          {% endif %}
         {% endfor %}
       </div>
-
       <div class="sidebar-section quote-block">
         <p class="pull-quote">"Agentic AI is not the future of work — it is the present, arriving faster than most organisations are prepared for."</p>
         <p class="pull-quote-attr">— The Agentic Times</p>
@@ -63,33 +69,44 @@ title: Front Page
     </aside>
 
   </section>
-  {% endif %}
 
-  <!-- LOWER GRID -->
-  {% if lower.size > 0 %}
+  {% assign lower_count = 0 %}
+  {% assign has_lower = false %}
+  {% for post in all_posts %}
+    {% if post.url != hero.url and lower_count >= 3 %}
+      {% assign has_lower = true %}
+    {% endif %}
+    {% if post.url != hero.url %}
+      {% assign lower_count = lower_count | plus: 1 %}
+    {% endif %}
+  {% endfor %}
+
+  {% if has_lower %}
   <div class="section-divider"><span>Latest</span></div>
   <section class="three-col-grid">
-    {% for post in lower %}
-    <article class="col-story">
-      <div class="article-section-label small">{{ post.category }}</div>
-      <h3 class="col-headline">
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </h3>
-      <p class="col-body">{{ post.deck | default: post.excerpt | strip_html | truncatewords: 25 }}</p>
-      <div class="col-meta">
-        <span class="pub-date">{{ post.date | date: "%B %-d, %Y" }}</span>
-      </div>
-    </article>
+    {% assign grid_count = 0 %}
+    {% assign skip_count = 0 %}
+    {% for post in all_posts %}
+      {% if post.url != hero.url %}
+        {% if skip_count >= 3 and grid_count < 3 %}
+          <article class="col-story">
+            <div class="article-section-label small">{{ post.category }}</div>
+            <h3 class="col-headline">
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </h3>
+            <p class="col-body">{{ post.deck | default: post.excerpt | strip_html | truncatewords: 25 }}</p>
+            <div class="col-meta">
+              <span class="pub-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+            </div>
+          </article>
+          {% assign grid_count = grid_count | plus: 1 %}
+        {% endif %}
+        {% assign skip_count = skip_count | plus: 1 %}
+      {% endif %}
     {% endfor %}
   </section>
   {% endif %}
 
-  <!-- EMPTY STATE — shown before any posts exist -->
-  {% if all_posts.size == 0 %}
-  <div class="empty-state">
-    <h2 class="empty-title">The first dispatch is coming.</h2>
-    <p class="empty-desc">The Agentic Times launches soon. Intelligence in Motion.</p>
-  </div>
   {% endif %}
 
 </div>
