@@ -12,38 +12,29 @@
 // Highlight active nav link based on current URL
 (function setActiveNav() {
   const links = document.querySelectorAll('.nav-link');
-  const path = window.location.pathname;
+  const path = window.location.pathname.replace(/\/$/, '');
+  const base = '/agentic-times';
 
-  links.forEach(link => {
-    link.classList.remove('active');
-  });
+  // Clear all first
+  links.forEach(link => link.classList.remove('active'));
 
   let matched = false;
 
   links.forEach(link => {
-    const href = link.getAttribute('href');
-    if (!href) return;
+    const href = link.getAttribute('href').replace(/\/$/, '');
 
-    // Normalise both to compare cleanly
-    const normHref = href.replace(/\/$/, '');
-    const normPath = path.replace(/\/$/, '');
+    // Skip the front page link in this pass
+    if (href === base || href === '') return;
 
-    // Exact match for non-root pages
-    if (normHref !== '' && normHref !== '/agentic-times' && normPath === normHref) {
-      link.classList.add('active');
-      matched = true;
-    }
-
-    // Section match — path starts with this href (for sub-pages within a section)
-    if (normHref !== '' && normHref !== '/agentic-times' && normPath.startsWith(normHref + '/')) {
+    // Active if current path matches or starts with this section
+    if (path === href || path.startsWith(href + '/')) {
       link.classList.add('active');
       matched = true;
     }
   });
 
-  // Only highlight Front Page if nothing else matched
+  // If nothing matched, we're on the front page — highlight it
   if (!matched) {
-    const frontPage = document.querySelector('.nav-link[href="{{ "/" | relative_url }}"], .nav-link:first-child');
-    if (frontPage) frontPage.classList.add('active');
+    links[0].classList.add('active');
   }
 })();
