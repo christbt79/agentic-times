@@ -3,6 +3,8 @@ description: Intelligence in Motion
 url: "https://www.theagentictimes.site"
 baseurl: ""
 
+future: true
+
 permalink: /:categories/:title/
 
 collections:
