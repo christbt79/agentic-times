@@ -1,0 +1,67 @@
+---
+layout: default
+---
+
+<div class="container">
+  <article class="single-post">
+
+    <div class="post-header">
+      <div class="article-section-label">{{ page.category }}</div>
+      <h1 class="post-headline">{{ page.title }}</h1>
+      {% if page.deck %}
+      <p class="post-deck">{{ page.deck }}</p>
+      {% endif %}
+      <div class="post-meta">
+        <span class="author">By {{ page.author | default: "The Agentic Times" }}</span>
+        <span class="dot">·</span>
+        <span class="pub-date">{{ page.date | date: "%B %-d, %Y" }}</span>
+        {% if page.read_time %}
+        <span class="dot">·</span>
+        <span class="read-time">{{ page.read_time }} min read</span>
+        {% endif %}
+      </div>
+    </div>
+
+    {% if page.image %}
+    <div class="post-hero-image">
+      <img src="{{ page.image }}" alt="{{ page.image_alt | default: page.title }}">
+      {% if page.image_caption %}
+      <p class="image-caption">{{ page.image_caption }}</p>
+      {% endif %}
+    </div>
+    {% endif %}
+
+    <div class="post-body">
+      {{ content }}
+    </div>
+
+    <div class="post-footer">
+      <div class="post-tags">
+        {% for tag in page.tags %}
+        <span class="tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+      <a href="javascript:history.back()" class="back-link">← Back</a>
+    </div>
+
+  </article>
+
+  <aside class="post-sidebar">
+    <div class="sidebar-section">
+      <h3 class="sidebar-heading">Recent Stories</h3>
+      {% assign recent = site.posts | limit: 5 %}
+      {% for post in recent %}
+        {% unless post.url == page.url %}
+        <div class="sidebar-story">
+          <div class="article-section-label small">{{ post.category }}</div>
+          <h4 class="sidebar-story-title">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </h4>
+          <span class="pub-date small">{{ post.date | date: "%B %-d, %Y" }}</span>
+        </div>
+        {% endunless %}
+      {% endfor %}
+    </div>
+  </aside>
+
+</div>
