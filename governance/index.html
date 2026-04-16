@@ -1,0 +1,35 @@
+---
+layout: default
+title: Governance
+description: Policy, regulation, and ethics in the age of autonomous AI.
+---
+
+<div class="container">
+  <div class="section-header">
+    <h2 class="section-title">Governance</h2>
+    <p class="section-desc">Policy, regulation, and ethics in the age of autonomous AI.</p>
+  </div>
+  <div class="section-divider"><span>Latest</span></div>
+  <div class="section-list">
+    {% assign posts = site.posts | where: "category", "Governance" %}
+    {% if posts.size > 0 %}
+      {% for post in posts %}
+      <article class="list-story">
+        <div class="list-story-main">
+          <h3 class="list-headline">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </h3>
+          <p class="list-deck">{{ post.deck | default: post.excerpt | strip_html | truncatewords: 30 }}</p>
+          <div class="list-meta">
+            <span class="pub-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+          </div>
+        </div>
+      </article>
+      {% endfor %}
+    {% else %}
+      <div class="empty-state">
+        <p class="empty-desc">No governance stories yet — check back soon.</p>
+      </div>
+    {% endif %}
+  </div>
+</div>
