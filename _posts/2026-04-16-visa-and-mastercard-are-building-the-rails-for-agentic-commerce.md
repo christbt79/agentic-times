@@ -3,7 +3,7 @@ title: Visa and Mastercard Are Building the Rails for Agentic Commerce
 category: Dispatches
 deck: The world's two largest card networks have both moved into agentic AI within weeks of each other — and the implications for how AI systems spend money on your behalf are only beginning to unfold.
 author: The Agentic Times
-date: 2026-04-16 12:00:00 +0000
+date: 2026-04-16 14:00:00 +0000
 image: /assets/images/uploads/at_dispatch_visa_160426.png
 ---
 
