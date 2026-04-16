@@ -4,7 +4,7 @@ title: "OpenAI's Operator Agents Are Now Handling Real Business Workflows — He
 category: Dispatches
 deck: "The shift from AI assistant to AI employee is no longer theoretical. Operator-class agents are being deployed inside enterprises today, and the implications for how businesses are structured are only beginning to be understood."
 author: The Agentic Times
-date: 2026-04-16 09:00:00 +0000
+date: 2026-04-16 12:00:00 +0000
 image: /assets/images/uploads/at_dispatch_fsi_160426.png
 ---
 
