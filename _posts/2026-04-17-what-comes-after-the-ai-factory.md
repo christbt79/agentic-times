@@ -1,5 +1,5 @@
 ---
-title: What Comes After The AI Factory
+title: What Comes After The AI Factory?
 category: Perspective
 deck: ''
 author: The Agentic Times
