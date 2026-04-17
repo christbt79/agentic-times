@@ -52,7 +52,7 @@ title: Front Page
         <h3 class="sidebar-heading">Also Today</h3>
         {% assign sidebar_count = 0 %}
         {% for post in news_posts %}
-          {% if post.url != hero.url and sidebar_count < 3 %}
+          {% if post.url != hero.url and sidebar_count < 6 %}
             <div class="sidebar-story">
               <div class="article-section-label small">{{ post.category }}</div>
               <h4 class="sidebar-story-title">
