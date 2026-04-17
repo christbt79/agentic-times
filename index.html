@@ -74,7 +74,12 @@ title: Front Page
 
   </section>
 
-  {% if perspective_posts.size > 0 %}
+  {% endif %}
+
+</div>
+
+{% if perspective_posts.size > 0 %}
+<div class="perspective-outer">
   <div class="perspective-section-head">
     <h3 class="sidebar-heading">Perspective</h3>
   </div>
@@ -107,8 +112,5 @@ title: Front Page
     </article>
     {% endfor %}
   </section>
-  {% endif %}
-
-  {% endif %}
-
 </div>
+{% endif %}
