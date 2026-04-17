@@ -13,13 +13,13 @@ The timing is uncomfortable. Agentic AI deployments have accelerated sharply acr
 
 The core problem with agentic systems from a compliance standpoint is tracibility. An AI agent moving data between systems, triggering decisions, and completing multi-step tasks can do so without leaving a clear, auditable record of what it did, when, and why. That opacity is precisely what the EU AI Act is designed to address — and precisely what most current agentic deployments lack.
 
-\*\*What the Act actually requires\*\*
+**What the Act actually requires**
 
 Two articles of the Act are particularly relevant for agentic deployments. Article 9 establishes that for high-risk AI applications, risk management must be an ongoing, evidence-based process built into every stage of deployment — development, preparation, and production — and subject to continuous review. This is not a one-time compliance exercise. It is a permanent operational requirement.
 
 Article 13 goes further, requiring that high-risk AI systems be interpretable by those deploying them. A third-party model cannot be an opaque system whose outputs cannot be explained. It must come with sufficient documentation to ensure its safe and lawful use. That is simultaneously a technical requirement and a procurement consideration — the choice of which model to deploy, and from which vendor, now carries regulatory weight.
 
-\*\*The governance infrastructure that is missing\*\*
+**The governance infrastructure that is missing**
 
 For most organisations, the immediate gap is a basic one: there is no registry of which agents are running, what permissions they hold, what data they can access, or what actions they are authorised to take. Building that registry is the first step, and it is non-negotiable.
 
@@ -27,13 +27,13 @@ Beyond that, every agent action needs to be logged centrally — not the scatter
 
 Multi-agent pipelines present a particular challenge. When a chain of agents collaborates on a task, failures and errors can propagate across the chain in ways that are difficult to attribute. Governance frameworks need to account for this specifically, not treat each agent as an isolated unit.
 
-\*\*The revocation requirement\*\*
+**The revocation requirement**
 
 One requirement that catches many organisations off guard is the expectation that an AI agent's operating privileges can be revoked rapidly — within seconds if necessary. This means having the infrastructure to immediately withdraw permissions, terminate API access, and flush queued tasks on demand. It needs to be part of emergency response processes, not an afterthought.
 
 Human oversight is similarly non-negotiable, but the Act's requirements go beyond simply having a person in the loop. That person must have sufficient context to make informed decisions — not just a confidence score or a prompt, but full visibility into what the agent is doing, what authority it holds, and enough time to intervene before an action is taken.
 
-\*\*The question every IT leader needs to answer\*\*
+**The question every IT leader needs to answer**
 
 The practical test is straightforward: can every AI agent in your organisation be identified, constrained by policy, audited, interrupted, and explained? If the answer to any of those is unclear, the governance is not yet in place — and August is closer than it looks.
 
