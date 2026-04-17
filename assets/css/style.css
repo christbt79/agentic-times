@@ -169,7 +169,7 @@ img { max-width: 100%; height: auto; display: block; }
 
 .section-divider { display: flex; align-items: center; gap: 1rem; margin: 1rem 0 0.5rem; grid-column: 1 / -1; }
 .section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: var(--rule); }
-.section-divider span { font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink-muted); white-space: nowrap; font-style: normal; }
+.section-divider span { font-family: var(--font-mono); font-size: 0.65rem; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink); white-space: nowrap; font-style: normal; }
 
 /* ============================================
    THREE COLUMN GRID
