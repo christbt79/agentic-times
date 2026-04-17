@@ -4,7 +4,7 @@ category: Dispatches
 deck: A new technique called CompreSSM compresses AI models during training rather than after — cutting compute costs significantly while actually outperforming models trained small from the start.
 author: The Agentic Times
 date: 2026-04-13T09:17:00
-image: /assets/images/uploads/at_dispatch_mit_130426.png
+image: /assets/images/uploads/at_dispatch_mit_130426-2.png
 ---
 
 One of the least glamorous but most consequential problems in AI development is the cost of training large models. The compute bills are enormous, the energy consumption significant, and the time required to produce a production-ready model can stretch to weeks. A new technique from researchers at MIT's Computer Science and Artificial Intelligence Laboratory may not solve all of those problems — but it makes a serious dent in them.
