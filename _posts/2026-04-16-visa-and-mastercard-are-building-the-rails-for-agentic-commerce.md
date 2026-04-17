@@ -4,7 +4,7 @@ category: Dispatches
 deck: The world's two largest card networks have both moved into agentic AI within weeks of each other — and the implications for how AI systems spend money on your behalf are only beginning to unfold.
 author: The Agentic Times
 date: 2026-04-16 14:00:00 +0000
-image: /assets/images/uploads/at_dispatch_visa_160426.png
+image: /assets/images/uploads/at_dispatch_visa_160426-2.png
 ---
 
 When Visa and Mastercard move in the same direction at the same time, the payments industry listens. In early April both networks announced significant agentic AI expansions that signal a fundamental shift in how transactions will be authorised and executed in the near future.
