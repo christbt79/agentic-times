@@ -337,3 +337,13 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 .perspective-section-head { grid-column: 1 / -1; margin: 2rem 0 0.5rem; }
+
+.perspective-outer {
+  max-width: var(--col-max);
+  margin: 0 auto;
+  padding: 0 var(--col-pad);
+}
+
+.perspective-section-head {
+  margin: 2rem 0 1rem;
+}
