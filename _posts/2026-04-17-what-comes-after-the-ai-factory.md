@@ -5,7 +5,7 @@ deck: ''
 author: The Agentic Times
 read_time: 5
 date: 2026-04-03T10:55:00
-image: /assets/images/uploads/at_perspective_aifactory_030426.png
+image: /assets/images/uploads/at_perspective_aifactory_030426-2.png
 ---
 
 The modern AI data center as a token-manufacturing plant has given enterprise leaders a completely new model of production. Compute in, intelligence out, optimise the production line. But what's next for the fourth industrial revolution?
