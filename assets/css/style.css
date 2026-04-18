@@ -309,18 +309,12 @@ img { max-width: 100%; height: auto; display: block; }
 
 .perspective-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
   margin-bottom: 2.5rem;
 }
 
 .perspective-grid--1 { grid-template-columns: 1fr; max-width: 480px; }
-.perspective-grid--2 { grid-template-columns: repeat(2, 1fr); }
-.perspective-grid--3 { grid-template-columns: repeat(3, 1fr); }
-.perspective-grid--4 { grid-template-columns: repeat(3, 1fr); }
-.perspective-grid--5 { grid-template-columns: repeat(3, 1fr); }
-.perspective-grid--6 { grid-template-columns: repeat(3, 1fr); }
-
 .perspective-card {
   border: 1px solid var(--rule-light);
   background: var(--paper-off);
