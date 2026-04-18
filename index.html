@@ -98,8 +98,8 @@ title: Front Page
   <div class="perspective-section-head">
     <h3 class="sidebar-heading">Perspective</h3>
   </div>
-  <section class="perspective-grid perspective-grid--{{ perspective_posts | limit: 3 | size }}">
-    {% for post in perspective_posts limit: 3 %}
+  <section class="perspective-grid perspective-grid--{{ perspective_posts | limit: 6 | size }}">
+    {% for post in perspective_posts limit: 6 %}
     <article class="perspective-card">
       {% if post.image %}
       <div class="perspective-thumb">
