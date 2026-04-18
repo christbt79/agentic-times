@@ -21,6 +21,11 @@
   --col-pad: 2rem;
 }
 
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html { font-size: 16px; scroll-behavior: smooth; }
 body { background: var(--paper); color: var(--ink); font-family: var(--font-body); line-height: 1.6; -webkit-font-smoothing: antialiased; }
@@ -53,11 +58,13 @@ img { max-width: 100%; height: auto; display: block; }
    ============================================ */
 
 .main-nav {
-  background: transparent;
-  padding: 0 0;
+  background: var(--paper);
+  padding: 0;
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 100;
+  box-shadow: 0 2px 8px rgba(15,14,12,0.08);
 }
 
 .nav-inner {
@@ -75,6 +82,8 @@ img { max-width: 100%; height: auto; display: block; }
   align-items: flex-end;
   padding-top: 0.6rem;
   border-bottom: 3px solid var(--rule);
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-x;
 }
 
 .nav-list::-webkit-scrollbar { display: none; }
@@ -113,6 +122,7 @@ img { max-width: 100%; height: auto; display: block; }
   border-bottom-color: var(--paper);
   font-weight: 500;
 }
+
 /* ============================================
    LAYOUT
    ============================================ */
@@ -278,6 +288,13 @@ img { max-width: 100%; height: auto; display: block; }
   :root { --col-pad: 1rem; }
   .top-bar-tagline { display: none; }
   .three-col-grid { grid-template-columns: 1fr; }
+  .ticker-wrap { display: none; }
+  .front-page-grid { grid-template-columns: 1fr; }
+  .perspective-grid--2,
+  .perspective-grid--3,
+  .perspective-grid--4,
+  .perspective-grid--5,
+  .perspective-grid--6 { grid-template-columns: 1fr; }
 }
 
 /* ============================================
@@ -294,6 +311,9 @@ img { max-width: 100%; height: auto; display: block; }
 .perspective-grid--1 { grid-template-columns: 1fr; max-width: 480px; }
 .perspective-grid--2 { grid-template-columns: repeat(2, 1fr); }
 .perspective-grid--3 { grid-template-columns: repeat(3, 1fr); }
+.perspective-grid--4 { grid-template-columns: repeat(3, 1fr); }
+.perspective-grid--5 { grid-template-columns: repeat(3, 1fr); }
+.perspective-grid--6 { grid-template-columns: repeat(3, 1fr); }
 
 .perspective-card {
   border: 1px solid var(--rule-light);
@@ -337,8 +357,6 @@ img { max-width: 100%; height: auto; display: block; }
   margin-bottom: 0.6rem;
   font-style: italic;
 }
-
-.perspective-section-head { grid-column: 1 / -1; margin: 2rem 0 0.5rem; }
 
 .perspective-outer {
   max-width: var(--col-max);
