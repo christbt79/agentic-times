@@ -58,13 +58,12 @@ img { max-width: 100%; height: auto; display: block; }
    ============================================ */
 
 .main-nav {
-  background: var(--paper);
+  background: transparent;
   padding: 0;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 100;
-  box-shadow: 0 2px 8px rgba(15,14,12,0.08);
 }
 
 .nav-inner {
