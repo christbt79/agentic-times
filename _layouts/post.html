@@ -24,7 +24,7 @@ layout: default
 
     {% if page.image %}
     <div class="post-hero-image">
-      <img src="{{ page.image }}" alt="{{ page.image_alt | default: page.title }}">
+      <img src="{{ page.image }}" alt="{{ page.image_alt | default: page.title }}" loading="lazy">
       {% if page.image_caption %}
       <p class="image-caption">{{ page.image_caption }}</p>
       {% endif %}
