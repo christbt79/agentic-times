@@ -34,7 +34,7 @@ title: Front Page
       </div>
       {% if hero.image %}
       <div class="lead-image">
-        <img src="{{ hero.image }}" alt="{{ hero.image_alt | default: hero.title }}">
+        <img src="{{ hero.image }}" alt="{{ hero.image_alt | default: hero.title }}" loading="lazy">
       </div>
       {% else %}
       <div class="lead-image-placeholder">
@@ -104,7 +104,7 @@ title: Front Page
       {% if post.image %}
       <div class="perspective-thumb">
         <a href="{{ post.url }}">
-          <img src="{{ post.image }}" alt="{{ post.image_alt | default: post.title }}">
+          <img src="{{ post.image }}" alt="{{ post.image_alt | default: post.title }}" loading="lazy">
         </a>
       </div>
       {% endif %}
