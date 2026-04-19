@@ -28,12 +28,12 @@
   --ink-muted: #9e9a8e;
   --ink-faint: #6b6760;
   --paper: #1c1a17;
-  --paper-off: #242018;
-  --paper-dark: #2e2a22;
+  --paper-off: #332e26;
+  --paper-dark: #3d3830;
   --accent: #c94010;
   --accent-light: #e05525;
-  --rule: #3a3530;
-  --rule-light: #3a3530;
+  --rule: #4a4540;
+  --rule-light: #4a4540;
 }
 
 html, body {
