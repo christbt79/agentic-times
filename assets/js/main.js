@@ -15,26 +15,43 @@
   const path = window.location.pathname.replace(/\/$/, '');
   const base = '/agentic-times';
 
-  // Clear all first
   links.forEach(link => link.classList.remove('active'));
 
   let matched = false;
 
   links.forEach(link => {
     const href = link.getAttribute('href').replace(/\/$/, '');
-
-    // Skip the front page link in this pass
     if (href === base || href === '') return;
-
-    // Active if current path matches or starts with this section
     if (path === href || path.startsWith(href + '/')) {
       link.classList.add('active');
       matched = true;
     }
   });
 
-  // If nothing matched, we're on the front page — highlight it
   if (!matched) {
     links[0].classList.add('active');
   }
+})();
+
+// Dark mode toggle
+(function darkMode() {
+  const toggle = document.getElementById('theme-toggle');
+  if (!toggle) return;
+
+  // Apply saved preference immediately on load
+  const saved = localStorage.getItem('theme');
+  if (saved === 'dark') {
+    document.documentElement.setAttribute('data-theme', 'dark');
+  }
+
+  toggle.addEventListener('click', function () {
+    const current = document.documentElement.getAttribute('data-theme');
+    if (current === 'dark') {
+      document.documentElement.removeAttribute('data-theme');
+      localStorage.setItem('theme', 'light');
+    } else {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      localStorage.setItem('theme', 'dark');
+    }
+  });
 })();
