@@ -1,5 +1,5 @@
 ---
-title: The Agentic Economy Needs Legal Infrastructure. Norm AI Is Trying to Build It.
+title: The Agentic Economy Needs Legal Infrastructure. Norm AI Is Trying to Build It
 category: Governance
 deck: 'A New York startup backed by Blackstone, Vanguard, and $140 million in funding has launched a research lab with an ambitious premise: that before AI agents can truly operate at scale in enterprise environments, someone needs to do the foundational legal work that regulators, courts, and companies are not yet equipped to do themselves.'
 author: The Agentic Times
