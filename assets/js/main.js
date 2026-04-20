@@ -38,9 +38,11 @@
   const toggle = document.getElementById('theme-toggle');
   if (!toggle) return;
 
-  // Apply saved preference immediately on load
+// Apply saved preference, default to dark
   const saved = localStorage.getItem('theme');
-  if (saved === 'dark') {
+  if (saved === 'light') {
+    document.documentElement.removeAttribute('data-theme');
+  } else {
     document.documentElement.setAttribute('data-theme', 'dark');
   }
 
