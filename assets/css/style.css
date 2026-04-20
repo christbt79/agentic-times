@@ -307,6 +307,7 @@ img { max-width: 100%; height: auto; display: block; }
 @media (max-width: 600px) {
   :root { --col-pad: 1rem; }
   .top-bar-tagline { display: none; }
+  .top-bar-issue { display: none; }
   .three-col-grid { grid-template-columns: 1fr; }
   .ticker-wrap { display: none; }
   .front-page-grid { grid-template-columns: 1fr; }
