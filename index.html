@@ -69,24 +69,27 @@ description: "The Agentic Times — documenting the race to AGI one step at a ti
       </div>
     </aside>
 
-    <aside class="sidebar-right">
-      <h3 class="sidebar-heading">More Stories</h3>
-      {% assign right_count = 0 %}
-      {% for post in news_posts %}
-        {% if post.url != hero.url and right_count >= 3 and right_count < 6 %}
-          <div class="sidebar-story">
-            <div class="article-section-label small">{{ post.category }}</div>
-            <h4 class="sidebar-story-title">
-              <a href="{{ post.url }}">{{ post.title }}</a>
-            </h4>
-            <p class="sidebar-story-desc">{{ post.deck | default: post.excerpt | strip_html | truncatewords: 20 }}</p>
-          </div>
-        {% endif %}
-        {% if post.url != hero.url %}
-          {% assign right_count = right_count | plus: 1 %}
-        {% endif %}
-      {% endfor %}
-    </aside>
+<aside class="sidebar-right">
+  <h3 class="sidebar-heading">More Stories</h3>
+  {% assign right_count = 0 %}
+  {% assign skip_count = 0 %}
+  {% for post in news_posts %}
+    {% if post.url != hero.url %}
+      {% if skip_count < 3 %}
+        {% assign skip_count = skip_count | plus: 1 %}
+      {% elsif right_count < 3 %}
+        <div class="sidebar-story">
+          <div class="article-section-label small">{{ post.category }}</div>
+          <h4 class="sidebar-story-title">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </h4>
+          <p class="sidebar-story-desc">{{ post.deck | default: post.excerpt | strip_html | truncatewords: 20 }}</p>
+        </div>
+        {% assign right_count = right_count | plus: 1 %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</aside>
 
   </section>
 
