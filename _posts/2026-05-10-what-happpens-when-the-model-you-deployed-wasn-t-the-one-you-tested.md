@@ -1,5 +1,5 @@
 ---
-title: What Happpens When the Model You Deployed Wasn't the One You Tested?
+title: What Happens When the Model You Deployed Wasn't the One You Tested?
 category: Governance
 deck: New research from the CDT AI Governance Lab and MIT finds that fine-tuning foundation models produces safety drift that is unpredictable, cross-domain, and poorly governed. For enterprises building agents on customised models, the implications go beyond the training pipeline.
 author: The Agentic Times
