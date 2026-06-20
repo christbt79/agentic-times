@@ -5,7 +5,7 @@ deck: ''
 author: The Agentic Times
 read_time: 4
 date: 2026-03-31T11:18:00
-image: /assets/images/uploads/at_perspective_aifactory_310326.png
+image: /assets/images/uploads/at_perspective_01.png
 ---
 
 The reality of the AI Factory is here. Data centers are no longer just places where compute lives, they're production facilities. And the unit of output isn't a calculation or a query. It's intelligence. A token.
