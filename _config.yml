@@ -27,6 +27,7 @@ highlighter: rouge
 
 exclude:
   - README.md
+  - PUBLISHING.md
   - Gemfile
   - Gemfile.lock
   - vendor
