@@ -5,7 +5,7 @@ deck: ''
 author: The Agentic Times
 read_time: 4
 date: 2026-04-14T21:38:00
-image: /assets/images/uploads/at_perspective_agentops_140426.png
+image: /assets/images/uploads/at_perspective_03.png
 ---
 
 Some reports put the number of organisations with agentic AIs in full production at just 11% (Gartner), with infrastructure and governance identified as the primary blockers rather than AI capabilities. While that number already seems conservative, the challenge around continued governance of agents will cause some further hesitancy.
