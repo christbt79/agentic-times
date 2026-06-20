@@ -5,7 +5,7 @@ deck: ''
 author: The Agentic Times
 read_time: 6
 date: 2026-04-20T20:50:00
-image: /assets/images/uploads/at_perspective_physical_200426.png
+image: /assets/images/uploads/at_perspective_05.png
 ---
 
 As so often mentioned by Jensen Huang, physical AI is seen as the natural follow-on from agentic systems. But, with physical AI suddenly getting all the attention, will agentic AI still get the focus it shoud?
