@@ -4,7 +4,7 @@ category: Dispatches
 deck: A new open-source model from Google runs multimodal agentic workflows on any machine with 16GB of RAM — no cloud required.
 author: The Agentic Times
 date: 2026-06-09T14:54:00
-image: /assets/images/uploads/at_dispatches_090626.png
+image: /assets/images/uploads/at_dispatches_090626_new.png
 ---
 
 Google DeepMind's Gemma 4 12B sits between its lightweight E4B and the more capable 26B model in the Gemma 4 family and the architecture choices behind it say as much about where AI deployment is heading as the benchmark numbers do.
