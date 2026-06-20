@@ -5,7 +5,7 @@ deck: ''
 author: The Agentic Times
 read_time: 6
 date: 2026-04-18T20:42:00
-image: /assets/images/uploads/at_perspective_verification_180426.png
+image: /assets/images/uploads/at_perspective_04.png
 ---
 
 In a world of 'scary good' deepfakes and growing agentic abilities, it was inevitable that enterprises were going to face an issue with who's who in their organisation. Can it be proved that it's the right person on the end of an email or call? Zoom has partnered with World — Sam Altman's biometric identity venture — to introduce a feature that lets meeting participants display a "Verified Human" badge next to their name. The badge confirms, via iris scan and real-time facial matching, that the person on camera is a biological human being and not a synthetic construct.
