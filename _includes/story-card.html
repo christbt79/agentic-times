@@ -1,0 +1,25 @@
+{%- comment -%}
+Grid story card. Params:
+  post   — the post object (required)
+  image  — truthy to render a hero thumbnail (perspective-style)
+  num    — optional zero-padded index shown after the category label
+{%- endcomment -%}
+{%- assign p = include.post -%}
+<a href="{{ p.url | relative_url }}" class="card">
+  {%- if include.image -%}
+  <div class="card-thumb scanlines">
+    {% if p.image %}<img src="{{ p.image | relative_url }}" alt="" loading="lazy">{% else %}<span class="img-fallback">▸ NO_SIGNAL.PNG</span>{% endif %}
+  </div>
+  {%- endif -%}
+  <div class="card-cat">▸ {{ p.category | upcase }}{% if include.num %} · {{ include.num }}{% endif %}</div>
+  <h3 class="card-title{% if include.image %} lg{% endif %}">{{ p.title }}</h3>
+  <p class="card-excerpt">{{ p.deck | default: p.excerpt | strip_html | truncatewords: 28 }}</p>
+  <div class="card-foot">
+    <span>{{ p.date | date: "%d.%m.%Y" }}</span>
+    {%- if include.image -%}
+    <span>{% include read-time.html post=p %} READ</span>
+    {%- else -%}
+    <span class="read">READ ▸</span>
+    {%- endif -%}
+  </div>
+</a>

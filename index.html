@@ -1,135 +1,99 @@
 ---
 layout: default
-title: Front Page
-description: "The Agentic Times — documenting the race to AGI one step at a time. News, analysis and perspective on autonomous AI for business leaders and tech enthusiasts."
+description: A retro-terminal newsroom covering agentic AI, autonomous systems, and the machines learning to think.
+latin: MACHINA SAPIENS NASCITUR
 ---
-<div class="container">
 
-  {% assign all_posts = site.posts %}
-  {% assign news_posts = all_posts | where_exp: "post", "post.category != 'Perspective'" %}
-  {% assign perspective_posts = all_posts | where: "category", "Perspective" %}
-  {% assign hero = news_posts | first %}
+{% assign dispatch_posts = site.posts | where: "category", "Dispatches" | sort: "date" | reverse %}
+{% assign hero = dispatch_posts | first %}
 
-  {% if all_posts.size == 0 %}
-  <div class="empty-state">
-    <h2 class="empty-title">The first dispatch is coming.</h2>
-    <p class="empty-desc">The Agentic Times launches soon. Intelligence in Motion.</p>
-  </div>
-
-  {% else %}
-
-<section class="front-page-grid">
-
-    <article class="lead-story">
-      <div class="article-section-label">{{ hero.category }}</div>
-      <h2 class="lead-headline">
-        <a href="{{ hero.url }}">{{ hero.title }}</a>
-      </h2>
-      {% if hero.deck %}
-      <p class="lead-deck">{{ hero.deck }}</p>
-      {% endif %}
-      <div class="lead-meta">
-        <span class="author">By {{ hero.author | default: "The Agentic Times" }}</span>
-        <span class="dot">·</span>
-        <span class="pub-date">{{ hero.date | date: "%B %-d, %Y" }}</span>
+<!-- Hero dispatch -->
+<section class="block">
+  <div class="divider">// NEWS — LATEST TRANSMISSION</div>
+  {% if hero %}
+  <a href="{{ hero.url | relative_url }}" class="lead">
+    <div class="lead-media scanlines">
+      {% if hero.image %}<img src="{{ hero.image | relative_url }}" alt="{{ hero.title }}">{% else %}<span class="img-fallback">▸ FRAME_001.PNG</span>{% endif %}
+      <div class="frame-tag">▸ FRAME_001.PNG</div>
+    </div>
+    <div class="lead-body">
+      <div>
+        <div class="kicker">▮ {{ hero.category | upcase }} / {{ hero.date | date: "%d.%m.%Y" }}</div>
+        <h2 class="lead-title">{{ hero.title }}</h2>
+        <p class="lead-excerpt">{{ hero.deck | default: hero.excerpt | strip_html | truncatewords: 40 }}</p>
       </div>
-      {% if hero.image %}
-      <div class="lead-image">
-        <img src="{{ hero.image }}" alt="{{ hero.image_alt | default: hero.title }}" loading="lazy">
+      <div class="lead-foot">
+        <span class="byline">BY {{ hero.author | default: 'The Agentic Times' | upcase }}</span>
+        <span class="more">CONTINUE READING ▸</span>
       </div>
-      {% else %}
-      <div class="lead-image-placeholder">
-        <div class="image-label">{{ hero.category }} · {{ hero.date | date: "%B %-d, %Y" }}</div>
-      </div>
-      {% endif %}
-      <div class="article-body">
-        <p>{{ hero.excerpt | strip_html | truncatewords: 60 }}</p>
-        <p class="read-more"><a href="{{ hero.url }}">Continue reading →</a></p>
-      </div>
-    </article>
-
-    <aside class="sidebar-mid">
-      <h3 class="sidebar-heading">Also Today</h3>
-      {% assign sidebar_count = 0 %}
-      {% for post in news_posts %}
-        {% if post.url != hero.url and sidebar_count < 3 %}
-          <div class="sidebar-story">
-            <div class="article-section-label small">{{ post.category }}</div>
-            <h4 class="sidebar-story-title">
-              <a href="{{ post.url }}">{{ post.title }}</a>
-            </h4>
-            <p class="sidebar-story-desc">{{ post.deck | default: post.excerpt | strip_html | truncatewords: 25 }}</p>
-          </div>
-          {% assign sidebar_count = sidebar_count | plus: 1 %}
-        {% endif %}
-      {% endfor %}
-      <div class="quote-block" style="margin-top: 1.5rem;">
-        <p class="pull-quote">"Agents are not only going to change how everyone interacts with computers. They’re also going to upend the software industry, bringing about the biggest revolution in computing since we went from typing commands to tapping on icons."</p>
-        <p class="pull-quote-attr">— Bill Gates</p>
-      </div>
-    </aside>
-
-<aside class="sidebar-right">
-  <h3 class="sidebar-heading">More Stories</h3>
-  {% assign right_count = 0 %}
-  {% assign skip_count = 0 %}
-  {% for post in news_posts %}
-    {% if post.url != hero.url %}
-      {% if skip_count < 3 %}
-        {% assign skip_count = skip_count | plus: 1 %}
-      {% elsif right_count < 4 %}
-        <div class="sidebar-story">
-          <div class="article-section-label small">{{ post.category }}</div>
-          <h4 class="sidebar-story-title">
-            <a href="{{ post.url }}">{{ post.title }}</a>
-          </h4>
-          <p class="sidebar-story-desc">{{ post.deck | default: post.excerpt | strip_html | truncatewords: 20 }}</p>
-        </div>
-        {% assign right_count = right_count | plus: 1 %}
-      {% endif %}
-    {% endif %}
-  {% endfor %}
-</aside>
-
-  </section>
-
+    </div>
+  </a>
   {% endif %}
+</section>
 
-</div>
-
-{% if perspective_posts.size > 0 %}
-<div class="perspective-outer">
-  <div class="perspective-section-head">
-    <h3 class="sidebar-heading">Perspective</h3>
-  </div>
-  <section class="perspective-grid perspective-grid--{{ perspective_posts | limit: 6 | size }}">
-    {% for post in perspective_posts limit: 6 %}
-    <article class="perspective-card">
-      {% if post.image %}
-      <div class="perspective-thumb">
-        <a href="{{ post.url }}">
-          <img src="{{ post.image }}" alt="{{ post.image_alt | default: post.title }}" loading="lazy">
-        </a>
-      </div>
-      {% endif %}
-      <div class="perspective-body">
-        <div class="article-section-label small">Perspective</div>
-        <h3 class="perspective-headline">
-          <a href="{{ post.url }}">{{ post.title }}</a>
-        </h3>
-        <p class="perspective-deck">{{ post.deck | default: post.excerpt | strip_html | truncatewords: 25 }}</p>
-        <div class="col-meta">
-          <span class="author">{{ post.author | default: "The Agentic Times" }}</span>
-          <span class="dot">·</span>
-          <span class="pub-date">{{ post.date | date: "%B %-d, %Y" }}</span>
-          {% if post.read_time %}
-          <span class="dot">·</span>
-          <span class="read-time">{{ post.read_time }} min read</span>
-          {% endif %}
-        </div>
-      </div>
-    </article>
+<!-- Latest from the wire -->
+<section class="block">
+  <div class="divider">// LATEST — FROM THE WIRE</div>
+  {% assign recent = site.posts | sort: "date" | reverse %}
+  {% assign wire = recent | where_exp: "p", "p.url != hero.url" %}
+  <div class="card-grid cols-3">
+    {% for post in wire limit: 9 %}
+      {% include story-card.html post=post %}
     {% endfor %}
-  </section>
-</div>
-{% endif %}
+  </div>
+</section>
+
+<!-- Perspective -->
+<section class="block">
+  <div class="divider">// PERSPECTIVE — A HUMAN LOOK AT AGENT LIFE</div>
+  {% assign persp = site.posts | where: "category", "Perspective" | sort: "date" | reverse %}
+  <div class="card-grid cols-3">
+    {% for p in persp limit: 5 %}
+      {% assign nidx = persp.size | minus: forloop.index0 %}
+      {% if nidx < 10 %}{% assign pad = nidx | prepend: "0" %}{% else %}{% assign pad = nidx %}{% endif %}
+      {% include story-card.html post=p image=true num=pad %}
+    {% endfor %}
+    <a class="tile-archive" href="{{ '/perspective/' | relative_url }}">
+      <div class="eyebrow">▮ ARCHIVE</div>
+      <h3>{{ site.data.homepage.archive.heading }}</h3>
+      <p>{{ site.data.homepage.archive.body }}</p>
+      <span class="btn-ghost">OPEN ARCHIVE ▸</span>
+    </a>
+  </div>
+</section>
+
+<!-- Sentiment — quotes & stats (editable in _data/homepage.yml) -->
+<section class="block">
+  <div class="divider">// SENTIMENT — VOICES FROM THE FIELD</div>
+  <div class="sentiment-grid">
+    <div class="sentiment-cell quote">
+      <blockquote>"{{ site.data.homepage.sentiment.quote }}"</blockquote>
+      <cite>— {{ site.data.homepage.sentiment.quote_attribution }}</cite>
+    </div>
+    {% for stat in site.data.homepage.sentiment.stats %}
+    <div class="sentiment-cell stat">
+      {% if stat.icon == 'bars' %}
+      <svg viewBox="0 0 48 48" shape-rendering="crispEdges" aria-hidden="true">
+        <rect x="4" y="32" width="10" height="12" fill="currentColor" opacity="0.5"/>
+        <rect x="19" y="20" width="10" height="24" fill="currentColor" opacity="0.75"/>
+        <rect x="34" y="8" width="10" height="36" fill="currentColor"/>
+      </svg>
+      {% else %}
+      <svg viewBox="0 0 48 52" shape-rendering="crispEdges" aria-hidden="true">
+        <rect x="0" y="0" width="48" height="14" fill="currentColor"/>
+        <rect x="6" y="5" width="4" height="4" fill="var(--card)"/>
+        <rect x="14" y="5" width="4" height="4" fill="var(--card)"/>
+        <rect x="0" y="19" width="48" height="14" fill="currentColor"/>
+        <rect x="6" y="24" width="4" height="4" fill="var(--card)"/>
+        <rect x="14" y="24" width="4" height="4" fill="var(--card)"/>
+        <rect x="0" y="38" width="48" height="14" fill="currentColor"/>
+        <rect x="6" y="43" width="4" height="4" fill="var(--card)"/>
+        <rect x="14" y="43" width="4" height="4" fill="var(--card)"/>
+      </svg>
+      {% endif %}
+      <span class="stat-figure">{{ stat.figure }}</span>
+      <span class="stat-caption">{{ stat.caption }}</span>
+    </div>
+    {% endfor %}
+  </div>
+</section>

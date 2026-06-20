@@ -1,0 +1,74 @@
+---
+layout: default
+---
+{% assign meta = site.data.sections | where: "slug", page.section | first %}
+{% assign posts = site.posts | where: "category", meta.category | sort: "date" | reverse %}
+{% assign lead = posts | first %}
+
+<div class="breadcrumb">
+  <a href="{{ '/' | relative_url }}">BACKROOMS</a>
+  <span class="sep">/</span>
+  <span class="here">{{ meta.label | upcase }}</span>
+</div>
+
+<div class="section-head">
+  <div class="meta">SECTION {{ meta.number }} / {{ meta.label | upcase }}</div>
+  <h1>{{ meta.label | upcase }}_</h1>
+  <p class="tagline">{{ meta.tagline }}</p>
+</div>
+
+{% if posts.size == 0 %}
+<div class="empty-state">
+  <p>No {{ meta.label | downcase }} yet — check back soon.</p>
+</div>
+{% endif %}
+
+{% if lead %}
+<section class="block">
+  <div class="divider">// LEAD STORY</div>
+  <a href="{{ lead.url | relative_url }}" class="lead">
+    <div class="lead-media scanlines">
+      {% if lead.image %}<img src="{{ lead.image | relative_url }}" alt="{{ lead.title }}">{% else %}<span class="img-fallback">▸ LEAD_001.PNG</span>{% endif %}
+      <div class="frame-tag">▸ LEAD_001.PNG</div>
+    </div>
+    <div class="lead-body">
+      <div>
+        <div class="kicker">▮ {{ meta.label | upcase }} / {{ lead.date | date: "%d.%m.%Y" }}</div>
+        <h2 class="lead-title">{{ lead.title }}</h2>
+        <p class="lead-excerpt">{{ lead.deck | default: lead.excerpt | strip_html | truncatewords: 40 }}</p>
+      </div>
+      <div class="lead-foot">
+        <span class="byline">{% include read-time.html post=lead %} READ</span>
+        <span class="more">CONTINUE READING ▸</span>
+      </div>
+    </div>
+  </a>
+</section>
+{% endif %}
+
+{% if posts.size > 1 %}
+<section class="block">
+  <div class="divider">// MORE FROM {{ meta.label | upcase }}</div>
+  <div class="row-list">
+    {% for post in posts offset: 1 %}
+      {% assign n = forloop.index | plus: 1 %}
+      {% if n < 10 %}{% assign pad = n | prepend: "0" %}{% else %}{% assign pad = n %}{% endif %}
+      <a href="{{ post.url | relative_url }}" class="row">
+        <div class="row-thumb scanlines">
+          {% if post.image %}<img src="{{ post.image | relative_url }}" alt="" loading="lazy">{% else %}<span class="img-fallback">▸</span>{% endif %}
+        </div>
+        <div class="row-main">
+          <div class="card-cat">▸ {{ meta.label | upcase }} · {{ pad }}</div>
+          <h3 class="row-title">{{ post.title }}</h3>
+          <p class="row-excerpt">{{ post.deck | default: post.excerpt | strip_html | truncatewords: 30 }}</p>
+          <div class="row-meta">
+            <span>{{ post.date | date: "%d.%m.%Y" }}</span>
+            <span>·</span>
+            <span>{% include read-time.html post=post %} READ</span>
+          </div>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

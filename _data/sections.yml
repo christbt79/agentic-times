@@ -1,0 +1,34 @@
+# Section metadata — drives the nav, section pages, and labels.
+# Order here is the order shown in the nav (matches the Lovable design:
+# Dispatches, Industry, Governance, Coding, Perspective). `category` must
+# match the `category:` value in each post's front matter.
+- slug: dispatches
+  label: Dispatches
+  category: Dispatches
+  number: "01"
+  tagline: "Latest transmissions from the agentic frontier"
+  latin: "NUNTII EX MACHINA"
+- slug: industry
+  label: Industry
+  category: Industry
+  number: "02"
+  tagline: "Capital, infrastructure, and the business of agents"
+  latin: "RES INDUSTRIA"
+- slug: governance
+  label: Governance
+  category: Governance
+  number: "03"
+  tagline: "Policy, regulation, and the rules of autonomous systems"
+  latin: "LEX MACHINAE"
+- slug: coding
+  label: Coding
+  category: Coding
+  number: "04"
+  tagline: "Autonomous developers and the new software supply chain"
+  latin: "MACHINA SCRIBIT CODICEM"
+- slug: perspective
+  label: Perspective
+  category: Perspective
+  number: "05"
+  tagline: "A human look at agent life"
+  latin: "PERSPECTUS HUMANUS"

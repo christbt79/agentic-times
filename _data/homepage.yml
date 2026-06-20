@@ -1,0 +1,19 @@
+# Editable homepage content.
+
+# The "Archive" promo tile at the end of the Perspective grid.
+archive:
+  heading: "Browse the full transmission log →"
+  body: "Read older blogs from the world of agentic AI and the data center industry."
+
+# The "Sentiment — Voices from the field" block: one quote + two stat tiles.
+# Edit the text/numbers here; no template changes needed.
+sentiment:
+  quote: "Agents are not only going to change how everyone interacts with computers. They're also going to upend the software industry, bringing about the biggest revolution in computing since we went from typing commands to tapping on icons."
+  quote_attribution: "Bill Gates"
+  stats:
+    - figure: "89%"
+      caption: "of enterprises plan to deploy agentic AI by 2027"
+      icon: server      # server | bars
+    - figure: "$470B"
+      caption: "projected agentic AI market by 2030"
+      icon: bars

@@ -1,0 +1,8 @@
+{%- comment -%}Outputs a read-time string like "5 MIN". Uses read_time front matter if set, else estimates from body.{%- endcomment -%}
+{%- if include.post.read_time -%}
+{{ include.post.read_time }} MIN
+{%- else -%}
+{%- assign words = include.post.content | number_of_words -%}
+{%- assign rt = words | divided_by: 180 | plus: 1 -%}
+{{ rt }} MIN
+{%- endif -%}

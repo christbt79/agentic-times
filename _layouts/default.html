@@ -1,15 +1,17 @@
+{% assign sect = site.data.sections | where: "slug", page.section | first %}
+{% unless sect %}{% assign sect = site.data.sections | where: "category", page.category | first %}{% endunless %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-<meta name="description" content="{{ page.description | default: page.deck | default: site.description | strip_html | truncatewords: 30 }}">
+<meta name="description" content="{{ page.description | default: page.deck | default: sect.tagline | default: site.description | strip_html | truncatewords: 30 }}">
 
 <!-- Open Graph -->
 <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
 <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-<meta property="og:description" content="{{ page.description | default: page.deck | default: site.description | strip_html | truncatewords: 30 }}">
+<meta property="og:description" content="{{ page.description | default: page.deck | default: sect.tagline | default: site.description | strip_html | truncatewords: 30 }}">
 <meta property="og:url" content="{{ page.url | absolute_url }}">
 <meta property="og:site_name" content="{{ site.title }}">
 {% if page.image %}
@@ -21,74 +23,66 @@
 <!-- Twitter Card -->
 <meta name="twitter:card" content="{% if page.image %}summary_large_image{% else %}summary{% endif %}">
 <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-<meta name="twitter:description" content="{{ page.description | default: page.deck | default: site.description | strip_html | truncatewords: 30 }}">
+<meta name="twitter:description" content="{{ page.description | default: page.deck | default: sect.tagline | default: site.description | strip_html | truncatewords: 30 }}">
 {% if page.image %}
 <meta name="twitter:image" content="{{ page.image | absolute_url }}">
 {% endif %}
+  <link rel="preload" href="{{ '/assets/fonts/DepartureMono-Regular.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="icon" type="image/png" sizes="512x512" href="{{ '/favicon.png' | relative_url }}">
 <link rel="shortcut icon" type="image/png" href="{{ '/favicon.png' | relative_url }}">
 <link rel="apple-touch-icon" href="{{ '/favicon.png' | relative_url }}">
 </head>
 <body>
 
-<div class="top-bar">
-    <div class="top-bar-inner">
-      <span class="top-bar-date" id="current-date"></span>
-      <span class="top-bar-tagline">'A THINKING MACHINE IS BEING BORN'</span>
-      <span class="top-bar-right">
-        <span class="top-bar-issue">'MACHINA SAPIENS NASCITUR'</span>
-        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
-          <span class="theme-icon-sun">☀</span>
-          <span class="theme-icon-moon">☽</span>
-        </button>
-      </span>
+  <!-- Top status bar -->
+  <div class="status-bar">
+    <div class="wrap">
+      <span class="status-date">▮ <span id="current-date"></span></span>
+      <span class="status-mid">"{{ page.latin | default: sect.latin | default: 'MACHINA SAPIENS NASCITUR' }}"</span>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode">
+        <span class="theme-icon-light" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+        </span>
+        <span class="theme-icon-dark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </span>
+        <span class="theme-label-light">LIGHT</span>
+        <span class="theme-label-dark">DARK</span>
+      </button>
     </div>
   </div>
 
+  <!-- Masthead (the title is the home link) -->
   <header class="masthead">
-    <div class="masthead-inner">
-      <div class="masthead-rule top-rule"></div>
+    <div class="wrap">
       <a href="{{ '/' | relative_url }}" class="masthead-link">
-        <h1 class="masthead-title">The Agentic Times</h1>
+        <div class="masthead-eyebrow">DOCUMENTING THE RACE TO AGI</div>
+        <h1 class="masthead-title">THE AGENTIC<br>TIMES_</h1>
       </a>
-      <p class="masthead-sub">Documenting The Race To AGI One Step At A Time</p>
-      <div class="masthead-rule bottom-rule"></div>
+      <nav class="main-nav">
+        {% for s in site.data.sections %}
+        <a href="{{ s.slug | prepend: '/' | append: '/' | relative_url }}" class="nav-link">{{ s.label }}</a>
+        {% endfor %}
+        <a href="{{ '/about/' | relative_url }}" class="nav-about">ABOUT ▸</a>
+      </nav>
     </div>
   </header>
 
-  <nav class="main-nav">
-    <div class="nav-inner">
-      <ul class="nav-list">
-        <li><a href="{{ '/' | relative_url }}" class="nav-link">Front Page</a></li>
-        <li><a href="{{ '/dispatches/' | relative_url }}" class="nav-link">Dispatches</a></li>
-        <li><a href="{{ '/perspective/' | relative_url }}" class="nav-link">Perspective</a></li>
-        <li><a href="{{ '/industry/' | relative_url }}" class="nav-link">Industry</a></li>
-        <li><a href="{{ '/governance/' | relative_url }}" class="nav-link">Governance</a></li>
-        <li><a href="{{ '/about/' | relative_url }}" class="nav-link">About</a></li>
-      </ul>
-    </div>
-  </nav>
-
   <main class="site-main">
-    {{ content }}
+    <div class="wrap">
+      {{ content }}
+    </div>
   </main>
 
   <footer class="site-footer">
-    <div class="footer-inner">
-      <div class="footer-masthead">The Agentic Times</div>
-      <p class="footer-tagline">Machina sapiens nascitur</p>
-      <div class="footer-links">
-        <a href="{{ '/about/' | relative_url }}">About</a>
-        <a href="{{ '/dispatches/' | relative_url }}">Dispatches</a>
-        <a href="{{ '/perspective/' | relative_url }}">Perspective</a>
-        <a href="{{ '/industry/' | relative_url }}">Industry</a>
-        <a href="{{ '/governance/' | relative_url }}">Governance</a>
-      </div>
-      <p class="footer-copy">© {{ site.time | date: '%Y' }} The Agentic Times. All rights reserved.</p>
+    <div class="wrap">
+      <span>© {{ site.time | date: '%Y' }} THE AGENTIC TIMES</span>
+      <span>"A THINKING MACHINE IS BEING BORN"</span>
+      <span>END OF TRANSMISSION ▮</span>
     </div>
   </footer>
 
