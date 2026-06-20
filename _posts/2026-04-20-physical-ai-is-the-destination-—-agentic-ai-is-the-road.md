@@ -8,7 +8,7 @@ date: 2026-04-20T20:50:00
 image: /assets/images/uploads/at_perspective_05.png
 ---
 
-As so often mentioned by Jensen Huang, physical AI is seen as the natural follow-on from agentic systems. But, with physical AI suddenly getting all the attention, will agentic AI still get the focus it shoud?
+**As so often mentioned by Jensen Huang, physical AI is seen as the natural follow-on from agentic systems. But, with physical AI suddenly getting all the attention, will agentic AI still get the focus it shoud?**
 
 According to Capgemini's [new research on physical AI](https://www.capgemini.com/wp-content/uploads/2026/04/CRI_Physical-AI-Report-Final-web-version.pdf), two thirds of executives now rank physical AI as a high priority in their automation agenda for the next three to five years. We all knew the age of robotics was coming, powered by major leaps in AI, but other factors are driving the rapid attention on it. Labour shortages, US reshoring pressures, and the natural convergence of foundation models with robotics hardware. Physical AI has arrived as a serious strategic priority for nations and enterprises, not just a research frontier.
 
