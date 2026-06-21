@@ -4,7 +4,7 @@ category: Dispatches
 deck: A new paper from the Federal Reserve Board ran the same economics research task given to 146 human teams through three agentic AI systems. When AI models then rank all submissions, the ordering is the same every time, and humans come last.
 author: The Agentic Times
 date: 2026-04-22T10:21:00
-image: /assets/images/uploads/at_dispatch_human_220426.png
+image: /assets/images/uploads/at_dispatches_220426_new.png
 ---
 
 A well-established problem is that the same data, given to different research teams with the same question, produces very different answers. A landmark 2025 study by Huntington-Klein et al. demonstrated this at scale: 146 economist teams were each asked to estimate the employment effects of the DACA immigration policy using the same dataset. The spread of answers was striking with estimates ranged across a wide band, driven by thousands of small analytical choices each team made independently about sample construction, research design, and statistical method.
