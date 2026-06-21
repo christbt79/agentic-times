@@ -4,7 +4,7 @@ category: Dispatches
 deck: Full enforcement of the EU AI Act begins in August 2026. For organisations running AI agents on sensitive data or in high-risk workflows, the clock is ticking — and the governance gaps are significant.
 author: The Agentic Times
 date: 2026-04-14T09:32:00
-image: /assets/images/uploads/at_dispatch_eu_140426.png
+image: /assets/images/uploads/at_dispatches_140426_new.png
 ---
 
 There is a date that every technology leader in Europe should have marked in their calendar: August 2026. That is when enforcement provisions of the EU AI Act begin to bite in earnest, bringing with them substantial penalties for failures of AI governance — particularly in high-risk areas involving personal data or financial operations.
