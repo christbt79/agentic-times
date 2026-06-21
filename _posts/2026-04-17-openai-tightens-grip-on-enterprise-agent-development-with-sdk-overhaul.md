@@ -4,7 +4,7 @@ category: Dispatches
 deck: A significant update to OpenAI's Agents SDK adds native sandboxing, configurable memory, and a new computer-use harness — making agent deployment easier for enterprises building inside OpenAI's ecosystem, and less relevant for those who aren't.
 author: The Agentic Times
 date: 2026-04-17T12:17:00
-image: /assets/images/uploads/at_dispatch_openai_170426.png
+image: /assets/images/uploads/at_dispatches_170426_new.png
 ---
 
 OpenAI has updated its Agents SDK with a set of capabilities that reduce the technical overhead of building and deploying enterprise AI agents — provided those agents are being built within OpenAI's own environment.
