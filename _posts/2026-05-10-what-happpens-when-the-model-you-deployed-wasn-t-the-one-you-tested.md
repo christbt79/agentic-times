@@ -4,7 +4,7 @@ category: Governance
 deck: New research from the CDT AI Governance Lab and MIT finds that fine-tuning foundation models produces safety drift that is unpredictable, cross-domain, and poorly governed. For enterprises building agents on customised models, the implications go beyond the training pipeline.
 author: The Agentic Times
 date: 2026-05-06T18:25:00
-image: /assets/images/uploads/at_governance_deploy_060526.png
+image: /assets/images/uploads/at_governance_050626_new.png
 ---
 
 The standard enterprise path to deploying an AI agent now is pretty baked in. Take a capable foundation model, fine-tune it on domain-specific data, embed it as the reasoning core of an agent, and ship it. It's a reasonable approach and has also become routine in ways that are starting to outpace the governance around it.
