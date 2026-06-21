@@ -4,8 +4,9 @@ description: A retro-terminal newsroom covering agentic AI, autonomous systems, 
 latin: MACHINA SAPIENS NASCITUR
 ---
 
-{% assign dispatch_posts = site.posts | where: "category", "Dispatches" | sort: "date" | reverse %}
-{% assign hero = dispatch_posts | first %}
+{% comment %} Hero = the single most recent story across ALL categories. {% endcomment %}
+{% assign all_sorted = site.posts | sort: "date" | reverse %}
+{% assign hero = all_sorted | first %}
 
 <!-- Hero dispatch -->
 <section class="block">
