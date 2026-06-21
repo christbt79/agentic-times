@@ -4,7 +4,7 @@ category: Governance
 deck: 'New research from Rubrik Zero Labs puts hard numbers on a problem that has been building quietly for months: organisations are running autonomous agents across critical systems with almost no ability to monitor, govern, or reverse what those agents do.'
 author: The Agentic Times
 date: 2026-04-17T14:20:00
-image: /assets/images/uploads/at_dispatch_security_170426.png
+image: /assets/images/uploads/at_dispatches_170426_new.png
 ---
 
 A survey of more than 1,600 IT and security leaders, published this week by Rubrik Zero Labs, confirms what many security professionals have suspected — the gap between agentic AI adoption and the ability to secure it is not closing. It is widening.
