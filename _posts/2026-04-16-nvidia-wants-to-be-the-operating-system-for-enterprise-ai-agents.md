@@ -4,7 +4,7 @@ category: Dispatches
 deck: At GTC 2026, Jensen Huang declared the agent inflection point has arrived. NVIDIA's new Agent Toolkit — and its open source OpenShell runtime — is a serious bid to own the layer that sits between frontier models and the enterprise workflows they will run.
 author: The Agentic Times
 date: 2026-04-16 13:00:00 +0000
-image: /assets/images/uploads/at_dispatch_nv_160426.png
+image: /assets/images/uploads/at_dispatches_nv_160426_new.png
 ---
 
 NVIDIA has never been content to sell picks and shovels when it can build the mine. At GTC 2026 in San Jose the company made its most significant software announcement in years — not a new chip, but a new platform: the NVIDIA Agent Toolkit, an open source suite designed to become the default infrastructure for building and running enterprise AI agents.
