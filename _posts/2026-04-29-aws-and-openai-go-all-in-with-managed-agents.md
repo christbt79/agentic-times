@@ -4,7 +4,7 @@ category: Industry
 deck: More than just a best buddies announcement, OpenAI and AWS want to remove the most common barriers to enterprise agent deployment, and their deepening partnership signals where the infrastructure layer for agents is headed.
 author: The Agentic Times
 date: 2026-04-29T20:52:00
-image: /assets/images/uploads/at_industry_openai_aws_290426.png
+image: /assets/images/uploads/at_industry_290426_new.png
 ---
 
 This week the two companies expanded their multi-year, $38 billion partnership with the announcement that Amazon Bedrock Managed Agents, powered by OpenAI, is now available in limited preview for agent builders. They also announced that GPT-5.4, GPT-5.5, and OpenAI's Codex coding agent are also accessible via Amazon Bedrock.
