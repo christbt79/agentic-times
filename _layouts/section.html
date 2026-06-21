@@ -51,7 +51,8 @@ layout: default
   <div class="divider">// MORE FROM {{ meta.label | upcase }}</div>
   <div class="row-list">
     {% for post in posts offset: 1 %}
-      {% assign n = forloop.index | plus: 1 %}
+      {% comment %} Chronological numbering: oldest = 01, climbing toward the newest (the lead is the newest, shown above unnumbered). {% endcomment %}
+      {% assign n = posts.size | minus: forloop.index %}
       {% if n < 10 %}{% assign pad = n | prepend: "0" %}{% else %}{% assign pad = n %}{% endif %}
       <a href="{{ post.url | relative_url }}" class="row">
         <div class="row-thumb scanlines">
