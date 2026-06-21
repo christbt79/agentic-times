@@ -4,7 +4,7 @@ category: Industry
 deck: A new platform update from storage specialists DDN, built around NVIDIA's Vera BlueField-4 architecture, addresses one of the less visible bottlenecks in agentic AI.
 author: The Agentic Times
 date: 2026-06-01T14:34:00
-image: /assets/images/uploads/at_industry_ddn_010626.png
+image: /assets/images/uploads/at_industry_010626_new.png
 ---
 
 As enterprise agentic AI moves from pilot to production, the conversation has largely focused on models, orchestration, and governance. Less attention has been paid to the data infrastructure that agents continuously read from, write to, and reason over in real time.
