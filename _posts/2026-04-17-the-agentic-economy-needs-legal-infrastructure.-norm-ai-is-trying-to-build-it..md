@@ -4,7 +4,7 @@ category: Governance
 deck: 'A New York startup backed by Blackstone, Vanguard, and $140 million in funding has launched a research lab with an ambitious premise: that before AI agents can truly operate at scale in enterprise environments, someone needs to do the foundational legal work that regulators, courts, and companies are not yet equipped to do themselves.'
 author: The Agentic Times
 date: 2026-04-18T09:15:00
-image: /assets/images/uploads/at_governance_contract_180426-2.png
+image: /assets/images/uploads/at_governance_180426_new.png
 ---
 
 When an AI agent negotiates a contract, makes a compliance determination, or executes a financial transaction on behalf of an institution, a question that sounds philosophical becomes immediately practical: who is legally responsible for what it did?
