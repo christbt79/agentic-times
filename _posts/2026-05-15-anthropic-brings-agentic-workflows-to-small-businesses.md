@@ -4,7 +4,7 @@ category: Industry
 deck: Claude for Small Business ships 15 ready-to-run agentic workflows inside tools like QuickBooks, HubSpot, and PayPal — marking Anthropic's first serious push to bring autonomous AI into the small business market.
 author: The Agentic Times
 date: 2026-05-14T21:00:00
-image: /assets/images/uploads/at_industry_smallbiz_140526.png
+image: /assets/images/uploads/at_industry_140526_new.png
 ---
 
 Anthropic's aiming outside of the enterprise with its package of agentic workflows and connectors designed to run inside the tools small businesses already use: QuickBooks, PayPal, HubSpot, Canva, DocuSign, Google Workspace, and Microsoft 365.
