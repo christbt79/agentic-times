@@ -1,11 +1,11 @@
 ---
-layout: post
-title: "OpenAI's Operator Agents Are Now Handling Real Business Workflows — Here's What That Means"
+title: OpenAI's Operator Agents Are Now Handling Real Business Workflows — Here's What That Means
 category: Dispatches
-deck: "The shift from AI assistant to AI employee is no longer theoretical. Operator-class agents are being deployed inside enterprises today, and the implications for how businesses are structured are only beginning to be understood."
+deck: The shift from AI assistant to AI employee is no longer theoretical. Operator-class agents are being deployed inside enterprises today, and the implications for how businesses are structured are only beginning to be understood.
 author: The Agentic Times
 date: 2026-04-16 12:00:00 +0000
-image: /assets/images/uploads/at_dispatch_fsi_160426.png
+image: /assets/images/uploads/at_dispatches_fsi_160426_new.png
+layout: post
 ---
 
 Something crossed a threshold recently that has not received the attention it deserves.
@@ -14,7 +14,7 @@ OpenAI's operator-class agents — AI systems capable of taking actions inside s
 
 This is not a demo. It is not a pilot. It is production deployment at scale.
 
-The distinction matters enormously. A conversational AI answers questions. An operator agent *does things*. It has access to tools, it can browse, click, type, submit, and iterate. It can work for hours on a task and return with a completed outcome rather than a suggested next step.
+The distinction matters enormously. A conversational AI answers questions. An operator agent _does things_. It has access to tools, it can browse, click, type, submit, and iterate. It can work for hours on a task and return with a completed outcome rather than a suggested next step.
 
 For business leaders, the implications land in three places immediately.
 
