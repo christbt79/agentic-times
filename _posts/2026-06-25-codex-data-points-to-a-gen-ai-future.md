@@ -1,5 +1,5 @@
 ---
-title: Codex Data Points to a Gen AI Future
+title: Codex Data Points to New Gen AI Future
 category: Coding
 deck: A new OpenAI paper tracking internal Codex usage shows the chatbot era fading fast, and a potential new digital divide in generative AI.
 author: The Agentic Times
