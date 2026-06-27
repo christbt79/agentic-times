@@ -315,6 +315,15 @@ img { max-width: 100%; height: auto; display: block; }
   text-overflow: ellipsis;
 }
 
+/* Dark mode: keep the header dark (not an inverted light bar), light text,
+   subtle divider, and a cyan REC dot — matching the design mock. */
+[data-theme="dark"] .mf-head {
+  background: transparent;
+  color: var(--foreground);
+  border-bottom: 1px solid var(--primary-30);
+}
+[data-theme="dark"] .mf-dot { background: var(--accent); }
+
 /* ============================================
    MAIN + SECTION DIVIDERS
    ============================================ */
