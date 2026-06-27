@@ -1,0 +1,114 @@
+[
+  {
+    "name": "DeepSeek-V4-Pro-DSpark",
+    "org": "DeepSeek",
+    "desc": "Open language model",
+    "date": "27.06.2026",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark"
+  },
+  {
+    "name": "Qwen-AgentWorld-35B-A3B",
+    "org": "Qwen",
+    "desc": "35B · MoE · multimodal",
+    "date": "22.06.2026",
+    "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B"
+  },
+  {
+    "name": "GLM-5.2",
+    "org": "Zhipu",
+    "desc": "Open language model",
+    "date": "16.06.2026",
+    "url": "https://huggingface.co/zai-org/GLM-5.2"
+  },
+  {
+    "name": "FastContext-1.0-4B-SFT",
+    "org": "Microsoft",
+    "desc": "4B",
+    "date": "14.06.2026",
+    "url": "https://huggingface.co/microsoft/FastContext-1.0-4B-SFT"
+  },
+  {
+    "name": "FastContext-1.0-4B-RL",
+    "org": "Microsoft",
+    "desc": "4B",
+    "date": "14.06.2026",
+    "url": "https://huggingface.co/microsoft/FastContext-1.0-4B-RL"
+  },
+  {
+    "name": "North-Mini-Code-1.0",
+    "org": "Cohere",
+    "desc": "coding",
+    "date": "05.06.2026",
+    "url": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0"
+  },
+  {
+    "name": "DeepSeek-V4-Pro",
+    "org": "DeepSeek",
+    "desc": "Open language model",
+    "date": "22.04.2026",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+  },
+  {
+    "name": "DeepSeek-V4-Flash",
+    "org": "DeepSeek",
+    "desc": "Open language model",
+    "date": "22.04.2026",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
+  },
+  {
+    "name": "granite-4.1-30b",
+    "org": "IBM",
+    "desc": "30B",
+    "date": "06.04.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-4.1-30b"
+  },
+  {
+    "name": "granite-4.1-3b",
+    "org": "IBM",
+    "desc": "3B",
+    "date": "06.04.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-4.1-3b"
+  },
+  {
+    "name": "GLM-5.1",
+    "org": "Zhipu",
+    "desc": "Open language model",
+    "date": "03.04.2026",
+    "url": "https://huggingface.co/zai-org/GLM-5.1"
+  },
+  {
+    "name": "tiny-aya-global",
+    "org": "Cohere",
+    "desc": "Open language model",
+    "date": "13.02.2026",
+    "url": "https://huggingface.co/CohereLabs/tiny-aya-global"
+  },
+  {
+    "name": "GLM-5",
+    "org": "Zhipu",
+    "desc": "Open language model",
+    "date": "11.02.2026",
+    "url": "https://huggingface.co/zai-org/GLM-5"
+  },
+  {
+    "name": "Falcon-H1-Tiny-90M-Base",
+    "org": "TII",
+    "desc": "Open language model",
+    "date": "12.01.2026",
+    "url": "https://huggingface.co/tiiuae/Falcon-H1-Tiny-90M-Base"
+  },
+  {
+    "name": "Nemotron-Orchestrator-8B",
+    "org": "NVIDIA",
+    "desc": "8B",
+    "date": "25.11.2025",
+    "url": "https://huggingface.co/nvidia/Nemotron-Orchestrator-8B"
+  },
+  {
+    "name": "Kimi-K2-Thinking",
+    "org": "Moonshot",
+    "desc": "reasoning",
+    "date": "04.11.2025",
+    "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking"
+  }
+]

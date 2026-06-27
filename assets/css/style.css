@@ -240,6 +240,82 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 /* ============================================
+   MODEL FEED TICKER (masthead, above the nav)
+   ============================================ */
+.masthead-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  align-items: stretch;
+  width: 100%;
+}
+@media (min-width: 768px) { .masthead-right { align-items: flex-end; width: auto; } }
+
+.model-feed {
+  display: none;   /* dropped on mobile for a cleaner small-screen experience */
+  border: 2px solid var(--primary);
+  background: var(--card);
+  font-family: var(--font-display);
+}
+@media (min-width: 768px) { .model-feed { display: block; width: min(34rem, 100%); } }
+
+.mf-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--primary);
+  color: var(--primary-foreground);
+  padding: 0.4rem 0.7rem;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+.mf-rec { display: inline-flex; align-items: center; gap: 0.4rem; }
+.mf-dot {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: currentColor;
+  animation: mf-pulse 1.4s ease-in-out infinite;
+}
+@keyframes mf-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.25; transform: scale(0.6); }
+}
+
+.mf-body { position: relative; height: 3.1rem; overflow: hidden; }
+.mf-item {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.2rem;
+  padding: 0.5rem 0.7rem;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+}
+.mf-item.active { opacity: 1; pointer-events: auto; }
+.mf-name {
+  color: var(--primary);
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.mf-item:hover .mf-name { text-decoration: underline; }
+.mf-sub {
+  color: var(--muted-foreground);
+  font-size: 0.625rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ============================================
    MAIN + SECTION DIVIDERS
    ============================================ */
 .site-main { padding-block: 3rem; }
@@ -828,4 +904,5 @@ a.lead:hover .lead-media img { transform: scale(1.02); }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; }
   .card-thumb img, .row-thumb img, .lead-media img { transition: none !important; }
+  .mf-dot { animation: none !important; }
 }

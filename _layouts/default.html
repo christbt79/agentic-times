@@ -63,12 +63,30 @@
         <div class="masthead-eyebrow">DOCUMENTING THE RACE TO AGI</div>
         <h1 class="masthead-title">THE<br>AGENTIC<br>TIMES_</h1>
       </a>
-      <nav class="main-nav">
-        {% for s in site.data.sections %}
-        <a href="{{ s.slug | prepend: '/' | append: '/' | relative_url }}" class="nav-link">{{ s.label }}</a>
-        {% endfor %}
-        <a href="{{ '/about/' | relative_url }}" class="nav-about">ABOUT ▸</a>
-      </nav>
+      <div class="masthead-right">
+        {% if site.data.models and site.data.models.size > 0 %}
+        <div class="model-feed" aria-label="Latest open model releases">
+          <div class="mf-head">
+            <span>▮ MODEL_FEED.LIVE</span>
+            <span class="mf-rec"><span class="mf-dot"></span>REC</span>
+          </div>
+          <div class="mf-body" id="model-feed-body">
+            {% for m in site.data.models %}
+            <a class="mf-item{% if forloop.first %} active{% endif %}" href="{{ m.url }}" target="_blank" rel="noopener noreferrer">
+              <span class="mf-name">▸ {{ m.name }}</span>
+              <span class="mf-sub">{{ m.org }} · {{ m.desc }} · {{ m.date }}</span>
+            </a>
+            {% endfor %}
+          </div>
+        </div>
+        {% endif %}
+        <nav class="main-nav">
+          {% for s in site.data.sections %}
+          <a href="{{ s.slug | prepend: '/' | append: '/' | relative_url }}" class="nav-link">{{ s.label }}</a>
+          {% endfor %}
+          <a href="{{ '/about/' | relative_url }}" class="nav-about">ABOUT ▸</a>
+        </nav>
+      </div>
     </div>
   </header>
 

@@ -24,6 +24,20 @@
   });
 })();
 
+// Model feed ticker — cycle through the latest model releases
+(function modelFeed() {
+  const items = Array.prototype.slice.call(
+    document.querySelectorAll('#model-feed-body .mf-item')
+  );
+  if (items.length < 2) return;
+  let i = 0;
+  setInterval(function () {
+    items[i].classList.remove('active');
+    i = (i + 1) % items.length;
+    items[i].classList.add('active');
+  }, 3800);
+})();
+
 // Light/dark theme toggle — default is LIGHT
 (function themeToggle() {
   const toggle = document.getElementById('theme-toggle');
