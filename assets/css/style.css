@@ -256,8 +256,11 @@ img { max-width: 100%; height: auto; display: block; }
   border: 2px solid var(--primary);
   background: var(--card);
   font-family: var(--font-display);
+  overflow: hidden;            /* safety: clip the scrolling track to the box */
 }
-@media (min-width: 768px) { .model-feed { display: block; width: min(34rem, 100%); } }
+/* Definite width (not a %) so the inline-flex marquee can't leak its
+   intrinsic width and push the masthead column off-screen. */
+@media (min-width: 768px) { .model-feed { display: block; width: 34rem; max-width: 100%; } }
 
 .mf-head {
   display: flex;
