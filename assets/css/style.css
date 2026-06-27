@@ -488,6 +488,7 @@ a.lead:hover .lead-media img { transform: scale(1.02); }
   padding-block: 2rem;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: space-between;
   gap: 1rem;
   font-family: var(--font-mono);
@@ -495,6 +496,27 @@ a.lead:hover .lead-media img { transform: scale(1.02); }
   text-transform: uppercase;
   letter-spacing: 0.15em;
   color: var(--pf-80);
+}
+.footer-left {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.25rem;
+}
+.footer-linkedin {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.45rem 0.7rem;
+  border: 1.5px solid var(--primary-foreground);
+  color: var(--primary-foreground);
+  letter-spacing: 0.15em;
+  transition: var(--transition);
+}
+.footer-linkedin svg { width: 14px; height: 14px; }
+.footer-linkedin:hover {
+  background: var(--primary-foreground);
+  color: var(--primary);
 }
 
 /* ============================================
