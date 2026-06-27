@@ -275,45 +275,41 @@ img { max-width: 100%; height: auto; display: block; }
   width: 7px; height: 7px;
   border-radius: 50%;
   background: currentColor;
-  animation: mf-pulse 1.4s ease-in-out infinite;
+  animation: mf-pulse 2.6s ease-in-out infinite;
 }
 @keyframes mf-pulse {
   0%, 100% { opacity: 1; transform: scale(1); }
   50% { opacity: 0.25; transform: scale(0.6); }
 }
 
-.mf-body { position: relative; height: 3.1rem; overflow: hidden; }
-.mf-item {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 0.2rem;
-  padding: 0.5rem 0.7rem;
-  opacity: 0;
-  transition: opacity 0.5s ease;
-  pointer-events: none;
-}
-.mf-item.active { opacity: 1; pointer-events: auto; }
-.mf-name {
-  color: var(--primary);
-  font-size: 0.8rem;
-  letter-spacing: 0.04em;
+.mf-body { overflow: hidden; padding-block: 0.6rem; }
+.mf-track {
+  display: inline-flex;
+  align-items: baseline;
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  will-change: transform;
+  animation: mf-scroll var(--mf-duration, 90s) linear infinite;
 }
+.mf-body:hover .mf-track { animation-play-state: paused; }
+@keyframes mf-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.mf-item {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding-inline: 0.7rem;
+}
+.mf-name { color: var(--primary); font-size: 0.8rem; letter-spacing: 0.04em; }
 .mf-item:hover .mf-name { text-decoration: underline; }
 .mf-sub {
   color: var(--muted-foreground);
-  font-size: 0.625rem;
-  letter-spacing: 0.12em;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
+.mf-sep { color: var(--primary-30); font-size: 0.6rem; align-self: center; }
 
 /* Dark mode: keep the header dark (not an inverted light bar), light text,
    subtle divider, and a cyan REC dot — matching the design mock. */
@@ -913,5 +909,5 @@ a.lead:hover .lead-media img { transform: scale(1.02); }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; }
   .card-thumb img, .row-thumb img, .lead-media img { transition: none !important; }
-  .mf-dot { animation: none !important; }
+  .mf-dot, .mf-track { animation: none !important; }
 }

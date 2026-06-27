@@ -70,13 +70,10 @@
             <span>▮ MODEL_FEED.LIVE</span>
             <span class="mf-rec"><span class="mf-dot"></span>REC</span>
           </div>
-          <div class="mf-body" id="model-feed-body">
-            {% for m in site.data.models %}
-            <a class="mf-item{% if forloop.first %} active{% endif %}" href="{{ m.url }}" target="_blank" rel="noopener noreferrer">
-              <span class="mf-name">▸ {{ m.name }}</span>
-              <span class="mf-sub">{{ m.org }} · {{ m.desc }} · {{ m.date }}</span>
-            </a>
-            {% endfor %}
+          <div class="mf-body">
+            <div class="mf-track" id="model-feed-track">
+              {% for m in site.data.models %}<a class="mf-item" href="{{ m.url }}" target="_blank" rel="noopener noreferrer"><span class="mf-name">▸ {{ m.name }}</span> <span class="mf-sub">{{ m.org }} · {{ m.desc }} · {{ m.date }}</span></a><span class="mf-sep" aria-hidden="true">◆</span>{% endfor %}{% comment %}duplicate set for a seamless loop{% endcomment %}{% for m in site.data.models %}<a class="mf-item" href="{{ m.url }}" target="_blank" rel="noopener noreferrer" aria-hidden="true" tabindex="-1"><span class="mf-name">▸ {{ m.name }}</span> <span class="mf-sub">{{ m.org }} · {{ m.desc }} · {{ m.date }}</span></a><span class="mf-sep" aria-hidden="true">◆</span>{% endfor %}
+            </div>
           </div>
         </div>
         {% endif %}

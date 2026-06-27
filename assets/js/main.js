@@ -24,18 +24,22 @@
   });
 })();
 
-// Model feed ticker — cycle through the latest model releases
+// Model feed ticker — set a steady, slow left-scroll speed based on width.
+// The track contains two copies of the list and animates translateX(-50%),
+// so duration = (one copy's width) / speed keeps the pace constant.
 (function modelFeed() {
-  const items = Array.prototype.slice.call(
-    document.querySelectorAll('#model-feed-body .mf-item')
-  );
-  if (items.length < 2) return;
-  let i = 0;
-  setInterval(function () {
-    items[i].classList.remove('active');
-    i = (i + 1) % items.length;
-    items[i].classList.add('active');
-  }, 3800);
+  const track = document.getElementById('model-feed-track');
+  if (!track) return;
+  const SPEED = 40; // pixels per second (lower = slower)
+  function setDuration() {
+    const half = track.scrollWidth / 2;
+    if (half > 0) track.style.setProperty('--mf-duration', (half / SPEED) + 's');
+  }
+  setDuration();
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(setDuration);
+  }
+  window.addEventListener('resize', setDuration);
 })();
 
 // Light/dark theme toggle — default is LIGHT
