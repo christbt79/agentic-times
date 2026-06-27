@@ -91,18 +91,11 @@
     "url": "https://huggingface.co/zai-org/GLM-5"
   },
   {
-    "name": "Falcon-H1-Tiny-90M-Base",
-    "org": "TII",
-    "desc": "Open language model",
-    "date": "12.01.2026",
-    "url": "https://huggingface.co/tiiuae/Falcon-H1-Tiny-90M-Base"
-  },
-  {
-    "name": "Nemotron-Orchestrator-8B",
-    "org": "NVIDIA",
-    "desc": "8B",
-    "date": "25.11.2025",
-    "url": "https://huggingface.co/nvidia/Nemotron-Orchestrator-8B"
+    "name": "Olmo-Hybrid-7B",
+    "org": "AllenAI",
+    "desc": "7B",
+    "date": "28.01.2026",
+    "url": "https://huggingface.co/allenai/Olmo-Hybrid-7B"
   },
   {
     "name": "Kimi-K2-Thinking",
@@ -110,5 +103,12 @@
     "desc": "reasoning",
     "date": "04.11.2025",
     "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking"
+  },
+  {
+    "name": "Kimi-Linear-48B-A3B-Base",
+    "org": "Moonshot",
+    "desc": "48B · MoE",
+    "date": "30.10.2025",
+    "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Base"
   }
 ]
