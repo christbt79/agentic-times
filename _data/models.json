@@ -77,11 +77,25 @@
     "url": "https://huggingface.co/zai-org/GLM-5.1"
   },
   {
+    "name": "Falcon-OCR",
+    "org": "TII",
+    "desc": "Open language model",
+    "date": "22.02.2026",
+    "url": "https://huggingface.co/tiiuae/Falcon-OCR"
+  },
+  {
     "name": "tiny-aya-global",
     "org": "Cohere",
     "desc": "Open language model",
     "date": "13.02.2026",
     "url": "https://huggingface.co/CohereLabs/tiny-aya-global"
+  },
+  {
+    "name": "Qwen3-Coder-Next",
+    "org": "Qwen",
+    "desc": "coding",
+    "date": "30.01.2026",
+    "url": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
   },
   {
     "name": "Olmo-Hybrid-7B",
@@ -96,19 +110,5 @@
     "desc": "Open language model",
     "date": "19.01.2026",
     "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
-  },
-  {
-    "name": "Kimi-K2-Thinking",
-    "org": "Moonshot",
-    "desc": "reasoning",
-    "date": "04.11.2025",
-    "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking"
-  },
-  {
-    "name": "Kimi-Linear-48B-A3B-Base",
-    "org": "Moonshot",
-    "desc": "48B · MoE",
-    "date": "30.10.2025",
-    "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Base"
   }
 ]
