@@ -35,11 +35,11 @@
     "url": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0"
   },
   {
-    "name": "DeepSeek-V4-Pro",
+    "name": "DeepSeek-V4-Flash",
     "org": "DeepSeek",
     "desc": "Open language model",
     "date": "22.04.2026",
-    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
   },
   {
     "name": "granite-4.1-30b",
@@ -70,13 +70,6 @@
     "url": "https://huggingface.co/CohereLabs/tiny-aya-global"
   },
   {
-    "name": "Qwen3-Coder-Next",
-    "org": "Qwen",
-    "desc": "coding",
-    "date": "30.01.2026",
-    "url": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
-  },
-  {
     "name": "Olmo-Hybrid-7B",
     "org": "AllenAI",
     "desc": "7B",
@@ -103,6 +96,13 @@
     "desc": "48B · MoE",
     "date": "30.10.2025",
     "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Base"
+  },
+  {
+    "name": "Kimi-Linear-48B-A3B-Instruct",
+    "org": "Moonshot",
+    "desc": "48B · MoE · instruct",
+    "date": "30.10.2025",
+    "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct"
   },
   {
     "name": "functiongemma-270m-it",
