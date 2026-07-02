@@ -1,7 +1,8 @@
-name: Update model feed
+name: Update feeds
 
-# Refreshes _data/models.json daily from the Hugging Face Hub so the homepage
-# MODEL_FEED ticker stays current. Free (GitHub-hosted), no API key needed.
+# Refreshes the homepage ticker data once a day (free, GitHub-hosted, no keys):
+#   _data/models.json  <- Hugging Face Hub  (MODEL_FEED.LIVE)
+#   _data/news.json    <- Google News RSS   (NEWS_TICKER.LIVE)
 
 on:
   schedule:
@@ -13,7 +14,7 @@ permissions:
   pages: write
 
 concurrency:
-  group: update-model-feed
+  group: update-feeds
   cancel-in-progress: false
 
 jobs:
@@ -29,17 +30,20 @@ jobs:
       - name: Fetch latest models from Hugging Face
         run: python3 scripts/update_models.py
 
+      - name: Fetch latest AI news from Google News
+        run: python3 scripts/update_news.py
+
       - name: Commit & push if changed
         id: commit
         run: |
-          if git diff --quiet -- _data/models.json; then
-            echo "No model changes."
+          if git diff --quiet -- _data/models.json _data/news.json; then
+            echo "No feed changes."
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git config user.name "agentic-times-bot"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add _data/models.json
-            git commit -m "chore: refresh model feed"
+            git add _data/models.json _data/news.json
+            git commit -m "chore: refresh feeds"
             git pull --rebase origin "${GITHUB_REF_NAME}" || true
             git push
             echo "changed=true" >> "$GITHUB_OUTPUT"

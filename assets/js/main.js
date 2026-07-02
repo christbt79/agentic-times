@@ -24,22 +24,24 @@
   });
 })();
 
-// Model feed ticker — set a steady, slow left-scroll speed based on width.
-// The track contains two copies of the list and animates translateX(-50%),
-// so duration = (one copy's width) / speed keeps the pace constant.
-(function modelFeed() {
-  const track = document.getElementById('model-feed-track');
-  if (!track) return;
+// Feed tickers (news + model) — set a steady, slow left-scroll speed based on
+// width. Each track holds two copies of its list and animates translateX(-50%),
+// so duration = (one copy's width) / speed keeps the pace identical on both.
+(function tickers() {
+  const tracks = Array.prototype.slice.call(document.querySelectorAll('.mf-track'));
+  if (!tracks.length) return;
   const SPEED = 40; // pixels per second (lower = slower)
-  function setDuration() {
-    const half = track.scrollWidth / 2;
-    if (half > 0) track.style.setProperty('--mf-duration', (half / SPEED) + 's');
+  function setDurations() {
+    tracks.forEach(function (track) {
+      const half = track.scrollWidth / 2;
+      if (half > 0) track.style.setProperty('--mf-duration', (half / SPEED) + 's');
+    });
   }
-  setDuration();
+  setDurations();
   if (document.fonts && document.fonts.ready) {
-    document.fonts.ready.then(setDuration);
+    document.fonts.ready.then(setDurations);
   }
-  window.addEventListener('resize', setDuration);
+  window.addEventListener('resize', setDurations);
 })();
 
 // Light/dark theme toggle — default is LIGHT
