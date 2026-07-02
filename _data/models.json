@@ -14,6 +14,13 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark"
   },
   {
+    "name": "Kimi-K2.6-DFlash",
+    "org": "NVIDIA",
+    "desc": "Open language model",
+    "date": "23.06.2026",
+    "url": "https://huggingface.co/nvidia/Kimi-K2.6-DFlash"
+  },
+  {
     "name": "Qwen-AgentWorld-35B-A3B",
     "org": "Qwen",
     "desc": "35B · MoE · multimodal",
@@ -42,18 +49,18 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
   },
   {
-    "name": "granite-4.1-30b",
-    "org": "IBM",
-    "desc": "30B",
-    "date": "06.04.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-4.1-30b"
-  },
-  {
     "name": "granite-4.1-3b",
     "org": "IBM",
     "desc": "3B",
     "date": "06.04.2026",
     "url": "https://huggingface.co/ibm-granite/granite-4.1-3b"
+  },
+  {
+    "name": "granite-4.1-8b",
+    "org": "IBM",
+    "desc": "8B",
+    "date": "06.04.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-4.1-8b"
   },
   {
     "name": "GLM-5.1",
@@ -68,6 +75,13 @@
     "desc": "Open language model",
     "date": "13.02.2026",
     "url": "https://huggingface.co/CohereLabs/tiny-aya-global"
+  },
+  {
+    "name": "Qwen3-Coder-Next",
+    "org": "Qwen",
+    "desc": "coding",
+    "date": "30.01.2026",
+    "url": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
   },
   {
     "name": "Olmo-Hybrid-7B",
@@ -96,19 +110,5 @@
     "desc": "48B · MoE",
     "date": "30.10.2025",
     "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Base"
-  },
-  {
-    "name": "Kimi-Linear-48B-A3B-Instruct",
-    "org": "Moonshot",
-    "desc": "48B · MoE · instruct",
-    "date": "30.10.2025",
-    "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct"
-  },
-  {
-    "name": "functiongemma-270m-it",
-    "org": "Google",
-    "desc": "instruct",
-    "date": "08.10.2025",
-    "url": "https://huggingface.co/google/functiongemma-270m-it"
   }
 ]
