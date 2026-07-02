@@ -31,17 +31,32 @@
   const tracks = Array.prototype.slice.call(document.querySelectorAll('.mf-track'));
   if (!tracks.length) return;
   const SPEED = 40; // pixels per second (lower = slower)
-  function setDurations() {
+  const nav = document.querySelector('.masthead-right .main-nav');
+  const feeds = Array.prototype.slice.call(
+    document.querySelectorAll('.masthead-right .model-feed')
+  );
+  const desktop = window.matchMedia('(min-width: 768px)');
+
+  function update() {
+    // Match each ticker's width to the nav so their left edges line up with
+    // the first nav item. Definite px width (not %) keeps the marquee clipped.
+    if (nav && desktop.matches) {
+      const w = nav.offsetWidth;
+      feeds.forEach(function (f) { f.style.width = w + 'px'; });
+    } else {
+      feeds.forEach(function (f) { f.style.width = ''; });
+    }
     tracks.forEach(function (track) {
       const half = track.scrollWidth / 2;
       if (half > 0) track.style.setProperty('--mf-duration', (half / SPEED) + 's');
     });
   }
-  setDurations();
+
+  update();
   if (document.fonts && document.fonts.ready) {
-    document.fonts.ready.then(setDurations);
+    document.fonts.ready.then(update);
   }
-  window.addEventListener('resize', setDurations);
+  window.addEventListener('resize', update);
 })();
 
 // Light/dark theme toggle — default is LIGHT
