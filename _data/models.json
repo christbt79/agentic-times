@@ -70,13 +70,6 @@
     "url": "https://huggingface.co/zai-org/GLM-5.1"
   },
   {
-    "name": "tiny-aya-global",
-    "org": "Cohere",
-    "desc": "Open language model",
-    "date": "13.02.2026",
-    "url": "https://huggingface.co/CohereLabs/tiny-aya-global"
-  },
-  {
     "name": "Qwen3-Coder-Next",
     "org": "Qwen",
     "desc": "coding",
@@ -110,5 +103,12 @@
     "desc": "48B · MoE",
     "date": "30.10.2025",
     "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Base"
+  },
+  {
+    "name": "functiongemma-270m-it",
+    "org": "Google",
+    "desc": "instruct",
+    "date": "08.10.2025",
+    "url": "https://huggingface.co/google/functiongemma-270m-it"
   }
 ]
