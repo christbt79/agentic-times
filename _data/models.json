@@ -28,6 +28,13 @@
     "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B"
   },
   {
+    "name": "MiniMax-M2.7-DFlash",
+    "org": "NVIDIA",
+    "desc": "Open language model",
+    "date": "16.06.2026",
+    "url": "https://huggingface.co/nvidia/MiniMax-M2.7-DFlash"
+  },
+  {
     "name": "GLM-5.2",
     "org": "Zhipu",
     "desc": "Open language model",
@@ -103,12 +110,5 @@
     "desc": "3B",
     "date": "06.01.2026",
     "url": "https://huggingface.co/ai21labs/AI21-Jamba2-3B"
-  },
-  {
-    "name": "Kimi-K2-Thinking",
-    "org": "Moonshot",
-    "desc": "reasoning",
-    "date": "04.11.2025",
-    "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking"
   }
 ]
