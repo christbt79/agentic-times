@@ -1,5 +1,12 @@
 [
   {
+    "name": "Nemotron-Labs-Audex-30B-A3B",
+    "org": "NVIDIA",
+    "desc": "30B · MoE",
+    "date": "06.07.2026",
+    "url": "https://huggingface.co/nvidia/Nemotron-Labs-Audex-30B-A3B"
+  },
+  {
     "name": "DeepSeek-V4-Pro-DSpark",
     "org": "DeepSeek",
     "desc": "Open language model",
@@ -26,13 +33,6 @@
     "desc": "35B · MoE · multimodal",
     "date": "22.06.2026",
     "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B"
-  },
-  {
-    "name": "MiniMax-M2.7-DFlash",
-    "org": "NVIDIA",
-    "desc": "Open language model",
-    "date": "16.06.2026",
-    "url": "https://huggingface.co/nvidia/MiniMax-M2.7-DFlash"
   },
   {
     "name": "GLM-5.2",
@@ -84,13 +84,6 @@
     "url": "https://huggingface.co/ibm-granite/granite-4.1-8b"
   },
   {
-    "name": "GLM-5.1",
-    "org": "Zhipu",
-    "desc": "Open language model",
-    "date": "03.04.2026",
-    "url": "https://huggingface.co/zai-org/GLM-5.1"
-  },
-  {
     "name": "Qwen3-Coder-Next",
     "org": "Qwen",
     "desc": "coding",
@@ -110,5 +103,12 @@
     "desc": "3B",
     "date": "06.01.2026",
     "url": "https://huggingface.co/ai21labs/AI21-Jamba2-3B"
+  },
+  {
+    "name": "Olmo-3-7B-Instruct",
+    "org": "AllenAI",
+    "desc": "7B · instruct",
+    "date": "19.11.2025",
+    "url": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
   }
 ]
