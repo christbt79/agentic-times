@@ -14,6 +14,13 @@
     "url": "https://huggingface.co/nvidia/Nemotron-Labs-Audex-2B"
   },
   {
+    "name": "granite-swash-3b-a600m",
+    "org": "IBM",
+    "desc": "3B",
+    "date": "01.07.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-swash-3b-a600m"
+  },
+  {
     "name": "DeepSeek-V4-Pro-DSpark",
     "org": "DeepSeek",
     "desc": "Open language model",
@@ -26,13 +33,6 @@
     "desc": "Open language model",
     "date": "27.06.2026",
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark"
-  },
-  {
-    "name": "Kimi-K2.6-DFlash",
-    "org": "NVIDIA",
-    "desc": "Open language model",
-    "date": "23.06.2026",
-    "url": "https://huggingface.co/nvidia/Kimi-K2.6-DFlash"
   },
   {
     "name": "Qwen-AgentWorld-35B-A3B",
@@ -49,6 +49,13 @@
     "url": "https://huggingface.co/zai-org/GLM-5.2"
   },
   {
+    "name": "Privasis-Cleaner-0.6B",
+    "org": "NVIDIA",
+    "desc": "0.6B",
+    "date": "08.06.2026",
+    "url": "https://huggingface.co/nvidia/Privasis-Cleaner-0.6B"
+  },
+  {
     "name": "North-Mini-Code-1.0",
     "org": "Cohere",
     "desc": "coding",
@@ -63,18 +70,11 @@
     "url": "https://huggingface.co/microsoft/HARC"
   },
   {
-    "name": "gemma-4-12B-it-assistant",
-    "org": "Google",
-    "desc": "12B · instruct",
-    "date": "23.05.2026",
-    "url": "https://huggingface.co/google/gemma-4-12B-it-assistant"
-  },
-  {
-    "name": "DeepSeek-V4-Flash",
+    "name": "DeepSeek-V4-Pro",
     "org": "DeepSeek",
     "desc": "Open language model",
     "date": "22.04.2026",
-    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
   },
   {
     "name": "granite-4.1-8b",
@@ -84,18 +84,11 @@
     "url": "https://huggingface.co/ibm-granite/granite-4.1-8b"
   },
   {
-    "name": "granite-4.1-3b",
-    "org": "IBM",
-    "desc": "3B",
-    "date": "06.04.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-4.1-3b"
-  },
-  {
-    "name": "Qwen3-Coder-Next",
-    "org": "Qwen",
-    "desc": "coding",
-    "date": "30.01.2026",
-    "url": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
+    "name": "Mamba2-primed-HQwen3-8B-Instruct",
+    "org": "Amazon",
+    "desc": "8B · instruct",
+    "date": "31.03.2026",
+    "url": "https://huggingface.co/amazon/Mamba2-primed-HQwen3-8B-Instruct"
   },
   {
     "name": "GLM-4.7-Flash",
@@ -110,5 +103,12 @@
     "desc": "3B",
     "date": "06.01.2026",
     "url": "https://huggingface.co/ai21labs/AI21-Jamba2-3B"
+  },
+  {
+    "name": "Olmo-3.1-32B-Think",
+    "org": "AllenAI",
+    "desc": "32B · reasoning",
+    "date": "10.12.2025",
+    "url": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
   }
 ]
