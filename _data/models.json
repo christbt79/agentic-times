@@ -49,13 +49,6 @@
     "url": "https://huggingface.co/zai-org/GLM-5.2"
   },
   {
-    "name": "Privasis-Cleaner-0.6B",
-    "org": "NVIDIA",
-    "desc": "0.6B",
-    "date": "08.06.2026",
-    "url": "https://huggingface.co/nvidia/Privasis-Cleaner-0.6B"
-  },
-  {
     "name": "North-Mini-Code-1.0",
     "org": "Cohere",
     "desc": "coding",
@@ -63,11 +56,11 @@
     "url": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0"
   },
   {
-    "name": "HARC",
-    "org": "Microsoft",
-    "desc": "7B",
-    "date": "02.06.2026",
-    "url": "https://huggingface.co/microsoft/HARC"
+    "name": "gemma-4-12B-it-assistant",
+    "org": "Google",
+    "desc": "12B · instruct",
+    "date": "23.05.2026",
+    "url": "https://huggingface.co/google/gemma-4-12B-it-assistant"
   },
   {
     "name": "DeepSeek-V4-Pro",
@@ -96,6 +89,13 @@
     "desc": "Open language model",
     "date": "13.02.2026",
     "url": "https://huggingface.co/CohereLabs/tiny-aya-global"
+  },
+  {
+    "name": "GLM-5",
+    "org": "Zhipu",
+    "desc": "Open language model",
+    "date": "11.02.2026",
+    "url": "https://huggingface.co/zai-org/GLM-5"
   },
   {
     "name": "GLM-4.7-Flash",
