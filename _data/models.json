@@ -28,13 +28,6 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark"
   },
   {
-    "name": "DeepSeek-V4-Flash-DSpark",
-    "org": "DeepSeek",
-    "desc": "Open language model",
-    "date": "27.06.2026",
-    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark"
-  },
-  {
     "name": "Qwen-AgentWorld-35B-A3B",
     "org": "Qwen",
     "desc": "35B · MoE · multimodal",
@@ -56,18 +49,18 @@
     "url": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0"
   },
   {
-    "name": "gemma-4-12B-it-assistant",
-    "org": "Google",
-    "desc": "12B · instruct",
-    "date": "23.05.2026",
-    "url": "https://huggingface.co/google/gemma-4-12B-it-assistant"
-  },
-  {
     "name": "DeepSeek-V4-Pro",
     "org": "DeepSeek",
     "desc": "Open language model",
     "date": "22.04.2026",
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+  },
+  {
+    "name": "DeepSeek-V4-Flash",
+    "org": "DeepSeek",
+    "desc": "Open language model",
+    "date": "22.04.2026",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
   },
   {
     "name": "granite-4.1-8b",
@@ -77,6 +70,13 @@
     "url": "https://huggingface.co/ibm-granite/granite-4.1-8b"
   },
   {
+    "name": "GLM-5.1",
+    "org": "Zhipu",
+    "desc": "Open language model",
+    "date": "03.04.2026",
+    "url": "https://huggingface.co/zai-org/GLM-5.1"
+  },
+  {
     "name": "Mamba2-primed-HQwen3-8B-Instruct",
     "org": "Amazon",
     "desc": "8B · instruct",
@@ -84,18 +84,25 @@
     "url": "https://huggingface.co/amazon/Mamba2-primed-HQwen3-8B-Instruct"
   },
   {
-    "name": "tiny-aya-global",
-    "org": "Cohere",
+    "name": "Falcon-Perception",
+    "org": "TII",
     "desc": "Open language model",
-    "date": "13.02.2026",
-    "url": "https://huggingface.co/CohereLabs/tiny-aya-global"
+    "date": "22.02.2026",
+    "url": "https://huggingface.co/tiiuae/Falcon-Perception"
   },
   {
-    "name": "GLM-5",
-    "org": "Zhipu",
+    "name": "Falcon-OCR",
+    "org": "TII",
     "desc": "Open language model",
-    "date": "11.02.2026",
-    "url": "https://huggingface.co/zai-org/GLM-5"
+    "date": "22.02.2026",
+    "url": "https://huggingface.co/tiiuae/Falcon-OCR"
+  },
+  {
+    "name": "Qwen3-Coder-Next",
+    "org": "Qwen",
+    "desc": "coding",
+    "date": "30.01.2026",
+    "url": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
   },
   {
     "name": "GLM-4.7-Flash",
@@ -103,12 +110,5 @@
     "desc": "Open language model",
     "date": "19.01.2026",
     "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
-  },
-  {
-    "name": "AI21-Jamba2-3B",
-    "org": "AI21",
-    "desc": "3B",
-    "date": "06.01.2026",
-    "url": "https://huggingface.co/ai21labs/AI21-Jamba2-3B"
   }
 ]
