@@ -1,1 +1,114 @@
-[]
+[
+  {
+    "name": "Kimi-K2.7-Code-DFlash",
+    "org": "NVIDIA",
+    "desc": "coding",
+    "date": "08.07.2026",
+    "url": "https://huggingface.co/nvidia/Kimi-K2.7-Code-DFlash"
+  },
+  {
+    "name": "Nemotron-Labs-Audex-30B-A3B",
+    "org": "NVIDIA",
+    "desc": "30B · MoE",
+    "date": "06.07.2026",
+    "url": "https://huggingface.co/nvidia/Nemotron-Labs-Audex-30B-A3B"
+  },
+  {
+    "name": "Nemotron-Labs-Audex-2B",
+    "org": "NVIDIA",
+    "desc": "2B",
+    "date": "06.07.2026",
+    "url": "https://huggingface.co/nvidia/Nemotron-Labs-Audex-2B"
+  },
+  {
+    "name": "DeepSeek-V4-Flash-DSpark",
+    "org": "DeepSeek",
+    "desc": "Open language model",
+    "date": "27.06.2026",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark"
+  },
+  {
+    "name": "Qwen-AgentWorld-35B-A3B",
+    "org": "Qwen",
+    "desc": "35B · MoE · multimodal",
+    "date": "22.06.2026",
+    "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B"
+  },
+  {
+    "name": "GLM-5.2",
+    "org": "Zhipu",
+    "desc": "Open language model",
+    "date": "16.06.2026",
+    "url": "https://huggingface.co/zai-org/GLM-5.2"
+  },
+  {
+    "name": "North-Mini-Code-1.0",
+    "org": "Cohere",
+    "desc": "coding",
+    "date": "05.06.2026",
+    "url": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0"
+  },
+  {
+    "name": "DeepSeek-V4-Flash",
+    "org": "DeepSeek",
+    "desc": "Open language model",
+    "date": "22.04.2026",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
+  },
+  {
+    "name": "DeepSeek-V4-Pro",
+    "org": "DeepSeek",
+    "desc": "Open language model",
+    "date": "22.04.2026",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+  },
+  {
+    "name": "granite-4.1-8b",
+    "org": "IBM",
+    "desc": "8B",
+    "date": "06.04.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-4.1-8b"
+  },
+  {
+    "name": "granite-4.1-3b",
+    "org": "IBM",
+    "desc": "3B",
+    "date": "06.04.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-4.1-3b"
+  },
+  {
+    "name": "Falcon-OCR",
+    "org": "TII",
+    "desc": "Open language model",
+    "date": "22.02.2026",
+    "url": "https://huggingface.co/tiiuae/Falcon-OCR"
+  },
+  {
+    "name": "tiny-aya-global",
+    "org": "Cohere",
+    "desc": "Open language model",
+    "date": "13.02.2026",
+    "url": "https://huggingface.co/CohereLabs/tiny-aya-global"
+  },
+  {
+    "name": "tiny-aya-base",
+    "org": "Cohere",
+    "desc": "Open language model",
+    "date": "13.02.2026",
+    "url": "https://huggingface.co/CohereLabs/tiny-aya-base"
+  },
+  {
+    "name": "Qwen3-Coder-Next",
+    "org": "Qwen",
+    "desc": "coding",
+    "date": "30.01.2026",
+    "url": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
+  },
+  {
+    "name": "GLM-4.7-Flash",
+    "org": "Zhipu",
+    "desc": "Open language model",
+    "date": "19.01.2026",
+    "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+  }
+]
