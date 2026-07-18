@@ -1,12 +1,5 @@
 [
   {
-    "name": "Kimi-K2.7-Code-DFlash",
-    "org": "NVIDIA",
-    "desc": "coding",
-    "date": "08.07.2026",
-    "url": "https://huggingface.co/nvidia/Kimi-K2.7-Code-DFlash"
-  },
-  {
     "name": "Nemotron-Labs-Audex-30B-A3B",
     "org": "NVIDIA",
     "desc": "30B · MoE",
@@ -21,11 +14,11 @@
     "url": "https://huggingface.co/nvidia/Nemotron-Labs-Audex-2B"
   },
   {
-    "name": "DeepSeek-V4-Flash-DSpark",
+    "name": "DeepSeek-V4-Pro-DSpark",
     "org": "DeepSeek",
     "desc": "Open language model",
     "date": "27.06.2026",
-    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark"
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark"
   },
   {
     "name": "Qwen-AgentWorld-35B-A3B",
@@ -49,18 +42,18 @@
     "url": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0"
   },
   {
-    "name": "DeepSeek-V4-Flash",
-    "org": "DeepSeek",
-    "desc": "Open language model",
-    "date": "22.04.2026",
-    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
-  },
-  {
     "name": "DeepSeek-V4-Pro",
     "org": "DeepSeek",
     "desc": "Open language model",
     "date": "22.04.2026",
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+  },
+  {
+    "name": "DeepSeek-V4-Flash",
+    "org": "DeepSeek",
+    "desc": "Open language model",
+    "date": "22.04.2026",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
   },
   {
     "name": "granite-4.1-8b",
@@ -110,5 +103,12 @@
     "desc": "Open language model",
     "date": "19.01.2026",
     "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+  },
+  {
+    "name": "gpt-oss-safeguard-20b",
+    "org": "OpenAI",
+    "desc": "20B",
+    "date": "18.09.2025",
+    "url": "https://huggingface.co/openai/gpt-oss-safeguard-20b"
   }
 ]
