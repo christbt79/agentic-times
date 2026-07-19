@@ -70,6 +70,13 @@
     "url": "https://huggingface.co/ibm-granite/granite-4.1-3b"
   },
   {
+    "name": "Mamba2-primed-HQwen3-8B-Instruct",
+    "org": "Amazon",
+    "desc": "8B · instruct",
+    "date": "31.03.2026",
+    "url": "https://huggingface.co/amazon/Mamba2-primed-HQwen3-8B-Instruct"
+  },
+  {
     "name": "Falcon-OCR",
     "org": "TII",
     "desc": "Open language model",
@@ -103,12 +110,5 @@
     "desc": "Open language model",
     "date": "19.01.2026",
     "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
-  },
-  {
-    "name": "gpt-oss-safeguard-20b",
-    "org": "OpenAI",
-    "desc": "20B",
-    "date": "18.09.2025",
-    "url": "https://huggingface.co/openai/gpt-oss-safeguard-20b"
   }
 ]
