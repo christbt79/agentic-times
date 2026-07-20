@@ -14,11 +14,11 @@
     "url": "https://huggingface.co/nvidia/Nemotron-Labs-Audex-2B"
   },
   {
-    "name": "DeepSeek-V4-Pro-DSpark",
+    "name": "DeepSeek-V4-Flash-DSpark",
     "org": "DeepSeek",
     "desc": "Open language model",
     "date": "27.06.2026",
-    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark"
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark"
   },
   {
     "name": "Qwen-AgentWorld-35B-A3B",
