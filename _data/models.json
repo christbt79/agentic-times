@@ -84,13 +84,6 @@
     "url": "https://huggingface.co/tiiuae/Falcon-OCR"
   },
   {
-    "name": "tiny-aya-global",
-    "org": "Cohere",
-    "desc": "Open language model",
-    "date": "13.02.2026",
-    "url": "https://huggingface.co/CohereLabs/tiny-aya-global"
-  },
-  {
     "name": "tiny-aya-base",
     "org": "Cohere",
     "desc": "Open language model",
@@ -98,11 +91,11 @@
     "url": "https://huggingface.co/CohereLabs/tiny-aya-base"
   },
   {
-    "name": "Qwen3-Coder-Next",
-    "org": "Qwen",
-    "desc": "coding",
-    "date": "30.01.2026",
-    "url": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
+    "name": "tiny-aya-global",
+    "org": "Cohere",
+    "desc": "Open language model",
+    "date": "13.02.2026",
+    "url": "https://huggingface.co/CohereLabs/tiny-aya-global"
   },
   {
     "name": "GLM-4.7-Flash",
@@ -110,5 +103,12 @@
     "desc": "Open language model",
     "date": "19.01.2026",
     "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+  },
+  {
+    "name": "Falcon-H1R-7B",
+    "org": "TII",
+    "desc": "7B",
+    "date": "29.10.2025",
+    "url": "https://huggingface.co/tiiuae/Falcon-H1R-7B"
   }
 ]
