@@ -1,5 +1,12 @@
 [
   {
+    "name": "Kimi-K2.7-Code-DFlash",
+    "org": "NVIDIA",
+    "desc": "coding",
+    "date": "08.07.2026",
+    "url": "https://huggingface.co/nvidia/Kimi-K2.7-Code-DFlash"
+  },
+  {
     "name": "Nemotron-Labs-Audex-30B-A3B",
     "org": "NVIDIA",
     "desc": "30B · MoE",
@@ -98,17 +105,10 @@
     "url": "https://huggingface.co/CohereLabs/tiny-aya-global"
   },
   {
-    "name": "GLM-4.7-Flash",
+    "name": "GLM-5",
     "org": "Zhipu",
     "desc": "Open language model",
-    "date": "19.01.2026",
-    "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
-  },
-  {
-    "name": "Falcon-H1R-7B",
-    "org": "TII",
-    "desc": "7B",
-    "date": "29.10.2025",
-    "url": "https://huggingface.co/tiiuae/Falcon-H1R-7B"
+    "date": "11.02.2026",
+    "url": "https://huggingface.co/zai-org/GLM-5"
   }
 ]
