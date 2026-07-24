@@ -21,11 +21,11 @@
     "url": "https://huggingface.co/nvidia/Nemotron-Labs-Audex-2B"
   },
   {
-    "name": "DeepSeek-V4-Flash-DSpark",
+    "name": "DeepSeek-V4-Pro-DSpark",
     "org": "DeepSeek",
     "desc": "Open language model",
     "date": "27.06.2026",
-    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark"
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark"
   },
   {
     "name": "Qwen-AgentWorld-35B-A3B",
@@ -91,13 +91,6 @@
     "url": "https://huggingface.co/amazon/Mamba2-primed-HQwen3-8B-Instruct"
   },
   {
-    "name": "GLM-5",
-    "org": "Zhipu",
-    "desc": "Open language model",
-    "date": "11.02.2026",
-    "url": "https://huggingface.co/zai-org/GLM-5"
-  },
-  {
     "name": "GLM-4.7-Flash",
     "org": "Zhipu",
     "desc": "Open language model",
@@ -110,5 +103,12 @@
     "desc": "instruct",
     "date": "12.01.2026",
     "url": "https://huggingface.co/tiiuae/Falcon-H1-Tiny-90M-Instruct"
+  },
+  {
+    "name": "Falcon-H1-Tiny-Multilingual-100M-Instruct",
+    "org": "TII",
+    "desc": "instruct",
+    "date": "12.01.2026",
+    "url": "https://huggingface.co/tiiuae/Falcon-H1-Tiny-Multilingual-100M-Instruct"
   }
 ]
