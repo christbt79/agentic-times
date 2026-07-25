@@ -21,11 +21,11 @@
     "url": "https://huggingface.co/nvidia/Nemotron-Labs-Audex-2B"
   },
   {
-    "name": "DeepSeek-V4-Pro-DSpark",
+    "name": "DeepSeek-V4-Flash-DSpark",
     "org": "DeepSeek",
     "desc": "Open language model",
     "date": "27.06.2026",
-    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark"
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark"
   },
   {
     "name": "Qwen-AgentWorld-35B-A3B",
@@ -56,18 +56,18 @@
     "url": "https://huggingface.co/microsoft/MagenticBrain"
   },
   {
-    "name": "DeepSeek-V4-Pro",
-    "org": "DeepSeek",
-    "desc": "Open language model",
-    "date": "22.04.2026",
-    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
-  },
-  {
     "name": "DeepSeek-V4-Flash",
     "org": "DeepSeek",
     "desc": "Open language model",
     "date": "22.04.2026",
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
+  },
+  {
+    "name": "DeepSeek-V4-Pro",
+    "org": "DeepSeek",
+    "desc": "Open language model",
+    "date": "22.04.2026",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
   },
   {
     "name": "granite-4.1-8b",
@@ -98,17 +98,17 @@
     "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
   },
   {
-    "name": "Falcon-H1-Tiny-90M-Instruct",
-    "org": "TII",
-    "desc": "instruct",
-    "date": "12.01.2026",
-    "url": "https://huggingface.co/tiiuae/Falcon-H1-Tiny-90M-Instruct"
-  },
-  {
     "name": "Falcon-H1-Tiny-Multilingual-100M-Instruct",
     "org": "TII",
     "desc": "instruct",
     "date": "12.01.2026",
     "url": "https://huggingface.co/tiiuae/Falcon-H1-Tiny-Multilingual-100M-Instruct"
+  },
+  {
+    "name": "Falcon-H1-Tiny-R-90M",
+    "org": "TII",
+    "desc": "Open language model",
+    "date": "12.01.2026",
+    "url": "https://huggingface.co/tiiuae/Falcon-H1-Tiny-R-90M"
   }
 ]
