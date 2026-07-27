@@ -49,6 +49,20 @@
     "url": "https://huggingface.co/microsoft/MagenticBrain"
   },
   {
+    "name": "Dense_1b_130B",
+    "org": "AllenAI",
+    "desc": "130B",
+    "date": "29.04.2026",
+    "url": "https://huggingface.co/allenai/Dense_1b_130B"
+  },
+  {
+    "name": "Emo_1b14b_1T",
+    "org": "AllenAI",
+    "desc": "MoE",
+    "date": "29.04.2026",
+    "url": "https://huggingface.co/allenai/Emo_1b14b_1T"
+  },
+  {
     "name": "gemma-4-26B-A4B-it-assistant",
     "org": "Google",
     "desc": "26B · instruct",
@@ -96,19 +110,5 @@
     "desc": "instruct",
     "date": "12.01.2026",
     "url": "https://huggingface.co/tiiuae/Falcon-H1-Tiny-Multilingual-100M-Instruct"
-  },
-  {
-    "name": "Falcon-H1-Tiny-R-90M",
-    "org": "TII",
-    "desc": "Open language model",
-    "date": "12.01.2026",
-    "url": "https://huggingface.co/tiiuae/Falcon-H1-Tiny-R-90M"
-  },
-  {
-    "name": "Olmo-3-7B-Think",
-    "org": "AllenAI",
-    "desc": "7B · reasoning",
-    "date": "18.11.2025",
-    "url": "https://huggingface.co/allenai/Olmo-3-7B-Think"
   }
 ]
