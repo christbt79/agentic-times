@@ -7,20 +7,6 @@
     "url": "https://huggingface.co/nvidia/MiniMax-M3-DSpark"
   },
   {
-    "name": "Nemotron-Labs-Audex-30B-A3B",
-    "org": "NVIDIA",
-    "desc": "30B · MoE",
-    "date": "06.07.2026",
-    "url": "https://huggingface.co/nvidia/Nemotron-Labs-Audex-30B-A3B"
-  },
-  {
-    "name": "Nemotron-Labs-Audex-2B",
-    "org": "NVIDIA",
-    "desc": "2B",
-    "date": "06.07.2026",
-    "url": "https://huggingface.co/nvidia/Nemotron-Labs-Audex-2B"
-  },
-  {
     "name": "DeepSeek-V4-Pro-DSpark",
     "org": "DeepSeek",
     "desc": "Open language model",
@@ -70,13 +56,6 @@
     "url": "https://huggingface.co/allenai/Emo_1b14b_1T"
   },
   {
-    "name": "gemma-4-26B-A4B-it-assistant",
-    "org": "Google",
-    "desc": "26B · instruct",
-    "date": "23.04.2026",
-    "url": "https://huggingface.co/google/gemma-4-26B-A4B-it-assistant"
-  },
-  {
     "name": "DeepSeek-V4-Flash",
     "org": "DeepSeek",
     "desc": "Open language model",
@@ -89,6 +68,13 @@
     "desc": "Open language model",
     "date": "22.04.2026",
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+  },
+  {
+    "name": "Riva-Translate-4B-Instruct-v2",
+    "org": "NVIDIA",
+    "desc": "4B · instruct",
+    "date": "15.04.2026",
+    "url": "https://huggingface.co/nvidia/Riva-Translate-4B-Instruct-v2"
   },
   {
     "name": "granite-4.1-8b",
@@ -105,10 +91,24 @@
     "url": "https://huggingface.co/ibm-granite/granite-4.1-3b"
   },
   {
+    "name": "Falcon-Perception",
+    "org": "TII",
+    "desc": "Open language model",
+    "date": "22.02.2026",
+    "url": "https://huggingface.co/tiiuae/Falcon-Perception"
+  },
+  {
     "name": "GLM-4.7-Flash",
     "org": "Zhipu",
     "desc": "Open language model",
     "date": "19.01.2026",
     "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+  },
+  {
+    "name": "Falcon-H1-Tiny-Multilingual-100M-Instruct",
+    "org": "TII",
+    "desc": "instruct",
+    "date": "12.01.2026",
+    "url": "https://huggingface.co/tiiuae/Falcon-H1-Tiny-Multilingual-100M-Instruct"
   }
 ]
