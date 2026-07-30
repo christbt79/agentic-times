@@ -1,19 +1,5 @@
 [
   {
-    "name": "MiniMax-M3-DSpark",
-    "org": "NVIDIA",
-    "desc": "Open language model",
-    "date": "15.07.2026",
-    "url": "https://huggingface.co/nvidia/MiniMax-M3-DSpark"
-  },
-  {
-    "name": "DeepSeek-V4-Pro-DSpark",
-    "org": "DeepSeek",
-    "desc": "Open language model",
-    "date": "27.06.2026",
-    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark"
-  },
-  {
     "name": "Qwen-AgentWorld-35B-A3B",
     "org": "Qwen",
     "desc": "35B · MoE · multimodal",
@@ -56,6 +42,13 @@
     "url": "https://huggingface.co/allenai/Emo_1b14b_1T"
   },
   {
+    "name": "StdMoE_1b14b_130B",
+    "org": "AllenAI",
+    "desc": "130B · MoE",
+    "date": "29.04.2026",
+    "url": "https://huggingface.co/allenai/StdMoE_1b14b_130B"
+  },
+  {
     "name": "DeepSeek-V4-Flash",
     "org": "DeepSeek",
     "desc": "Open language model",
@@ -91,6 +84,13 @@
     "url": "https://huggingface.co/ibm-granite/granite-4.1-3b"
   },
   {
+    "name": "GKA-primed-HQwen3-8B-Reasoner",
+    "org": "Amazon",
+    "desc": "8B · reasoning",
+    "date": "31.03.2026",
+    "url": "https://huggingface.co/amazon/GKA-primed-HQwen3-8B-Reasoner"
+  },
+  {
     "name": "Falcon-Perception",
     "org": "TII",
     "desc": "Open language model",
@@ -105,10 +105,10 @@
     "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
   },
   {
-    "name": "Falcon-H1-Tiny-Multilingual-100M-Instruct",
-    "org": "TII",
-    "desc": "instruct",
-    "date": "12.01.2026",
-    "url": "https://huggingface.co/tiiuae/Falcon-H1-Tiny-Multilingual-100M-Instruct"
+    "name": "AI21-Jamba2-Mini",
+    "org": "AI21",
+    "desc": "Open language model",
+    "date": "06.01.2026",
+    "url": "https://huggingface.co/ai21labs/AI21-Jamba2-Mini"
   }
 ]
