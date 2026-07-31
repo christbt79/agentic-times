@@ -105,10 +105,10 @@
     "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
   },
   {
-    "name": "AI21-Jamba2-Mini",
-    "org": "AI21",
-    "desc": "Open language model",
-    "date": "06.01.2026",
-    "url": "https://huggingface.co/ai21labs/AI21-Jamba2-Mini"
+    "name": "Falcon-H1-Tiny-Multilingual-100M-Instruct",
+    "org": "TII",
+    "desc": "instruct",
+    "date": "12.01.2026",
+    "url": "https://huggingface.co/tiiuae/Falcon-H1-Tiny-Multilingual-100M-Instruct"
   }
 ]
