@@ -1,5 +1,12 @@
 [
   {
+    "name": "DeepSeek-V4-Flash-0731",
+    "org": "DeepSeek",
+    "desc": "Open language model",
+    "date": "31.07.2026",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731"
+  },
+  {
     "name": "Qwen-AgentWorld-35B-A3B",
     "org": "Qwen",
     "desc": "35B · MoE · multimodal",
@@ -26,27 +33,6 @@
     "desc": "14B",
     "date": "12.05.2026",
     "url": "https://huggingface.co/microsoft/MagenticBrain"
-  },
-  {
-    "name": "Dense_1b_130B",
-    "org": "AllenAI",
-    "desc": "130B",
-    "date": "29.04.2026",
-    "url": "https://huggingface.co/allenai/Dense_1b_130B"
-  },
-  {
-    "name": "Emo_1b14b_1T",
-    "org": "AllenAI",
-    "desc": "MoE",
-    "date": "29.04.2026",
-    "url": "https://huggingface.co/allenai/Emo_1b14b_1T"
-  },
-  {
-    "name": "StdMoE_1b14b_130B",
-    "org": "AllenAI",
-    "desc": "130B · MoE",
-    "date": "29.04.2026",
-    "url": "https://huggingface.co/allenai/StdMoE_1b14b_130B"
   },
   {
     "name": "DeepSeek-V4-Flash",
@@ -91,13 +77,6 @@
     "url": "https://huggingface.co/amazon/GKA-primed-HQwen3-8B-Reasoner"
   },
   {
-    "name": "Falcon-Perception",
-    "org": "TII",
-    "desc": "Open language model",
-    "date": "22.02.2026",
-    "url": "https://huggingface.co/tiiuae/Falcon-Perception"
-  },
-  {
     "name": "GLM-4.7-Flash",
     "org": "Zhipu",
     "desc": "Open language model",
@@ -110,5 +89,26 @@
     "desc": "instruct",
     "date": "12.01.2026",
     "url": "https://huggingface.co/tiiuae/Falcon-H1-Tiny-Multilingual-100M-Instruct"
+  },
+  {
+    "name": "AI21-Jamba2-Mini",
+    "org": "AI21",
+    "desc": "Open language model",
+    "date": "06.01.2026",
+    "url": "https://huggingface.co/ai21labs/AI21-Jamba2-Mini"
+  },
+  {
+    "name": "GLM-4.7",
+    "org": "Zhipu",
+    "desc": "Open language model",
+    "date": "22.12.2025",
+    "url": "https://huggingface.co/zai-org/GLM-4.7"
+  },
+  {
+    "name": "Olmo-3-32B-Think",
+    "org": "AllenAI",
+    "desc": "32B · reasoning",
+    "date": "19.11.2025",
+    "url": "https://huggingface.co/allenai/Olmo-3-32B-Think"
   }
 ]
