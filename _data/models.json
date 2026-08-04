@@ -7,13 +7,6 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731"
   },
   {
-    "name": "MiniMax-M3-DSpark",
-    "org": "NVIDIA",
-    "desc": "Open language model",
-    "date": "15.07.2026",
-    "url": "https://huggingface.co/nvidia/MiniMax-M3-DSpark"
-  },
-  {
     "name": "Qwen-AgentWorld-35B-A3B",
     "org": "Qwen",
     "desc": "35B · MoE · multimodal",
@@ -84,6 +77,20 @@
     "url": "https://huggingface.co/amazon/GKA-primed-HQwen3-8B-Reasoner"
   },
   {
+    "name": "Nemotron-Cascade-2-30B-A3B",
+    "org": "NVIDIA",
+    "desc": "30B · MoE",
+    "date": "18.03.2026",
+    "url": "https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B"
+  },
+  {
+    "name": "Falcon-Perception",
+    "org": "TII",
+    "desc": "Open language model",
+    "date": "22.02.2026",
+    "url": "https://huggingface.co/tiiuae/Falcon-Perception"
+  },
+  {
     "name": "GLM-4.7-Flash",
     "org": "Zhipu",
     "desc": "Open language model",
@@ -103,12 +110,5 @@
     "desc": "7B · coding",
     "date": "10.12.2025",
     "url": "https://huggingface.co/allenai/Olmo-3.1-7B-RL-Zero-Code"
-  },
-  {
-    "name": "Olmo-3.1-32B-Think",
-    "org": "AllenAI",
-    "desc": "32B · reasoning",
-    "date": "10.12.2025",
-    "url": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
   }
 ]
