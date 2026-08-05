@@ -7,6 +7,13 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731"
   },
   {
+    "name": "MiniMax-M3-DSpark",
+    "org": "NVIDIA",
+    "desc": "Open language model",
+    "date": "15.07.2026",
+    "url": "https://huggingface.co/nvidia/MiniMax-M3-DSpark"
+  },
+  {
     "name": "Qwen-AgentWorld-35B-A3B",
     "org": "Qwen",
     "desc": "35B · MoE · multimodal",
@@ -42,13 +49,6 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
   },
   {
-    "name": "DeepSeek-V4-Pro",
-    "org": "DeepSeek",
-    "desc": "Open language model",
-    "date": "22.04.2026",
-    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
-  },
-  {
     "name": "Riva-Translate-4B-Instruct-v2",
     "org": "NVIDIA",
     "desc": "4B · instruct",
@@ -77,18 +77,11 @@
     "url": "https://huggingface.co/amazon/GKA-primed-HQwen3-8B-Reasoner"
   },
   {
-    "name": "Nemotron-Cascade-2-30B-A3B",
-    "org": "NVIDIA",
-    "desc": "30B · MoE",
-    "date": "18.03.2026",
-    "url": "https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B"
-  },
-  {
-    "name": "Falcon-Perception",
+    "name": "Falcon-OCR",
     "org": "TII",
     "desc": "Open language model",
     "date": "22.02.2026",
-    "url": "https://huggingface.co/tiiuae/Falcon-Perception"
+    "url": "https://huggingface.co/tiiuae/Falcon-OCR"
   },
   {
     "name": "GLM-4.7-Flash",
@@ -110,5 +103,12 @@
     "desc": "7B · coding",
     "date": "10.12.2025",
     "url": "https://huggingface.co/allenai/Olmo-3.1-7B-RL-Zero-Code"
+  },
+  {
+    "name": "Kimi-K2-Thinking",
+    "org": "Moonshot",
+    "desc": "reasoning",
+    "date": "04.11.2025",
+    "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking"
   }
 ]
