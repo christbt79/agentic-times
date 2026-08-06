@@ -35,25 +35,11 @@
     "url": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0"
   },
   {
-    "name": "MagenticBrain",
-    "org": "Microsoft",
-    "desc": "14B",
-    "date": "12.05.2026",
-    "url": "https://huggingface.co/microsoft/MagenticBrain"
-  },
-  {
     "name": "DeepSeek-V4-Flash",
     "org": "DeepSeek",
     "desc": "Open language model",
     "date": "22.04.2026",
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
-  },
-  {
-    "name": "Riva-Translate-4B-Instruct-v2",
-    "org": "NVIDIA",
-    "desc": "4B · instruct",
-    "date": "15.04.2026",
-    "url": "https://huggingface.co/nvidia/Riva-Translate-4B-Instruct-v2"
   },
   {
     "name": "granite-4.1-8b",
@@ -68,13 +54,6 @@
     "desc": "3B",
     "date": "06.04.2026",
     "url": "https://huggingface.co/ibm-granite/granite-4.1-3b"
-  },
-  {
-    "name": "GKA-primed-HQwen3-8B-Reasoner",
-    "org": "Amazon",
-    "desc": "8B · reasoning",
-    "date": "31.03.2026",
-    "url": "https://huggingface.co/amazon/GKA-primed-HQwen3-8B-Reasoner"
   },
   {
     "name": "Falcon-OCR",
@@ -110,5 +89,26 @@
     "desc": "reasoning",
     "date": "04.11.2025",
     "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking"
+  },
+  {
+    "name": "Falcon-H1R-7B",
+    "org": "TII",
+    "desc": "7B",
+    "date": "29.10.2025",
+    "url": "https://huggingface.co/tiiuae/Falcon-H1R-7B"
+  },
+  {
+    "name": "gpt-oss-safeguard-20b",
+    "org": "OpenAI",
+    "desc": "20B",
+    "date": "18.09.2025",
+    "url": "https://huggingface.co/openai/gpt-oss-safeguard-20b"
+  },
+  {
+    "name": "Olmo-3-1025-7B",
+    "org": "AllenAI",
+    "desc": "7B",
+    "date": "12.09.2025",
+    "url": "https://huggingface.co/allenai/Olmo-3-1025-7B"
   }
 ]
