@@ -7,13 +7,6 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731"
   },
   {
-    "name": "MiniMax-M3-DSpark",
-    "org": "NVIDIA",
-    "desc": "Open language model",
-    "date": "15.07.2026",
-    "url": "https://huggingface.co/nvidia/MiniMax-M3-DSpark"
-  },
-  {
     "name": "Qwen-AgentWorld-35B-A3B",
     "org": "Qwen",
     "desc": "35B · MoE · multimodal",
@@ -91,11 +84,11 @@
     "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking"
   },
   {
-    "name": "Falcon-H1R-7B",
-    "org": "TII",
-    "desc": "7B",
-    "date": "29.10.2025",
-    "url": "https://huggingface.co/tiiuae/Falcon-H1R-7B"
+    "name": "Kimi-Linear-48B-A3B-Instruct",
+    "org": "Moonshot",
+    "desc": "48B · MoE · instruct",
+    "date": "30.10.2025",
+    "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct"
   },
   {
     "name": "gpt-oss-safeguard-20b",
@@ -110,5 +103,12 @@
     "desc": "7B",
     "date": "12.09.2025",
     "url": "https://huggingface.co/allenai/Olmo-3-1025-7B"
+  },
+  {
+    "name": "VibeVoice-1.5B",
+    "org": "Microsoft",
+    "desc": "1.5B",
+    "date": "25.08.2025",
+    "url": "https://huggingface.co/microsoft/VibeVoice-1.5B"
   }
 ]
