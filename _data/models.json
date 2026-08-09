@@ -7,18 +7,11 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731"
   },
   {
-    "name": "MiniMax-M3-DSpark",
-    "org": "NVIDIA",
-    "desc": "Open language model",
-    "date": "15.07.2026",
-    "url": "https://huggingface.co/nvidia/MiniMax-M3-DSpark"
-  },
-  {
-    "name": "Qwen-AgentWorld-35B-A3B",
-    "org": "Qwen",
-    "desc": "35B · MoE · multimodal",
-    "date": "22.06.2026",
-    "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B"
+    "name": "granite-swash-3b-a600m",
+    "org": "IBM",
+    "desc": "3B",
+    "date": "01.07.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-swash-3b-a600m"
   },
   {
     "name": "GLM-5.2",
@@ -49,18 +42,18 @@
     "url": "https://huggingface.co/ibm-granite/granite-4.1-8b"
   },
   {
-    "name": "granite-4.1-3b",
-    "org": "IBM",
-    "desc": "3B",
-    "date": "06.04.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-4.1-3b"
-  },
-  {
     "name": "Falcon-OCR",
     "org": "TII",
     "desc": "Open language model",
     "date": "22.02.2026",
     "url": "https://huggingface.co/tiiuae/Falcon-OCR"
+  },
+  {
+    "name": "Qwen3-Coder-Next",
+    "org": "Qwen",
+    "desc": "coding",
+    "date": "30.01.2026",
+    "url": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
   },
   {
     "name": "GLM-4.7-Flash",
@@ -70,18 +63,18 @@
     "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
   },
   {
-    "name": "Kimi-K2-Thinking",
-    "org": "Moonshot",
-    "desc": "reasoning",
-    "date": "04.11.2025",
-    "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking"
-  },
-  {
     "name": "Kimi-Linear-48B-A3B-Instruct",
     "org": "Moonshot",
     "desc": "48B · MoE · instruct",
     "date": "30.10.2025",
     "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct"
+  },
+  {
+    "name": "Kimi-Linear-48B-A3B-Base",
+    "org": "Moonshot",
+    "desc": "48B · MoE",
+    "date": "30.10.2025",
+    "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Base"
   },
   {
     "name": "gpt-oss-safeguard-20b",
@@ -110,5 +103,12 @@
     "desc": "Open language model",
     "date": "05.08.2025",
     "url": "https://huggingface.co/google/gemma-3-270m"
+  },
+  {
+    "name": "gpt-oss-20b",
+    "org": "OpenAI",
+    "desc": "20B",
+    "date": "04.08.2025",
+    "url": "https://huggingface.co/openai/gpt-oss-20b"
   }
 ]
