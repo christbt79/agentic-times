@@ -7,13 +7,6 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731"
   },
   {
-    "name": "granite-swash-3b-a600m",
-    "org": "IBM",
-    "desc": "3B",
-    "date": "01.07.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-swash-3b-a600m"
-  },
-  {
     "name": "GLM-5.2",
     "org": "Zhipu",
     "desc": "Open language model",
@@ -40,6 +33,13 @@
     "desc": "8B",
     "date": "06.04.2026",
     "url": "https://huggingface.co/ibm-granite/granite-4.1-8b"
+  },
+  {
+    "name": "granite-4.1-30b",
+    "org": "IBM",
+    "desc": "30B",
+    "date": "06.04.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-4.1-30b"
   },
   {
     "name": "Falcon-OCR",
@@ -98,17 +98,17 @@
     "url": "https://huggingface.co/microsoft/VibeVoice-1.5B"
   },
   {
+    "name": "NVIDIA-Nemotron-Nano-9B-v2",
+    "org": "NVIDIA",
+    "desc": "9B",
+    "date": "12.08.2025",
+    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2"
+  },
+  {
     "name": "gemma-3-270m",
     "org": "Google",
     "desc": "Open language model",
     "date": "05.08.2025",
     "url": "https://huggingface.co/google/gemma-3-270m"
-  },
-  {
-    "name": "gpt-oss-20b",
-    "org": "OpenAI",
-    "desc": "20B",
-    "date": "04.08.2025",
-    "url": "https://huggingface.co/openai/gpt-oss-20b"
   }
 ]
