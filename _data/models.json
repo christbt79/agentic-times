@@ -63,6 +63,13 @@
     "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
   },
   {
+    "name": "Nemotron-Flash-1B",
+    "org": "NVIDIA",
+    "desc": "1B",
+    "date": "06.11.2025",
+    "url": "https://huggingface.co/nvidia/Nemotron-Flash-1B"
+  },
+  {
     "name": "Kimi-Linear-48B-A3B-Instruct",
     "org": "Moonshot",
     "desc": "48B · MoE · instruct",
@@ -103,12 +110,5 @@
     "desc": "9B",
     "date": "12.08.2025",
     "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2"
-  },
-  {
-    "name": "gemma-3-270m",
-    "org": "Google",
-    "desc": "Open language model",
-    "date": "05.08.2025",
-    "url": "https://huggingface.co/google/gemma-3-270m"
   }
 ]
