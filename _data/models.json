@@ -63,13 +63,6 @@
     "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
   },
   {
-    "name": "Nemotron-Flash-1B",
-    "org": "NVIDIA",
-    "desc": "1B",
-    "date": "06.11.2025",
-    "url": "https://huggingface.co/nvidia/Nemotron-Flash-1B"
-  },
-  {
     "name": "Kimi-Linear-48B-A3B-Instruct",
     "org": "Moonshot",
     "desc": "48B · MoE · instruct",
@@ -84,18 +77,25 @@
     "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Base"
   },
   {
+    "name": "Olmo-3-7B-Think-SFT",
+    "org": "AllenAI",
+    "desc": "7B · reasoning",
+    "date": "14.10.2025",
+    "url": "https://huggingface.co/allenai/Olmo-3-7B-Think-SFT"
+  },
+  {
+    "name": "functiongemma-270m-it",
+    "org": "Google",
+    "desc": "instruct",
+    "date": "08.10.2025",
+    "url": "https://huggingface.co/google/functiongemma-270m-it"
+  },
+  {
     "name": "gpt-oss-safeguard-20b",
     "org": "OpenAI",
     "desc": "20B",
     "date": "18.09.2025",
     "url": "https://huggingface.co/openai/gpt-oss-safeguard-20b"
-  },
-  {
-    "name": "Olmo-3-1025-7B",
-    "org": "AllenAI",
-    "desc": "7B",
-    "date": "12.09.2025",
-    "url": "https://huggingface.co/allenai/Olmo-3-1025-7B"
   },
   {
     "name": "VibeVoice-1.5B",
