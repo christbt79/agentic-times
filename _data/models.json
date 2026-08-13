@@ -1,5 +1,12 @@
 [
   {
+    "name": "Qwen3.8-2.4T-A95B",
+    "org": "Qwen",
+    "desc": "95B",
+    "date": "08.08.2026",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+  },
+  {
     "name": "DeepSeek-V4-Flash-0731",
     "org": "DeepSeek",
     "desc": "Open language model",
@@ -26,6 +33,13 @@
     "desc": "Open language model",
     "date": "22.04.2026",
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
+  },
+  {
+    "name": "DeepSeek-V4-Pro",
+    "org": "DeepSeek",
+    "desc": "Open language model",
+    "date": "22.04.2026",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
   },
   {
     "name": "granite-4.1-8b",
@@ -63,6 +77,20 @@
     "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
   },
   {
+    "name": "GLM-4.7",
+    "org": "Zhipu",
+    "desc": "Open language model",
+    "date": "22.12.2025",
+    "url": "https://huggingface.co/zai-org/GLM-4.7"
+  },
+  {
+    "name": "Olmo-3-1125-32B",
+    "org": "AllenAI",
+    "desc": "32B",
+    "date": "04.11.2025",
+    "url": "https://huggingface.co/allenai/Olmo-3-1125-32B"
+  },
+  {
     "name": "Kimi-Linear-48B-A3B-Instruct",
     "org": "Moonshot",
     "desc": "48B · MoE · instruct",
@@ -77,38 +105,10 @@
     "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Base"
   },
   {
-    "name": "Olmo-3-7B-Think-SFT",
-    "org": "AllenAI",
-    "desc": "7B · reasoning",
-    "date": "14.10.2025",
-    "url": "https://huggingface.co/allenai/Olmo-3-7B-Think-SFT"
-  },
-  {
     "name": "functiongemma-270m-it",
     "org": "Google",
     "desc": "instruct",
     "date": "08.10.2025",
     "url": "https://huggingface.co/google/functiongemma-270m-it"
-  },
-  {
-    "name": "gpt-oss-safeguard-20b",
-    "org": "OpenAI",
-    "desc": "20B",
-    "date": "18.09.2025",
-    "url": "https://huggingface.co/openai/gpt-oss-safeguard-20b"
-  },
-  {
-    "name": "VibeVoice-1.5B",
-    "org": "Microsoft",
-    "desc": "1.5B",
-    "date": "25.08.2025",
-    "url": "https://huggingface.co/microsoft/VibeVoice-1.5B"
-  },
-  {
-    "name": "NVIDIA-Nemotron-Nano-9B-v2",
-    "org": "NVIDIA",
-    "desc": "9B",
-    "date": "12.08.2025",
-    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2"
   }
 ]
