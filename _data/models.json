@@ -1,5 +1,12 @@
 [
   {
+    "name": "DeepSeek-V4-Pro-0813",
+    "org": "DeepSeek",
+    "desc": "Open language model",
+    "date": "13.08.2026",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+  },
+  {
     "name": "Qwen3.8-2.4T-A95B",
     "org": "Qwen",
     "desc": "95B",
@@ -14,6 +21,13 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731"
   },
   {
+    "name": "Qwen-AgentWorld-35B-A3B",
+    "org": "Qwen",
+    "desc": "35B · MoE · multimodal",
+    "date": "22.06.2026",
+    "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B"
+  },
+  {
     "name": "GLM-5.2",
     "org": "Zhipu",
     "desc": "Open language model",
@@ -26,13 +40,6 @@
     "desc": "coding",
     "date": "05.06.2026",
     "url": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0"
-  },
-  {
-    "name": "DeepSeek-V4-Flash",
-    "org": "DeepSeek",
-    "desc": "Open language model",
-    "date": "22.04.2026",
-    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
   },
   {
     "name": "DeepSeek-V4-Pro",
@@ -103,12 +110,5 @@
     "desc": "48B · MoE",
     "date": "30.10.2025",
     "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Base"
-  },
-  {
-    "name": "functiongemma-270m-it",
-    "org": "Google",
-    "desc": "instruct",
-    "date": "08.10.2025",
-    "url": "https://huggingface.co/google/functiongemma-270m-it"
   }
 ]
