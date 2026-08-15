@@ -21,6 +21,13 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731"
   },
   {
+    "name": "granite-swash-3b-a600m",
+    "org": "IBM",
+    "desc": "3B",
+    "date": "01.07.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-swash-3b-a600m"
+  },
+  {
     "name": "Qwen-AgentWorld-35B-A3B",
     "org": "Qwen",
     "desc": "35B · MoE · multimodal",
@@ -47,13 +54,6 @@
     "desc": "Open language model",
     "date": "22.04.2026",
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
-  },
-  {
-    "name": "granite-4.1-8b",
-    "org": "IBM",
-    "desc": "8B",
-    "date": "06.04.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-4.1-8b"
   },
   {
     "name": "granite-4.1-30b",
@@ -91,13 +91,6 @@
     "url": "https://huggingface.co/zai-org/GLM-4.7"
   },
   {
-    "name": "Olmo-3-1125-32B",
-    "org": "AllenAI",
-    "desc": "32B",
-    "date": "04.11.2025",
-    "url": "https://huggingface.co/allenai/Olmo-3-1125-32B"
-  },
-  {
     "name": "Kimi-Linear-48B-A3B-Instruct",
     "org": "Moonshot",
     "desc": "48B · MoE · instruct",
@@ -105,10 +98,17 @@
     "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct"
   },
   {
-    "name": "Kimi-Linear-48B-A3B-Base",
-    "org": "Moonshot",
-    "desc": "48B · MoE",
-    "date": "30.10.2025",
-    "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Base"
+    "name": "functiongemma-270m-it",
+    "org": "Google",
+    "desc": "instruct",
+    "date": "08.10.2025",
+    "url": "https://huggingface.co/google/functiongemma-270m-it"
+  },
+  {
+    "name": "gpt-oss-safeguard-120b",
+    "org": "OpenAI",
+    "desc": "120B",
+    "date": "18.09.2025",
+    "url": "https://huggingface.co/openai/gpt-oss-safeguard-120b"
   }
 ]
