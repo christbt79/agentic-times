@@ -1,5 +1,12 @@
 [
   {
+    "name": "NVIDIA-Nemotron-Labs-Teacher-General-Reasoning",
+    "org": "NVIDIA",
+    "desc": "reasoning",
+    "date": "14.08.2026",
+    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Teacher-General-Reasoning"
+  },
+  {
     "name": "DeepSeek-V4-Pro-0813",
     "org": "DeepSeek",
     "desc": "Open language model",
@@ -19,13 +26,6 @@
     "desc": "Open language model",
     "date": "31.07.2026",
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731"
-  },
-  {
-    "name": "granite-swash-3b-a600m",
-    "org": "IBM",
-    "desc": "3B",
-    "date": "01.07.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-swash-3b-a600m"
   },
   {
     "name": "Qwen-AgentWorld-35B-A3B",
@@ -61,6 +61,13 @@
     "desc": "30B",
     "date": "06.04.2026",
     "url": "https://huggingface.co/ibm-granite/granite-4.1-30b"
+  },
+  {
+    "name": "granite-4.1-3b",
+    "org": "IBM",
+    "desc": "3B",
+    "date": "06.04.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-4.1-3b"
   },
   {
     "name": "Falcon-OCR",
@@ -103,12 +110,5 @@
     "desc": "instruct",
     "date": "08.10.2025",
     "url": "https://huggingface.co/google/functiongemma-270m-it"
-  },
-  {
-    "name": "gpt-oss-safeguard-120b",
-    "org": "OpenAI",
-    "desc": "120B",
-    "date": "18.09.2025",
-    "url": "https://huggingface.co/openai/gpt-oss-safeguard-120b"
   }
 ]
