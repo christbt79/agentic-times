@@ -56,18 +56,18 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
   },
   {
-    "name": "granite-4.1-30b",
-    "org": "IBM",
-    "desc": "30B",
-    "date": "06.04.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-4.1-30b"
-  },
-  {
     "name": "granite-4.1-3b",
     "org": "IBM",
     "desc": "3B",
     "date": "06.04.2026",
     "url": "https://huggingface.co/ibm-granite/granite-4.1-3b"
+  },
+  {
+    "name": "granite-4.1-30b",
+    "org": "IBM",
+    "desc": "30B",
+    "date": "06.04.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-4.1-30b"
   },
   {
     "name": "Falcon-OCR",
@@ -91,13 +91,6 @@
     "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
   },
   {
-    "name": "GLM-4.7",
-    "org": "Zhipu",
-    "desc": "Open language model",
-    "date": "22.12.2025",
-    "url": "https://huggingface.co/zai-org/GLM-4.7"
-  },
-  {
     "name": "Kimi-Linear-48B-A3B-Instruct",
     "org": "Moonshot",
     "desc": "48B · MoE · instruct",
@@ -105,10 +98,17 @@
     "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct"
   },
   {
-    "name": "functiongemma-270m-it",
-    "org": "Google",
-    "desc": "instruct",
-    "date": "08.10.2025",
-    "url": "https://huggingface.co/google/functiongemma-270m-it"
+    "name": "gpt-oss-safeguard-20b",
+    "org": "OpenAI",
+    "desc": "20B",
+    "date": "18.09.2025",
+    "url": "https://huggingface.co/openai/gpt-oss-safeguard-20b"
+  },
+  {
+    "name": "VibeVoice-1.5B",
+    "org": "Microsoft",
+    "desc": "1.5B",
+    "date": "25.08.2025",
+    "url": "https://huggingface.co/microsoft/VibeVoice-1.5B"
   }
 ]
