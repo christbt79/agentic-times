@@ -28,6 +28,13 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731"
   },
   {
+    "name": "granite-swash-3b-a600m",
+    "org": "IBM",
+    "desc": "3B",
+    "date": "01.07.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-swash-3b-a600m"
+  },
+  {
     "name": "Qwen-AgentWorld-35B-A3B",
     "org": "Qwen",
     "desc": "35B · MoE · multimodal",
@@ -63,20 +70,6 @@
     "url": "https://huggingface.co/ibm-granite/granite-4.1-3b"
   },
   {
-    "name": "granite-4.1-30b",
-    "org": "IBM",
-    "desc": "30B",
-    "date": "06.04.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-4.1-30b"
-  },
-  {
-    "name": "Falcon-OCR",
-    "org": "TII",
-    "desc": "Open language model",
-    "date": "22.02.2026",
-    "url": "https://huggingface.co/tiiuae/Falcon-OCR"
-  },
-  {
     "name": "Qwen3-Coder-Next",
     "org": "Qwen",
     "desc": "coding",
@@ -89,6 +82,13 @@
     "desc": "Open language model",
     "date": "19.01.2026",
     "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+  },
+  {
+    "name": "AI21-Jamba2-3B",
+    "org": "AI21",
+    "desc": "3B",
+    "date": "06.01.2026",
+    "url": "https://huggingface.co/ai21labs/AI21-Jamba2-3B"
   },
   {
     "name": "Kimi-Linear-48B-A3B-Instruct",
