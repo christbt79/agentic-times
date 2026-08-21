@@ -70,11 +70,11 @@
     "url": "https://huggingface.co/ibm-granite/granite-4.1-3b"
   },
   {
-    "name": "granite-4.1-8b",
-    "org": "IBM",
-    "desc": "8B",
-    "date": "06.04.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-4.1-8b"
+    "name": "Falcon-Perception",
+    "org": "TII",
+    "desc": "Open language model",
+    "date": "22.02.2026",
+    "url": "https://huggingface.co/tiiuae/Falcon-Perception"
   },
   {
     "name": "Qwen3-Coder-Next",
@@ -105,10 +105,10 @@
     "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct"
   },
   {
-    "name": "gpt-oss-safeguard-20b",
-    "org": "OpenAI",
-    "desc": "20B",
-    "date": "18.09.2025",
-    "url": "https://huggingface.co/openai/gpt-oss-safeguard-20b"
+    "name": "granite-4.0-350m",
+    "org": "IBM",
+    "desc": "Open language model",
+    "date": "07.10.2025",
+    "url": "https://huggingface.co/ibm-granite/granite-4.0-350m"
   }
 ]
