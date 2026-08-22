@@ -7,13 +7,6 @@
     "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Teacher-General-Reasoning"
   },
   {
-    "name": "NVIDIA-Nemotron-Labs-Teacher-STEM",
-    "org": "NVIDIA",
-    "desc": "Open language model",
-    "date": "14.08.2026",
-    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Teacher-STEM"
-  },
-  {
     "name": "DeepSeek-V4-Pro-0813",
     "org": "DeepSeek",
     "desc": "Open language model",
@@ -56,6 +49,13 @@
     "url": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0"
   },
   {
+    "name": "gemma-4-12B-it-assistant",
+    "org": "Google",
+    "desc": "12B · instruct",
+    "date": "23.05.2026",
+    "url": "https://huggingface.co/google/gemma-4-12B-it-assistant"
+  },
+  {
     "name": "DeepSeek-V4-Pro",
     "org": "DeepSeek",
     "desc": "Open language model",
@@ -68,6 +68,13 @@
     "desc": "3B",
     "date": "06.04.2026",
     "url": "https://huggingface.co/ibm-granite/granite-4.1-3b"
+  },
+  {
+    "name": "granite-4.1-8b",
+    "org": "IBM",
+    "desc": "8B",
+    "date": "06.04.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-4.1-8b"
   },
   {
     "name": "Falcon-Perception",
@@ -103,12 +110,5 @@
     "desc": "48B · MoE · instruct",
     "date": "30.10.2025",
     "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct"
-  },
-  {
-    "name": "granite-4.0-350m",
-    "org": "IBM",
-    "desc": "Open language model",
-    "date": "07.10.2025",
-    "url": "https://huggingface.co/ibm-granite/granite-4.0-350m"
   }
 ]
