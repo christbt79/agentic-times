@@ -1,12 +1,5 @@
 [
   {
-    "name": "NVIDIA-Nemotron-Labs-Teacher-General-Reasoning",
-    "org": "NVIDIA",
-    "desc": "reasoning",
-    "date": "14.08.2026",
-    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Teacher-General-Reasoning"
-  },
-  {
     "name": "DeepSeek-V4-Pro-0813",
     "org": "DeepSeek",
     "desc": "Open language model",
@@ -91,13 +84,6 @@
     "url": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
   },
   {
-    "name": "GLM-4.7-Flash",
-    "org": "Zhipu",
-    "desc": "Open language model",
-    "date": "19.01.2026",
-    "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
-  },
-  {
     "name": "AI21-Jamba2-3B",
     "org": "AI21",
     "desc": "3B",
@@ -110,5 +96,19 @@
     "desc": "48B · MoE · instruct",
     "date": "30.10.2025",
     "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct"
+  },
+  {
+    "name": "gpt-oss-safeguard-20b",
+    "org": "OpenAI",
+    "desc": "20B",
+    "date": "18.09.2025",
+    "url": "https://huggingface.co/openai/gpt-oss-safeguard-20b"
+  },
+  {
+    "name": "Olmo-3-1025-7B",
+    "org": "AllenAI",
+    "desc": "7B",
+    "date": "12.09.2025",
+    "url": "https://huggingface.co/allenai/Olmo-3-1025-7B"
   }
 ]
