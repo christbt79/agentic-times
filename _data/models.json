@@ -1,5 +1,19 @@
 [
   {
+    "name": "GLM-5.3-Flash",
+    "org": "Zhipu",
+    "desc": "multimodal",
+    "date": "25.08.2026",
+    "url": "https://huggingface.co/zai-org/GLM-5.3-Flash"
+  },
+  {
+    "name": "NVIDIA-Nemotron-Labs-Teacher-Instruction-Following",
+    "org": "NVIDIA",
+    "desc": "instruct",
+    "date": "14.08.2026",
+    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Teacher-Instruction-Following"
+  },
+  {
     "name": "DeepSeek-V4-Pro-0813",
     "org": "DeepSeek",
     "desc": "Open language model",
@@ -12,6 +26,27 @@
     "desc": "95B",
     "date": "08.08.2026",
     "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+  },
+  {
+    "name": "granite-4.2-30b",
+    "org": "IBM",
+    "desc": "30B",
+    "date": "07.08.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-4.2-30b"
+  },
+  {
+    "name": "granite-4.2-8b",
+    "org": "IBM",
+    "desc": "8B",
+    "date": "07.08.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-4.2-8b"
+  },
+  {
+    "name": "granite-4.2-3b",
+    "org": "IBM",
+    "desc": "3B",
+    "date": "07.08.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-4.2-3b"
   },
   {
     "name": "DeepSeek-V4-Flash-0731",
@@ -49,27 +84,6 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
   },
   {
-    "name": "granite-4.1-3b",
-    "org": "IBM",
-    "desc": "3B",
-    "date": "06.04.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-4.1-3b"
-  },
-  {
-    "name": "granite-4.1-8b",
-    "org": "IBM",
-    "desc": "8B",
-    "date": "06.04.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-4.1-8b"
-  },
-  {
-    "name": "GLM-5.1",
-    "org": "Zhipu",
-    "desc": "Open language model",
-    "date": "03.04.2026",
-    "url": "https://huggingface.co/zai-org/GLM-5.1"
-  },
-  {
     "name": "Falcon-Perception",
     "org": "TII",
     "desc": "Open language model",
@@ -77,38 +91,24 @@
     "url": "https://huggingface.co/tiiuae/Falcon-Perception"
   },
   {
-    "name": "Qwen3-Coder-Next",
-    "org": "Qwen",
-    "desc": "coding",
-    "date": "30.01.2026",
-    "url": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
+    "name": "Falcon-OCR",
+    "org": "TII",
+    "desc": "Open language model",
+    "date": "22.02.2026",
+    "url": "https://huggingface.co/tiiuae/Falcon-OCR"
   },
   {
-    "name": "AI21-Jamba2-3B",
+    "name": "GLM-4.7-Flash",
+    "org": "Zhipu",
+    "desc": "Open language model",
+    "date": "19.01.2026",
+    "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+  },
+  {
+    "name": "AI21-Jamba2-Mini",
     "org": "AI21",
-    "desc": "3B",
+    "desc": "Open language model",
     "date": "06.01.2026",
-    "url": "https://huggingface.co/ai21labs/AI21-Jamba2-3B"
-  },
-  {
-    "name": "Kimi-Linear-48B-A3B-Instruct",
-    "org": "Moonshot",
-    "desc": "48B · MoE · instruct",
-    "date": "30.10.2025",
-    "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct"
-  },
-  {
-    "name": "gpt-oss-safeguard-20b",
-    "org": "OpenAI",
-    "desc": "20B",
-    "date": "18.09.2025",
-    "url": "https://huggingface.co/openai/gpt-oss-safeguard-20b"
-  },
-  {
-    "name": "Olmo-3-1025-7B",
-    "org": "AllenAI",
-    "desc": "7B",
-    "date": "12.09.2025",
-    "url": "https://huggingface.co/allenai/Olmo-3-1025-7B"
+    "url": "https://huggingface.co/ai21labs/AI21-Jamba2-Mini"
   }
 ]
