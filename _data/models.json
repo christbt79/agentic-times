@@ -14,13 +14,6 @@
     "url": "https://huggingface.co/zai-org/GLM-5.3"
   },
   {
-    "name": "DeepSeek-V4-Pro-0813",
-    "org": "DeepSeek",
-    "desc": "Open language model",
-    "date": "13.08.2026",
-    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
-  },
-  {
     "name": "Qwen3.8-2.4T-A95B",
     "org": "Qwen",
     "desc": "95B",
@@ -70,6 +63,20 @@
     "url": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0"
   },
   {
+    "name": "DeepSeek-V4-Flash",
+    "org": "DeepSeek",
+    "desc": "Open language model",
+    "date": "22.04.2026",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
+  },
+  {
+    "name": "Falcon-OCR",
+    "org": "TII",
+    "desc": "Open language model",
+    "date": "22.02.2026",
+    "url": "https://huggingface.co/tiiuae/Falcon-OCR"
+  },
+  {
     "name": "Falcon-Perception",
     "org": "TII",
     "desc": "Open language model",
@@ -103,12 +110,5 @@
     "desc": "Open language model",
     "date": "06.01.2026",
     "url": "https://huggingface.co/ai21labs/AI21-Jamba2-Mini"
-  },
-  {
-    "name": "AI21-Jamba2-3B",
-    "org": "AI21",
-    "desc": "3B",
-    "date": "06.01.2026",
-    "url": "https://huggingface.co/ai21labs/AI21-Jamba2-3B"
   }
 ]
