@@ -14,13 +14,6 @@
     "url": "https://huggingface.co/zai-org/GLM-5.3"
   },
   {
-    "name": "DeepSeek-V4-Pro-0813",
-    "org": "DeepSeek",
-    "desc": "Open language model",
-    "date": "13.08.2026",
-    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
-  },
-  {
     "name": "Qwen3.8-2.4T-A95B",
     "org": "Qwen",
     "desc": "95B",
@@ -28,18 +21,18 @@
     "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
   },
   {
-    "name": "granite-4.2-30b",
-    "org": "IBM",
-    "desc": "30B",
-    "date": "07.08.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-4.2-30b"
-  },
-  {
     "name": "granite-4.2-3b",
     "org": "IBM",
     "desc": "3B",
     "date": "07.08.2026",
     "url": "https://huggingface.co/ibm-granite/granite-4.2-3b"
+  },
+  {
+    "name": "granite-4.2-30b",
+    "org": "IBM",
+    "desc": "30B",
+    "date": "07.08.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-4.2-30b"
   },
   {
     "name": "granite-4.2-8b",
@@ -70,11 +63,11 @@
     "url": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0"
   },
   {
-    "name": "Falcon-Perception",
-    "org": "TII",
+    "name": "DeepSeek-V4-Flash",
+    "org": "DeepSeek",
     "desc": "Open language model",
-    "date": "22.02.2026",
-    "url": "https://huggingface.co/tiiuae/Falcon-Perception"
+    "date": "22.04.2026",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
   },
   {
     "name": "Falcon-OCR",
@@ -91,13 +84,6 @@
     "url": "https://huggingface.co/CohereLabs/tiny-aya-base"
   },
   {
-    "name": "tiny-aya-global",
-    "org": "Cohere",
-    "desc": "Open language model",
-    "date": "13.02.2026",
-    "url": "https://huggingface.co/CohereLabs/tiny-aya-global"
-  },
-  {
     "name": "GLM-4.7-Flash",
     "org": "Zhipu",
     "desc": "Open language model",
@@ -110,5 +96,19 @@
     "desc": "7B · reasoning",
     "date": "18.11.2025",
     "url": "https://huggingface.co/allenai/Olmo-3-7B-Think"
+  },
+  {
+    "name": "Kimi-Linear-48B-A3B-Instruct",
+    "org": "Moonshot",
+    "desc": "48B · MoE · instruct",
+    "date": "30.10.2025",
+    "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct"
+  },
+  {
+    "name": "gpt-oss-safeguard-120b",
+    "org": "OpenAI",
+    "desc": "120B",
+    "date": "18.09.2025",
+    "url": "https://huggingface.co/openai/gpt-oss-safeguard-120b"
   }
 ]
