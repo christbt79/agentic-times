@@ -77,18 +77,25 @@
     "url": "https://huggingface.co/tiiuae/Falcon-OCR"
   },
   {
-    "name": "tiny-aya-base",
-    "org": "Cohere",
-    "desc": "Open language model",
-    "date": "13.02.2026",
-    "url": "https://huggingface.co/CohereLabs/tiny-aya-base"
-  },
-  {
     "name": "GLM-4.7-Flash",
     "org": "Zhipu",
     "desc": "Open language model",
     "date": "19.01.2026",
     "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+  },
+  {
+    "name": "Falcon-H1-Tiny-90M-Instruct",
+    "org": "TII",
+    "desc": "instruct",
+    "date": "12.01.2026",
+    "url": "https://huggingface.co/tiiuae/Falcon-H1-Tiny-90M-Instruct"
+  },
+  {
+    "name": "AI21-Jamba2-3B",
+    "org": "AI21",
+    "desc": "3B",
+    "date": "06.01.2026",
+    "url": "https://huggingface.co/ai21labs/AI21-Jamba2-3B"
   },
   {
     "name": "Olmo-3-7B-Think",
@@ -103,12 +110,5 @@
     "desc": "48B · MoE · instruct",
     "date": "30.10.2025",
     "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct"
-  },
-  {
-    "name": "gpt-oss-safeguard-120b",
-    "org": "OpenAI",
-    "desc": "120B",
-    "date": "18.09.2025",
-    "url": "https://huggingface.co/openai/gpt-oss-safeguard-120b"
   }
 ]
