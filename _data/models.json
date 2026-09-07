@@ -63,13 +63,6 @@
     "url": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0"
   },
   {
-    "name": "Emo_1b14b_1T",
-    "org": "AllenAI",
-    "desc": "MoE",
-    "date": "29.04.2026",
-    "url": "https://huggingface.co/allenai/Emo_1b14b_1T"
-  },
-  {
     "name": "DeepSeek-V4-Flash",
     "org": "DeepSeek",
     "desc": "Open language model",
@@ -110,5 +103,12 @@
     "desc": "3B",
     "date": "06.01.2026",
     "url": "https://huggingface.co/ai21labs/AI21-Jamba2-3B"
+  },
+  {
+    "name": "Kimi-Linear-48B-A3B-Instruct",
+    "org": "Moonshot",
+    "desc": "48B · MoE · instruct",
+    "date": "30.10.2025",
+    "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct"
   }
 ]
