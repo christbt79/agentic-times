@@ -56,6 +56,13 @@
     "url": "https://huggingface.co/zai-org/GLM-5.2"
   },
   {
+    "name": "MagenticBrain",
+    "org": "Microsoft",
+    "desc": "14B",
+    "date": "12.05.2026",
+    "url": "https://huggingface.co/microsoft/MagenticBrain"
+  },
+  {
     "name": "DeepSeek-V4-Pro",
     "org": "DeepSeek",
     "desc": "Open language model",
@@ -70,11 +77,11 @@
     "url": "https://huggingface.co/tiiuae/Falcon-OCR"
   },
   {
-    "name": "Falcon-Perception",
-    "org": "TII",
+    "name": "GLM-4.7-Flash",
+    "org": "Zhipu",
     "desc": "Open language model",
-    "date": "22.02.2026",
-    "url": "https://huggingface.co/tiiuae/Falcon-Perception"
+    "date": "19.01.2026",
+    "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
   },
   {
     "name": "Falcon-H1-Tiny-90M-Instruct",
@@ -98,17 +105,10 @@
     "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct"
   },
   {
-    "name": "gpt-oss-safeguard-20b",
-    "org": "OpenAI",
-    "desc": "20B",
-    "date": "18.09.2025",
-    "url": "https://huggingface.co/openai/gpt-oss-safeguard-20b"
-  },
-  {
-    "name": "NVIDIA-Nemotron-Nano-9B-v2",
-    "org": "NVIDIA",
-    "desc": "9B",
-    "date": "12.08.2025",
-    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2"
+    "name": "functiongemma-270m-it",
+    "org": "Google",
+    "desc": "instruct",
+    "date": "08.10.2025",
+    "url": "https://huggingface.co/google/functiongemma-270m-it"
   }
 ]
