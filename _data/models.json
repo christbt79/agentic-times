@@ -1,5 +1,26 @@
 [
   {
+    "name": "DeepSeek-V4.1-Flash",
+    "org": "DeepSeek",
+    "desc": "multimodal",
+    "date": "10.09.2026",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
+  },
+  {
+    "name": "tiny-aya-en-thinker",
+    "org": "Cohere",
+    "desc": "reasoning",
+    "date": "02.09.2026",
+    "url": "https://huggingface.co/CohereLabs/tiny-aya-en-thinker"
+  },
+  {
+    "name": "tiny-aya-l2-thinker",
+    "org": "Cohere",
+    "desc": "reasoning",
+    "date": "02.09.2026",
+    "url": "https://huggingface.co/CohereLabs/tiny-aya-l2-thinker"
+  },
+  {
     "name": "DeepSeek-V4-Flash-Vision-Exp",
     "org": "DeepSeek",
     "desc": "multimodal",
@@ -63,18 +84,18 @@
     "url": "https://huggingface.co/microsoft/MagenticBrain"
   },
   {
-    "name": "DeepSeek-V4-Pro",
-    "org": "DeepSeek",
-    "desc": "Open language model",
-    "date": "22.04.2026",
-    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
-  },
-  {
     "name": "Falcon-OCR",
     "org": "TII",
     "desc": "Open language model",
     "date": "22.02.2026",
     "url": "https://huggingface.co/tiiuae/Falcon-OCR"
+  },
+  {
+    "name": "Falcon-Perception",
+    "org": "TII",
+    "desc": "Open language model",
+    "date": "22.02.2026",
+    "url": "https://huggingface.co/tiiuae/Falcon-Perception"
   },
   {
     "name": "GLM-4.7-Flash",
@@ -89,26 +110,5 @@
     "desc": "instruct",
     "date": "12.01.2026",
     "url": "https://huggingface.co/tiiuae/Falcon-H1-Tiny-90M-Instruct"
-  },
-  {
-    "name": "AI21-Jamba2-3B",
-    "org": "AI21",
-    "desc": "3B",
-    "date": "06.01.2026",
-    "url": "https://huggingface.co/ai21labs/AI21-Jamba2-3B"
-  },
-  {
-    "name": "Kimi-Linear-48B-A3B-Instruct",
-    "org": "Moonshot",
-    "desc": "48B · MoE · instruct",
-    "date": "30.10.2025",
-    "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct"
-  },
-  {
-    "name": "functiongemma-270m-it",
-    "org": "Google",
-    "desc": "instruct",
-    "date": "08.10.2025",
-    "url": "https://huggingface.co/google/functiongemma-270m-it"
   }
 ]
