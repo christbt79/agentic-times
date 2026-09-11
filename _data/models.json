@@ -7,18 +7,18 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
   },
   {
-    "name": "tiny-aya-en-thinker",
-    "org": "Cohere",
-    "desc": "reasoning",
-    "date": "02.09.2026",
-    "url": "https://huggingface.co/CohereLabs/tiny-aya-en-thinker"
-  },
-  {
     "name": "tiny-aya-l2-thinker",
     "org": "Cohere",
     "desc": "reasoning",
     "date": "02.09.2026",
     "url": "https://huggingface.co/CohereLabs/tiny-aya-l2-thinker"
+  },
+  {
+    "name": "tiny-aya-en-thinker",
+    "org": "Cohere",
+    "desc": "reasoning",
+    "date": "02.09.2026",
+    "url": "https://huggingface.co/CohereLabs/tiny-aya-en-thinker"
   },
   {
     "name": "DeepSeek-V4-Flash-Vision-Exp",
@@ -35,6 +35,13 @@
     "url": "https://huggingface.co/zai-org/GLM-5.3"
   },
   {
+    "name": "North-Small-Translate-1.0",
+    "org": "Cohere",
+    "desc": "Open language model",
+    "date": "14.08.2026",
+    "url": "https://huggingface.co/CohereLabs/North-Small-Translate-1.0"
+  },
+  {
     "name": "Qwen3.8-2.4T-A95B",
     "org": "Qwen",
     "desc": "95B",
@@ -42,18 +49,18 @@
     "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
   },
   {
-    "name": "granite-4.2-3b",
-    "org": "IBM",
-    "desc": "3B",
-    "date": "07.08.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-4.2-3b"
-  },
-  {
     "name": "granite-4.2-8b",
     "org": "IBM",
     "desc": "8B",
     "date": "07.08.2026",
     "url": "https://huggingface.co/ibm-granite/granite-4.2-8b"
+  },
+  {
+    "name": "granite-4.2-3b",
+    "org": "IBM",
+    "desc": "3B",
+    "date": "07.08.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-4.2-3b"
   },
   {
     "name": "granite-4.2-30b",
@@ -103,12 +110,5 @@
     "desc": "Open language model",
     "date": "19.01.2026",
     "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
-  },
-  {
-    "name": "Falcon-H1-Tiny-90M-Instruct",
-    "org": "TII",
-    "desc": "instruct",
-    "date": "12.01.2026",
-    "url": "https://huggingface.co/tiiuae/Falcon-H1-Tiny-90M-Instruct"
   }
 ]
