@@ -42,11 +42,11 @@
     "url": "https://huggingface.co/CohereLabs/North-Small-Translate-1.0"
   },
   {
-    "name": "Qwen3.8-2.4T-A95B",
-    "org": "Qwen",
-    "desc": "95B",
-    "date": "08.08.2026",
-    "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+    "name": "granite-4.2-3b",
+    "org": "IBM",
+    "desc": "3B",
+    "date": "07.08.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-4.2-3b"
   },
   {
     "name": "granite-4.2-8b",
@@ -54,13 +54,6 @@
     "desc": "8B",
     "date": "07.08.2026",
     "url": "https://huggingface.co/ibm-granite/granite-4.2-8b"
-  },
-  {
-    "name": "granite-4.2-3b",
-    "org": "IBM",
-    "desc": "3B",
-    "date": "07.08.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-4.2-3b"
   },
   {
     "name": "granite-4.2-30b",
@@ -84,13 +77,6 @@
     "url": "https://huggingface.co/zai-org/GLM-5.2"
   },
   {
-    "name": "MagenticBrain",
-    "org": "Microsoft",
-    "desc": "14B",
-    "date": "12.05.2026",
-    "url": "https://huggingface.co/microsoft/MagenticBrain"
-  },
-  {
     "name": "Falcon-OCR",
     "org": "TII",
     "desc": "Open language model",
@@ -110,5 +96,19 @@
     "desc": "Open language model",
     "date": "19.01.2026",
     "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+  },
+  {
+    "name": "Falcon-H1-Tiny-90M-Instruct",
+    "org": "TII",
+    "desc": "instruct",
+    "date": "12.01.2026",
+    "url": "https://huggingface.co/tiiuae/Falcon-H1-Tiny-90M-Instruct"
+  },
+  {
+    "name": "AI21-Jamba2-3B",
+    "org": "AI21",
+    "desc": "3B",
+    "date": "06.01.2026",
+    "url": "https://huggingface.co/ai21labs/AI21-Jamba2-3B"
   }
 ]
