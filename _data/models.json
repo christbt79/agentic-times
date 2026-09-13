@@ -7,6 +7,13 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
   },
   {
+    "name": "Nemotron-3-Labs-Ultra-Math-RL",
+    "org": "NVIDIA",
+    "desc": "550B",
+    "date": "02.09.2026",
+    "url": "https://huggingface.co/nvidia/Nemotron-3-Labs-Ultra-Math-RL"
+  },
+  {
     "name": "tiny-aya-l2-thinker",
     "org": "Cohere",
     "desc": "reasoning",
@@ -40,6 +47,13 @@
     "desc": "Open language model",
     "date": "14.08.2026",
     "url": "https://huggingface.co/CohereLabs/North-Small-Translate-1.0"
+  },
+  {
+    "name": "Qwen3.8-2.4T-A95B",
+    "org": "Qwen",
+    "desc": "95B",
+    "date": "08.08.2026",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
   },
   {
     "name": "granite-4.2-3b",
@@ -96,19 +110,5 @@
     "desc": "Open language model",
     "date": "19.01.2026",
     "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
-  },
-  {
-    "name": "Falcon-H1-Tiny-90M-Instruct",
-    "org": "TII",
-    "desc": "instruct",
-    "date": "12.01.2026",
-    "url": "https://huggingface.co/tiiuae/Falcon-H1-Tiny-90M-Instruct"
-  },
-  {
-    "name": "AI21-Jamba2-3B",
-    "org": "AI21",
-    "desc": "3B",
-    "date": "06.01.2026",
-    "url": "https://huggingface.co/ai21labs/AI21-Jamba2-3B"
   }
 ]
