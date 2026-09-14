@@ -49,20 +49,6 @@
     "url": "https://huggingface.co/CohereLabs/North-Small-Translate-1.0"
   },
   {
-    "name": "Qwen3.8-2.4T-A95B",
-    "org": "Qwen",
-    "desc": "95B",
-    "date": "08.08.2026",
-    "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
-  },
-  {
-    "name": "granite-4.2-3b",
-    "org": "IBM",
-    "desc": "3B",
-    "date": "07.08.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-4.2-3b"
-  },
-  {
     "name": "granite-4.2-8b",
     "org": "IBM",
     "desc": "8B",
@@ -77,11 +63,11 @@
     "url": "https://huggingface.co/ibm-granite/granite-4.2-30b"
   },
   {
-    "name": "DeepSeek-V4-Flash-0731",
-    "org": "DeepSeek",
-    "desc": "Open language model",
-    "date": "31.07.2026",
-    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731"
+    "name": "granite-4.2-3b",
+    "org": "IBM",
+    "desc": "3B",
+    "date": "07.08.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-4.2-3b"
   },
   {
     "name": "GLM-5.2",
@@ -110,5 +96,19 @@
     "desc": "Open language model",
     "date": "19.01.2026",
     "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+  },
+  {
+    "name": "AI21-Jamba2-3B",
+    "org": "AI21",
+    "desc": "3B",
+    "date": "06.01.2026",
+    "url": "https://huggingface.co/ai21labs/AI21-Jamba2-3B"
+  },
+  {
+    "name": "Kimi-Linear-48B-A3B-Instruct",
+    "org": "Moonshot",
+    "desc": "48B · MoE · instruct",
+    "date": "30.10.2025",
+    "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct"
   }
 ]
