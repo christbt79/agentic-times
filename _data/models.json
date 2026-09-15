@@ -7,6 +7,13 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
   },
   {
+    "name": "Nemotron-3-Labs-Ultra-Math-SFT",
+    "org": "NVIDIA",
+    "desc": "550B",
+    "date": "02.09.2026",
+    "url": "https://huggingface.co/nvidia/Nemotron-3-Labs-Ultra-Math-SFT"
+  },
+  {
     "name": "Nemotron-3-Labs-Ultra-Math-RL",
     "org": "NVIDIA",
     "desc": "550B",
@@ -49,6 +56,13 @@
     "url": "https://huggingface.co/CohereLabs/North-Small-Translate-1.0"
   },
   {
+    "name": "granite-4.2-3b",
+    "org": "IBM",
+    "desc": "3B",
+    "date": "07.08.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-4.2-3b"
+  },
+  {
     "name": "granite-4.2-8b",
     "org": "IBM",
     "desc": "8B",
@@ -63,18 +77,18 @@
     "url": "https://huggingface.co/ibm-granite/granite-4.2-30b"
   },
   {
-    "name": "granite-4.2-3b",
-    "org": "IBM",
-    "desc": "3B",
-    "date": "07.08.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-4.2-3b"
-  },
-  {
     "name": "GLM-5.2",
     "org": "Zhipu",
     "desc": "Open language model",
     "date": "16.06.2026",
     "url": "https://huggingface.co/zai-org/GLM-5.2"
+  },
+  {
+    "name": "GKA-primed-HQwen3-8B-Reasoner",
+    "org": "Amazon",
+    "desc": "8B · reasoning",
+    "date": "31.03.2026",
+    "url": "https://huggingface.co/amazon/GKA-primed-HQwen3-8B-Reasoner"
   },
   {
     "name": "Falcon-OCR",
@@ -96,19 +110,5 @@
     "desc": "Open language model",
     "date": "19.01.2026",
     "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
-  },
-  {
-    "name": "AI21-Jamba2-3B",
-    "org": "AI21",
-    "desc": "3B",
-    "date": "06.01.2026",
-    "url": "https://huggingface.co/ai21labs/AI21-Jamba2-3B"
-  },
-  {
-    "name": "Kimi-Linear-48B-A3B-Instruct",
-    "org": "Moonshot",
-    "desc": "48B · MoE · instruct",
-    "date": "30.10.2025",
-    "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct"
   }
 ]
