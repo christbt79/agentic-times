@@ -56,6 +56,13 @@
     "url": "https://huggingface.co/CohereLabs/North-Small-Translate-1.0"
   },
   {
+    "name": "granite-4.2-3b",
+    "org": "IBM",
+    "desc": "3B",
+    "date": "07.08.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-4.2-3b"
+  },
+  {
     "name": "granite-4.2-8b",
     "org": "IBM",
     "desc": "8B",
@@ -68,13 +75,6 @@
     "desc": "30B",
     "date": "07.08.2026",
     "url": "https://huggingface.co/ibm-granite/granite-4.2-30b"
-  },
-  {
-    "name": "granite-4.2-3b",
-    "org": "IBM",
-    "desc": "3B",
-    "date": "07.08.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-4.2-3b"
   },
   {
     "name": "GLM-5.2",
@@ -98,17 +98,17 @@
     "url": "https://huggingface.co/tiiuae/Falcon-OCR"
   },
   {
-    "name": "Falcon-Perception",
-    "org": "TII",
-    "desc": "Open language model",
-    "date": "22.02.2026",
-    "url": "https://huggingface.co/tiiuae/Falcon-Perception"
-  },
-  {
     "name": "GLM-4.7-Flash",
     "org": "Zhipu",
     "desc": "Open language model",
     "date": "19.01.2026",
     "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+  },
+  {
+    "name": "Kimi-K2-Thinking",
+    "org": "Moonshot",
+    "desc": "reasoning",
+    "date": "04.11.2025",
+    "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking"
   }
 ]
