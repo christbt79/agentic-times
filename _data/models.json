@@ -14,25 +14,11 @@
     "url": "https://huggingface.co/nvidia/Nemotron-3-Labs-Ultra-Math-SFT"
   },
   {
-    "name": "Nemotron-3-Labs-Ultra-Math-RL",
-    "org": "NVIDIA",
-    "desc": "550B",
-    "date": "02.09.2026",
-    "url": "https://huggingface.co/nvidia/Nemotron-3-Labs-Ultra-Math-RL"
-  },
-  {
     "name": "tiny-aya-l2-thinker",
     "org": "Cohere",
     "desc": "reasoning",
     "date": "02.09.2026",
     "url": "https://huggingface.co/CohereLabs/tiny-aya-l2-thinker"
-  },
-  {
-    "name": "tiny-aya-en-thinker",
-    "org": "Cohere",
-    "desc": "reasoning",
-    "date": "02.09.2026",
-    "url": "https://huggingface.co/CohereLabs/tiny-aya-en-thinker"
   },
   {
     "name": "DeepSeek-V4-Flash-Vision-Exp",
@@ -84,6 +70,13 @@
     "url": "https://huggingface.co/zai-org/GLM-5.2"
   },
   {
+    "name": "North-Mini-Code-1.0",
+    "org": "Cohere",
+    "desc": "coding",
+    "date": "05.06.2026",
+    "url": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0"
+  },
+  {
     "name": "GKA-primed-HQwen3-8B-Reasoner",
     "org": "Amazon",
     "desc": "8B · reasoning",
@@ -110,5 +103,12 @@
     "desc": "reasoning",
     "date": "04.11.2025",
     "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking"
+  },
+  {
+    "name": "functiongemma-270m-it",
+    "org": "Google",
+    "desc": "instruct",
+    "date": "08.10.2025",
+    "url": "https://huggingface.co/google/functiongemma-270m-it"
   }
 ]
