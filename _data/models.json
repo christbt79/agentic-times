@@ -7,13 +7,6 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
   },
   {
-    "name": "Nemotron-3-Labs-Ultra-Math-SFT",
-    "org": "NVIDIA",
-    "desc": "550B",
-    "date": "02.09.2026",
-    "url": "https://huggingface.co/nvidia/Nemotron-3-Labs-Ultra-Math-SFT"
-  },
-  {
     "name": "tiny-aya-l2-thinker",
     "org": "Cohere",
     "desc": "reasoning",
@@ -56,13 +49,6 @@
     "url": "https://huggingface.co/ibm-granite/granite-4.2-8b"
   },
   {
-    "name": "granite-4.2-30b",
-    "org": "IBM",
-    "desc": "30B",
-    "date": "07.08.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-4.2-30b"
-  },
-  {
     "name": "GLM-5.2",
     "org": "Zhipu",
     "desc": "Open language model",
@@ -98,17 +84,31 @@
     "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
   },
   {
-    "name": "Kimi-K2-Thinking",
-    "org": "Moonshot",
-    "desc": "reasoning",
-    "date": "04.11.2025",
-    "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking"
+    "name": "Olmo-3-7B-Instruct",
+    "org": "AllenAI",
+    "desc": "7B · instruct",
+    "date": "19.11.2025",
+    "url": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
   },
   {
-    "name": "functiongemma-270m-it",
-    "org": "Google",
-    "desc": "instruct",
-    "date": "08.10.2025",
-    "url": "https://huggingface.co/google/functiongemma-270m-it"
+    "name": "Kimi-Linear-48B-A3B-Instruct",
+    "org": "Moonshot",
+    "desc": "48B · MoE · instruct",
+    "date": "30.10.2025",
+    "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct"
+  },
+  {
+    "name": "JanusCoder-8B",
+    "org": "InternLM",
+    "desc": "8B · coding · multimodal",
+    "date": "27.10.2025",
+    "url": "https://huggingface.co/internlm/JanusCoder-8B"
+  },
+  {
+    "name": "gpt-oss-safeguard-20b",
+    "org": "OpenAI",
+    "desc": "20B",
+    "date": "18.09.2025",
+    "url": "https://huggingface.co/openai/gpt-oss-safeguard-20b"
   }
 ]
