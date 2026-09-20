@@ -14,13 +14,6 @@
     "url": "https://huggingface.co/CohereLabs/tiny-aya-l2-thinker"
   },
   {
-    "name": "DeepSeek-V4-Flash-Vision-Exp",
-    "org": "DeepSeek",
-    "desc": "multimodal",
-    "date": "31.08.2026",
-    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp"
-  },
-  {
     "name": "GLM-5.3",
     "org": "Zhipu",
     "desc": "Open language model",
@@ -35,6 +28,13 @@
     "url": "https://huggingface.co/CohereLabs/North-Small-Translate-1.0"
   },
   {
+    "name": "granite-4.2-8b",
+    "org": "IBM",
+    "desc": "8B",
+    "date": "07.08.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-4.2-8b"
+  },
+  {
     "name": "granite-4.2-3b",
     "org": "IBM",
     "desc": "3B",
@@ -42,11 +42,18 @@
     "url": "https://huggingface.co/ibm-granite/granite-4.2-3b"
   },
   {
-    "name": "granite-4.2-8b",
+    "name": "granite-4.2-30b",
     "org": "IBM",
-    "desc": "8B",
+    "desc": "30B",
     "date": "07.08.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-4.2-8b"
+    "url": "https://huggingface.co/ibm-granite/granite-4.2-30b"
+  },
+  {
+    "name": "DeepSeek-V4-Flash-0731",
+    "org": "DeepSeek",
+    "desc": "Open language model",
+    "date": "31.07.2026",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731"
   },
   {
     "name": "GLM-5.2",
@@ -103,12 +110,5 @@
     "desc": "8B · coding · multimodal",
     "date": "27.10.2025",
     "url": "https://huggingface.co/internlm/JanusCoder-8B"
-  },
-  {
-    "name": "gpt-oss-safeguard-20b",
-    "org": "OpenAI",
-    "desc": "20B",
-    "date": "18.09.2025",
-    "url": "https://huggingface.co/openai/gpt-oss-safeguard-20b"
   }
 ]
