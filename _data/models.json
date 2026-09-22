@@ -14,13 +14,6 @@
     "url": "https://huggingface.co/CohereLabs/tiny-aya-l2-thinker"
   },
   {
-    "name": "DeepSeek-V4-Flash-Vision-Exp",
-    "org": "DeepSeek",
-    "desc": "multimodal",
-    "date": "31.08.2026",
-    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp"
-  },
-  {
     "name": "GLM-5.3",
     "org": "Zhipu",
     "desc": "Open language model",
@@ -56,6 +49,13 @@
     "url": "https://huggingface.co/ibm-granite/granite-4.2-8b"
   },
   {
+    "name": "DeepSeek-V4-Flash-0731",
+    "org": "DeepSeek",
+    "desc": "Open language model",
+    "date": "31.07.2026",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731"
+  },
+  {
     "name": "GLM-5.2",
     "org": "Zhipu",
     "desc": "Open language model",
@@ -63,11 +63,11 @@
     "url": "https://huggingface.co/zai-org/GLM-5.2"
   },
   {
-    "name": "GKA-primed-HQwen3-8B-Reasoner",
-    "org": "Amazon",
-    "desc": "8B · reasoning",
-    "date": "31.03.2026",
-    "url": "https://huggingface.co/amazon/GKA-primed-HQwen3-8B-Reasoner"
+    "name": "granite-guardian-4.1-8b",
+    "org": "IBM",
+    "desc": "8B",
+    "date": "16.04.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-guardian-4.1-8b"
   },
   {
     "name": "Falcon-OCR",
