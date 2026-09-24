@@ -7,13 +7,6 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
   },
   {
-    "name": "tiny-aya-l2-thinker",
-    "org": "Cohere",
-    "desc": "reasoning",
-    "date": "02.09.2026",
-    "url": "https://huggingface.co/CohereLabs/tiny-aya-l2-thinker"
-  },
-  {
     "name": "GLM-5.3",
     "org": "Zhipu",
     "desc": "Open language model",
@@ -26,6 +19,13 @@
     "desc": "Open language model",
     "date": "14.08.2026",
     "url": "https://huggingface.co/CohereLabs/North-Small-Translate-1.0"
+  },
+  {
+    "name": "Qwen3.8-2.4T-A95B",
+    "org": "Qwen",
+    "desc": "95B",
+    "date": "08.08.2026",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
   },
   {
     "name": "granite-4.2-3b",
@@ -77,11 +77,11 @@
     "url": "https://huggingface.co/CohereLabs/tiny-aya-base"
   },
   {
-    "name": "Qwen3-Coder-Next",
-    "org": "Qwen",
-    "desc": "coding",
-    "date": "30.01.2026",
-    "url": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
+    "name": "tiny-aya-earth",
+    "org": "Cohere",
+    "desc": "Open language model",
+    "date": "13.02.2026",
+    "url": "https://huggingface.co/CohereLabs/tiny-aya-earth"
   },
   {
     "name": "GLM-4.7-Flash",
