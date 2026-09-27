@@ -7,6 +7,13 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
   },
   {
+    "name": "tiny-aya-l2-thinker",
+    "org": "Cohere",
+    "desc": "reasoning",
+    "date": "02.09.2026",
+    "url": "https://huggingface.co/CohereLabs/tiny-aya-l2-thinker"
+  },
+  {
     "name": "GLM-5.3",
     "org": "Zhipu",
     "desc": "Open language model",
@@ -35,13 +42,6 @@
     "url": "https://huggingface.co/ibm-granite/granite-4.2-3b"
   },
   {
-    "name": "granite-4.2-30b",
-    "org": "IBM",
-    "desc": "30B",
-    "date": "07.08.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-4.2-30b"
-  },
-  {
     "name": "DeepSeek-V4-Flash-0731",
     "org": "DeepSeek",
     "desc": "Open language model",
@@ -54,6 +54,13 @@
     "desc": "Open language model",
     "date": "16.06.2026",
     "url": "https://huggingface.co/zai-org/GLM-5.2"
+  },
+  {
+    "name": "DeepSeek-V4-Flash",
+    "org": "DeepSeek",
+    "desc": "Open language model",
+    "date": "22.04.2026",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
   },
   {
     "name": "granite-guardian-4.1-8b",
@@ -77,13 +84,6 @@
     "url": "https://huggingface.co/tiiuae/Falcon-OCR"
   },
   {
-    "name": "tiny-aya-base",
-    "org": "Cohere",
-    "desc": "Open language model",
-    "date": "13.02.2026",
-    "url": "https://huggingface.co/CohereLabs/tiny-aya-base"
-  },
-  {
     "name": "tiny-aya-earth",
     "org": "Cohere",
     "desc": "Open language model",
@@ -98,17 +98,17 @@
     "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
   },
   {
+    "name": "granitelib-core-r1.0",
+    "org": "IBM",
+    "desc": "reasoning",
+    "date": "10.12.2025",
+    "url": "https://huggingface.co/ibm-granite/granitelib-core-r1.0"
+  },
+  {
     "name": "Olmo-3-7B-Instruct",
     "org": "AllenAI",
     "desc": "7B · instruct",
     "date": "19.11.2025",
     "url": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
-  },
-  {
-    "name": "Kimi-Linear-48B-A3B-Instruct",
-    "org": "Moonshot",
-    "desc": "48B · MoE · instruct",
-    "date": "30.10.2025",
-    "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct"
   }
 ]
