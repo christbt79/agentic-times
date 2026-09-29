@@ -7,13 +7,6 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
   },
   {
-    "name": "tiny-aya-l2-thinker",
-    "org": "Cohere",
-    "desc": "reasoning",
-    "date": "02.09.2026",
-    "url": "https://huggingface.co/CohereLabs/tiny-aya-l2-thinker"
-  },
-  {
     "name": "GLM-5.3",
     "org": "Zhipu",
     "desc": "Open language model",
@@ -63,11 +56,11 @@
     "url": "https://huggingface.co/zai-org/GLM-5.2"
   },
   {
-    "name": "MagenticBrain",
-    "org": "Microsoft",
-    "desc": "14B",
-    "date": "12.05.2026",
-    "url": "https://huggingface.co/microsoft/MagenticBrain"
+    "name": "North-Mini-Code-1.0",
+    "org": "Cohere",
+    "desc": "coding",
+    "date": "05.06.2026",
+    "url": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0"
   },
   {
     "name": "granite-guardian-4.1-8b",
@@ -110,5 +103,12 @@
     "desc": "7B · instruct",
     "date": "19.11.2025",
     "url": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+  },
+  {
+    "name": "Kimi-Linear-48B-A3B-Instruct",
+    "org": "Moonshot",
+    "desc": "48B · MoE · instruct",
+    "date": "30.10.2025",
+    "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct"
   }
 ]
