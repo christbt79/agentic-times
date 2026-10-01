@@ -7,6 +7,13 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
   },
   {
+    "name": "tiny-aya-l2-thinker",
+    "org": "Cohere",
+    "desc": "reasoning",
+    "date": "02.09.2026",
+    "url": "https://huggingface.co/CohereLabs/tiny-aya-l2-thinker"
+  },
+  {
     "name": "GLM-5.3",
     "org": "Zhipu",
     "desc": "Open language model",
@@ -28,13 +35,6 @@
     "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
   },
   {
-    "name": "granite-4.2-3b",
-    "org": "IBM",
-    "desc": "3B",
-    "date": "07.08.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-4.2-3b"
-  },
-  {
     "name": "granite-4.2-8b",
     "org": "IBM",
     "desc": "8B",
@@ -42,11 +42,11 @@
     "url": "https://huggingface.co/ibm-granite/granite-4.2-8b"
   },
   {
-    "name": "DeepSeek-V4-Flash-0731",
-    "org": "DeepSeek",
-    "desc": "Open language model",
-    "date": "31.07.2026",
-    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731"
+    "name": "granite-4.2-3b",
+    "org": "IBM",
+    "desc": "3B",
+    "date": "07.08.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-4.2-3b"
   },
   {
     "name": "GLM-5.2",
@@ -63,11 +63,11 @@
     "url": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0"
   },
   {
-    "name": "granite-guardian-4.1-8b",
-    "org": "IBM",
-    "desc": "8B",
-    "date": "16.04.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-guardian-4.1-8b"
+    "name": "DeepSeek-V4-Pro",
+    "org": "DeepSeek",
+    "desc": "Open language model",
+    "date": "22.04.2026",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
   },
   {
     "name": "Mamba2-primed-HQwen3-8B-Instruct",
@@ -75,13 +75,6 @@
     "desc": "8B · instruct",
     "date": "31.03.2026",
     "url": "https://huggingface.co/amazon/Mamba2-primed-HQwen3-8B-Instruct"
-  },
-  {
-    "name": "tiny-aya-earth",
-    "org": "Cohere",
-    "desc": "Open language model",
-    "date": "13.02.2026",
-    "url": "https://huggingface.co/CohereLabs/tiny-aya-earth"
   },
   {
     "name": "GLM-4.7-Flash",
@@ -110,5 +103,12 @@
     "desc": "120B",
     "date": "18.09.2025",
     "url": "https://huggingface.co/openai/gpt-oss-safeguard-120b"
+  },
+  {
+    "name": "gpt-oss-120b-Eagle3-long-context",
+    "org": "NVIDIA",
+    "desc": "120B",
+    "date": "18.08.2025",
+    "url": "https://huggingface.co/nvidia/gpt-oss-120b-Eagle3-long-context"
   }
 ]
