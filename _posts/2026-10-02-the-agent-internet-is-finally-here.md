@@ -1,12 +1,14 @@
 ---
 title: The Agent Internet is Finally Here
 category: Perspective
-deck: The Agent Internet will not be another place businesses have to enter. It's a new layer across the internet we already have, one in which machines increasingly participate in discovery, evaluation and transactions on behalf of people. Long promised, now here. So how do we begin to make sense of it?
+deck: ''
 author: The Agentic Times
 read_time: 5
 date: 2026-09-30T21:07:00
 image: /assets/images/uploads/at_perspective_07.png
 ---
+
+The Agent Internet will not be another place businesses have to enter. It's a new layer across the internet we already have, one in which machines increasingly participate in discovery, evaluation and transactions on behalf of people. Long promised, now here. So how do we begin to make sense of it?
 
 A few years on from the word ‘metaverse’ becoming commonplace, you would be forgiven for lacking enthusiasm for the next supposedly transformative version of the internet. The metaverse remains niche, often relies on specialist hardware, and many of the much-hyped applications never gained meaningful traction. Apparently persuading people to inhabit an entirely different internet was a bigger problem than many expected. 
 
