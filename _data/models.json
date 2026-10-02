@@ -35,18 +35,18 @@
     "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
   },
   {
-    "name": "granite-4.2-8b",
-    "org": "IBM",
-    "desc": "8B",
-    "date": "07.08.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-4.2-8b"
-  },
-  {
     "name": "granite-4.2-3b",
     "org": "IBM",
     "desc": "3B",
     "date": "07.08.2026",
     "url": "https://huggingface.co/ibm-granite/granite-4.2-3b"
+  },
+  {
+    "name": "granite-4.2-8b",
+    "org": "IBM",
+    "desc": "8B",
+    "date": "07.08.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-4.2-8b"
   },
   {
     "name": "GLM-5.2",
@@ -70,11 +70,11 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
   },
   {
-    "name": "Mamba2-primed-HQwen3-8B-Instruct",
-    "org": "Amazon",
-    "desc": "8B · instruct",
-    "date": "31.03.2026",
-    "url": "https://huggingface.co/amazon/Mamba2-primed-HQwen3-8B-Instruct"
+    "name": "Falcon-OCR",
+    "org": "TII",
+    "desc": "Open language model",
+    "date": "22.02.2026",
+    "url": "https://huggingface.co/tiiuae/Falcon-OCR"
   },
   {
     "name": "GLM-4.7-Flash",
