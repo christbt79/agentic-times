@@ -14,7 +14,7 @@ The honest answer to the question in this piece's title is yes. We do need this 
 
 But I don't think we've sat with the more uncomfortable follow-up question nearly enough. If an orchestrator agent is making consequential decisions, deciding what gets escalated, what gets blocked, which agent's output to trust over another's, then it isn't solving the governance problem. It's actually forcing it one level up.
 
-**A different kind of middle manager**
+## **A different kind of middle manager**
 
 An orchestrator agent is still an AI agent and it still hallucinates. It still makes judgment calls you can't fully predict in advance. Put it in charge of fifty other agents and you haven't removed the unpredictability from your system, you've concentrated it, and that's the stuff of nightmares for a CTO.
 
@@ -22,7 +22,7 @@ A 2026 research paper on [multi-agent collusion](https://arxiv.org/pdf/2601.0036
 
 I keep coming back to that phrase, no natural stopping point. If the answer to "who manages the agents" is "another agent," the next question is obviously who manages that one? Add a human at the top and you've solved it on paper. In practice, you've just shifted the bottleneck to wherever the human sits, and that's where the system actually starts to fail.
 
-**Approval fatigue is where this breaks**
+## **Approval fatigue is where this breaks**
 
 We've covered the data on this before. Rubrik's research found 88% of organisations can't roll back agent actions without wider disruption. Most can't even reliably tell whether an agent was involved in an incident after the fact. Layer an orchestrator on top of that and the human reviewer's job doesn't get easier. It gets buried under a different kind of noise; not raw agent output anymore, but an orchestrator's summarised account of fifty agents' worth of decisions, compressed into something a person is supposed to approve in seconds.
 
@@ -30,7 +30,7 @@ We've covered the data on this before. Rubrik's research found 88% of organisati
 
 That's the trap hiding inside agents managing agents. It looks like governance. It can quietly become its opposite, a thicker, more convincing layer of compliance theatre sitting on top of decisions nobody actually reviewed.
 
-**A different kind of layer cake**
+## **A different kind of layer cake**
 
 My own view is the fix isn't another agent watching the agent that's watching your agents. It's accepting that orchestration and governance are different jobs, and only one of them should be agentic.
 
