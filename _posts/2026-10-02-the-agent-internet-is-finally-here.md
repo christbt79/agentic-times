@@ -14,13 +14,13 @@ A few years on from the word ‘metaverse’ becoming commonplace, you would be 
 
 The emerging Agent Internet takes a very different route.
 
-## New layers of the web
+## **New layers of the web**
 
 The metaverse required consumers to adopt a new destination, new behaviours and often new hardware. The agentic shift doesn’t. AI agents can operate across websites, APIs, search engines, ecommerce platforms, SaaS tools and existing business systems.
 
 The change is therefore less about where we go online and more about who — or what — does the navigating. Increasingly, we can give an agent an objective and let it research, compare, communicate and act on our behalf. That has implications far beyond AI chat.
 
-## From chats to agents
+## **From chats to agents**
 
 The change has happened remarkably quickly. ChatGPT familiarised millions of people with conversational AI in 2022. We have already moved from asking an AI for an answer towards giving it a task.
 
@@ -30,7 +30,7 @@ Now those ideas are becoming mainstream products. **Grok Bot** offers always-on 
 
 The real shift is from one-off conversations to persistent digital workers, and increasingly to agents coordinating with other agents.
 
-## A second audience for the internet
+## **A second audience for the internet**
 
 This becomes particularly interesting when agents act as customers, researchers or buyers.
 
@@ -42,7 +42,7 @@ A human may respond to branding, photography, storytelling or reputation. An age
 
 This is not just a marketing issue. Procurement, recruitment, travel, finance, customer support and software purchasing could all involve agents screening options before a person becomes directly involved.
 
-## From tools to an agent network
+## **From tools to an agent network**
 
 The infrastructure for this is also beginning to form. Model Context Protocol (MCP) gives agents a standard way to connect to tools and data, while Agent2Agent (A2A) is designed so agents from different systems can discover one another, delegate tasks and collaborate. Anthropic reported more than 10,000 active public MCP servers by December 2025.
 
@@ -50,7 +50,7 @@ That moves us towards something more significant than better assistants: an inte
 
 For businesses, that creates opportunities to automate research, operations, customer service, procurement and routine administration. Meta’s newly announced Muse for Small Business, for example, connects with tools including QuickBooks, Shopify, Slack, Stripe, Notion and Canva, while keeping publishing, sending and spending subject to user approval.
 
-## But autonomy brings friction
+## **But autonomy brings friction**
 
 This future should not be treated as inevitable or frictionless. Accenture found that 74% of consumers would delegate routine tasks to an agent, but only 9% were open to fully autonomous purchasing.
 
@@ -58,7 +58,7 @@ Even businesses already experimenting with agents are finding limits. Gartner re
 
 Security, permissions, incorrect actions, accountability and trust all become more important when software can act rather than simply advise.
 
-## What should businesses do now?
+## **What should businesses do now?**
 
 The sensible response is experimentation, not wholesale reinvention.
 
