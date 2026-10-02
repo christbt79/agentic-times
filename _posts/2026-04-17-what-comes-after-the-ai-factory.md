@@ -12,17 +12,17 @@ The modern AI data center as a token-manufacturing plant has given enterprise le
 
 Unsurprisingly the catalyst is agentic AI. Agentic AIs act autonomously, planning tasks, calling tools, writing and executing code, validating results, handing work between agents. They don't wait to be asked, they run continuously. It's the always-on nature that changes the infrastructure equation more than any chip generation so far.
 
-**The token consumption problem**
+## **The token consumption problem**
 
 Standard generative AI creates demand in bursts. Agentic AI creates demand that never stops. Current deployments are already multiplying token consumption 20–30 times compared to conventional AI workloads, and they are still pretty early in terms of enterprise proliferation and edge use cases. The factory designed for today's inference loads may be undersized for tomorrow's agentic ones.
 
 This isn't a software problem. It's a hardware architecture problem. The GPU that made the first generation of AI factories possible was designed for a different workload profile. Agents don't just need raw compute, they need orchestration, data movement, tool execution, and validation logic running in parallel, at low latency, continuously.
 
-**NVIDIA rejuvenates the CPU**
+## **NVIDIA rejuvenates the CPU**
 
 Naturally, NVIDIA saw this coming. At GTC 2026 last week Jensen signalled clearly that the AI factory is about to be redesigned from the ground up. The Vera CPU, described as the world's first processor purpose-built for agentic AI and reinforcement learning, delivers twice the efficiency and 50% faster performance than traditional rack-scale CPUs. Of course it's not here to replace NVIDIA's bread and butter, the GPU, it's complementing it for the changing agentic landscape. Where GPUs handle the heavy inference lifting, Vera CPUs are designed for the tasks agents actually spend most of their time on: tool calling, SQL queries, code compilation and orchestration.
 
-**What the next AI factory looks like**
+## **What the next AI factory looks like**
 
 The first-generation of AI factories are built around a single question: how many tokens can I produce per GPU per dollar? The agentic AI factory has to answer several other questions simultaneously: how do I sustain continuous, low-latency reasoning at scale? How do I manage context memory across long multi-turn agent interactions? How do I govern what thousands of autonomous agents are doing at any given moment?
 
@@ -30,13 +30,13 @@ The Vera Rubin platform introduces workload 'disaggregation', a word we'll hear 
 
 The 'factory floor' of AI is becoming truly heterogeneous. Specialised processors for different workload types. Purpose-built storage for context memory, and governance layers for agent orchestration.
 
-**The sovereignty angle**
+## **The sovereignty angle**
 
 One of the other big themes in AI right now (and much talked about at GTC 2026), is Sovereign AI, which is also shaping how AI factories will develop. As AI inference becomes continuous and load-bearing for enterprise operations, questions of control are becoming strategic. Where is the intelligence running? Under whose legal jurisdiction? Who can compel access to it?
 
 Sovereign AI infrastructure is no longer a political abstraction, it's a procurement category. The agentic AI factory of the future won't just be optimised for tokens per watt, it will be certified for jurisdiction, audited for agent behaviour, and governed as the critical infrastructure it is rapidly becoming.
 
-**What this means right now**
+## **What this means right now**
 
 The first-generation AI factory economics (centralised, GPU-heavy, optimised for training and batch inference), are already being disrupted by a workload type that demands continuous, distributed, heterogeneous compute with governance built in from the start.
 
