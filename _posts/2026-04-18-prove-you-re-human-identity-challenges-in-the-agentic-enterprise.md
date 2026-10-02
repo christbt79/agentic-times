@@ -12,7 +12,7 @@ In a world of 'scary good' deepfakes and growing agentic abilities, it was inevi
 
 It works. The technology is genuinely smart, but is it a sign of greater challenges that lie ahead, and will they be a continual barrier to the many benefits agentic AI brings.
 
-**The fraud is already here**
+## **The fraud is already here**
 
 In early 2024, an employee at engineering firm Arup authorised a series of wire transfers during a video call. Every other participant turned out to be an AI-generated deepfake — including the company's CFO. The loss was $25 million. A similar attack hit a multinational in Singapore in 2025. Across the industry, deepfake-enabled fraud exceeded $200 million in the first quarter of 2025 alone.
 
@@ -20,7 +20,7 @@ The response from the security industry has been to build better detectors — A
 
 That's the right approach, but it also reveals something important about where the threat is actually heading.
 
-**The agentic dimension**
+## **The agentic dimension**
 
 So far, most discussion of deepfake fraud has focused on bad actors using synthetic video to impersonate humans. That is a real and growing problem, but there's a second dimension that has received far less attention: the legitimate, sanctioned deployment of AI agents inside the same video and collaboration infrastructure.
 
@@ -30,13 +30,13 @@ This creates a paradox at the centre of the "Verified Human" concept. Enterprise
 
 Threat actors are now using AI to join calls, request IT support, and reset passwords, operating in ways that are behaviourally indistinguishable from legitimate automated agents. The attack surface is not just deepfake humans. It is the difficulty of distinguishing between a sanctioned AI agent, an impersonating AI agent, and a real human — in real time, at enterprise scale.
 
-**What enterprises are actually doing**
+## **What enterprises are actually doing**
 
 The response from security-conscious organisations has so far been fragmented. Some are requiring verification for any call involving financial authorisation — a phone call to a known number before any transfer is confirmed etc. Others are introducing multi-step authentication protocols that must be completed before certain categories of meeting can proceed. A smaller number are beginning to build identity governance frameworks that treat AI agents and humans as distinct but equally governed participants, each with defined permissions, audit trails, and access limitations.
 
 The challenge is that most enterprises are deploying AI agents into their collaboration infrastructure faster than they are building the frameworks to govern them. Zoom's agentic platform expansion, Copilot's attendance at meetings, the proliferation of numerous AI notetakers and workflow agents — all of this is happening in organisations where the identity question has not been resolved. Who authorised this agent to be here? What is it permitted to do with what it hears? How do we know it has not been compromised? These are the same governance questions we covered in the context of AgentOps, applied to a different use case.
 
-**The verification arms race**
+## **The verification arms race is underway**
 
 Zoom's integration with World is a reasonable response to the immediate problem: a high-assurance option for calls where the cost of impersonation is measured in seven figures. The limitation is practical — World ID requires iris scanning via a physical Orb device, and the network covers around 18 million users in a world where Zoom has hundreds of millions. For most meetings, it will remain a niche feature for specific high-stakes scenarios. And World itself carries regulatory baggage, with data protection authorities in Spain, Germany, the Philippines, and elsewhere having taken action over its data collection practices.
 
