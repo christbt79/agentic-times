@@ -7,6 +7,13 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
   },
   {
+    "name": "AstaBrief_8B_SFT",
+    "org": "AllenAI",
+    "desc": "8B",
+    "date": "10.09.2026",
+    "url": "https://huggingface.co/allenai/AstaBrief_8B_SFT"
+  },
+  {
     "name": "tiny-aya-l2-thinker",
     "org": "Cohere",
     "desc": "reasoning",
@@ -77,6 +84,13 @@
     "url": "https://huggingface.co/tiiuae/Falcon-OCR"
   },
   {
+    "name": "AstaBrief_8B",
+    "org": "AllenAI",
+    "desc": "8B",
+    "date": "09.02.2026",
+    "url": "https://huggingface.co/allenai/AstaBrief_8B"
+  },
+  {
     "name": "GLM-4.7-Flash",
     "org": "Zhipu",
     "desc": "Open language model",
@@ -96,19 +110,5 @@
     "desc": "48B · MoE · instruct",
     "date": "30.10.2025",
     "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct"
-  },
-  {
-    "name": "gpt-oss-safeguard-120b",
-    "org": "OpenAI",
-    "desc": "120B",
-    "date": "18.09.2025",
-    "url": "https://huggingface.co/openai/gpt-oss-safeguard-120b"
-  },
-  {
-    "name": "gpt-oss-120b-Eagle3-long-context",
-    "org": "NVIDIA",
-    "desc": "120B",
-    "date": "18.08.2025",
-    "url": "https://huggingface.co/nvidia/gpt-oss-120b-Eagle3-long-context"
   }
 ]
