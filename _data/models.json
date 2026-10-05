@@ -14,13 +14,6 @@
     "url": "https://huggingface.co/allenai/AstaBrief_8B_SFT"
   },
   {
-    "name": "tiny-aya-l2-thinker",
-    "org": "Cohere",
-    "desc": "reasoning",
-    "date": "02.09.2026",
-    "url": "https://huggingface.co/CohereLabs/tiny-aya-l2-thinker"
-  },
-  {
     "name": "GLM-5.3",
     "org": "Zhipu",
     "desc": "Open language model",
@@ -77,11 +70,11 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
   },
   {
-    "name": "Falcon-OCR",
-    "org": "TII",
-    "desc": "Open language model",
-    "date": "22.02.2026",
-    "url": "https://huggingface.co/tiiuae/Falcon-OCR"
+    "name": "Mamba2-primed-HQwen3-8B-Instruct",
+    "org": "Amazon",
+    "desc": "8B · instruct",
+    "date": "31.03.2026",
+    "url": "https://huggingface.co/amazon/Mamba2-primed-HQwen3-8B-Instruct"
   },
   {
     "name": "AstaBrief_8B",
@@ -98,17 +91,24 @@
     "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
   },
   {
-    "name": "Olmo-3-7B-Instruct",
-    "org": "AllenAI",
-    "desc": "7B · instruct",
-    "date": "19.11.2025",
-    "url": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
-  },
-  {
     "name": "Kimi-Linear-48B-A3B-Instruct",
     "org": "Moonshot",
     "desc": "48B · MoE · instruct",
     "date": "30.10.2025",
     "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct"
+  },
+  {
+    "name": "Falcon-H1R-7B",
+    "org": "TII",
+    "desc": "7B",
+    "date": "29.10.2025",
+    "url": "https://huggingface.co/tiiuae/Falcon-H1R-7B"
+  },
+  {
+    "name": "gpt-oss-safeguard-120b",
+    "org": "OpenAI",
+    "desc": "120B",
+    "date": "18.09.2025",
+    "url": "https://huggingface.co/openai/gpt-oss-safeguard-120b"
   }
 ]
