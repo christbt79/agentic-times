@@ -1,5 +1,19 @@
 [
   {
+    "name": "ALoDLM-8B",
+    "org": "Amazon",
+    "desc": "8B",
+    "date": "02.10.2026",
+    "url": "https://huggingface.co/amazon/ALoDLM-8B"
+  },
+  {
+    "name": "ALoDLM-1.7B",
+    "org": "Amazon",
+    "desc": "1.7B",
+    "date": "02.10.2026",
+    "url": "https://huggingface.co/amazon/ALoDLM-1.7B"
+  },
+  {
     "name": "DeepSeek-V4.1-Flash",
     "org": "DeepSeek",
     "desc": "multimodal",
@@ -14,18 +28,18 @@
     "url": "https://huggingface.co/allenai/AstaBrief_8B_SFT"
   },
   {
+    "name": "tiny-aya-l2-thinker",
+    "org": "Cohere",
+    "desc": "reasoning",
+    "date": "02.09.2026",
+    "url": "https://huggingface.co/CohereLabs/tiny-aya-l2-thinker"
+  },
+  {
     "name": "GLM-5.3",
     "org": "Zhipu",
     "desc": "Open language model",
     "date": "25.08.2026",
     "url": "https://huggingface.co/zai-org/GLM-5.3"
-  },
-  {
-    "name": "North-Small-Translate-1.0",
-    "org": "Cohere",
-    "desc": "Open language model",
-    "date": "14.08.2026",
-    "url": "https://huggingface.co/CohereLabs/North-Small-Translate-1.0"
   },
   {
     "name": "Qwen3.8-2.4T-A95B",
@@ -35,18 +49,18 @@
     "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
   },
   {
-    "name": "granite-4.2-3b",
-    "org": "IBM",
-    "desc": "3B",
-    "date": "07.08.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-4.2-3b"
-  },
-  {
     "name": "granite-4.2-8b",
     "org": "IBM",
     "desc": "8B",
     "date": "07.08.2026",
     "url": "https://huggingface.co/ibm-granite/granite-4.2-8b"
+  },
+  {
+    "name": "granite-4.2-3b",
+    "org": "IBM",
+    "desc": "3B",
+    "date": "07.08.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-4.2-3b"
   },
   {
     "name": "GLM-5.2",
@@ -96,19 +110,5 @@
     "desc": "48B · MoE · instruct",
     "date": "30.10.2025",
     "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct"
-  },
-  {
-    "name": "Falcon-H1R-7B",
-    "org": "TII",
-    "desc": "7B",
-    "date": "29.10.2025",
-    "url": "https://huggingface.co/tiiuae/Falcon-H1R-7B"
-  },
-  {
-    "name": "gpt-oss-safeguard-120b",
-    "org": "OpenAI",
-    "desc": "120B",
-    "date": "18.09.2025",
-    "url": "https://huggingface.co/openai/gpt-oss-safeguard-120b"
   }
 ]
