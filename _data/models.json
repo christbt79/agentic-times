@@ -91,6 +91,13 @@
     "url": "https://huggingface.co/amazon/Mamba2-primed-HQwen3-8B-Instruct"
   },
   {
+    "name": "tiny-aya-global",
+    "org": "Cohere",
+    "desc": "Open language model",
+    "date": "13.02.2026",
+    "url": "https://huggingface.co/CohereLabs/tiny-aya-global"
+  },
+  {
     "name": "AstaBrief_8B",
     "org": "AllenAI",
     "desc": "8B",
@@ -103,12 +110,5 @@
     "desc": "Open language model",
     "date": "19.01.2026",
     "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
-  },
-  {
-    "name": "Kimi-Linear-48B-A3B-Instruct",
-    "org": "Moonshot",
-    "desc": "48B · MoE · instruct",
-    "date": "30.10.2025",
-    "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct"
   }
 ]
