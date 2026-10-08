@@ -21,18 +21,18 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
   },
   {
-    "name": "AstaBrief_8B_SFT",
-    "org": "AllenAI",
-    "desc": "8B",
-    "date": "10.09.2026",
-    "url": "https://huggingface.co/allenai/AstaBrief_8B_SFT"
-  },
-  {
-    "name": "tiny-aya-l2-thinker",
+    "name": "tiny-aya-en-thinker",
     "org": "Cohere",
     "desc": "reasoning",
     "date": "02.09.2026",
-    "url": "https://huggingface.co/CohereLabs/tiny-aya-l2-thinker"
+    "url": "https://huggingface.co/CohereLabs/tiny-aya-en-thinker"
+  },
+  {
+    "name": "Bwen-8B",
+    "org": "AllenAI",
+    "desc": "8B",
+    "date": "26.08.2026",
+    "url": "https://huggingface.co/allenai/Bwen-8B"
   },
   {
     "name": "GLM-5.3",
@@ -49,18 +49,18 @@
     "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
   },
   {
-    "name": "granite-4.2-8b",
-    "org": "IBM",
-    "desc": "8B",
-    "date": "07.08.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-4.2-8b"
-  },
-  {
     "name": "granite-4.2-3b",
     "org": "IBM",
     "desc": "3B",
     "date": "07.08.2026",
     "url": "https://huggingface.co/ibm-granite/granite-4.2-3b"
+  },
+  {
+    "name": "granite-4.2-8b",
+    "org": "IBM",
+    "desc": "8B",
+    "date": "07.08.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-4.2-8b"
   },
   {
     "name": "GLM-5.2",
