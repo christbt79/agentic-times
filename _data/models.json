@@ -21,18 +21,11 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
   },
   {
-    "name": "tiny-aya-en-thinker",
-    "org": "Cohere",
-    "desc": "reasoning",
-    "date": "02.09.2026",
-    "url": "https://huggingface.co/CohereLabs/tiny-aya-en-thinker"
-  },
-  {
-    "name": "Bwen-8B",
+    "name": "Bwen-8B-Stage1",
     "org": "AllenAI",
     "desc": "8B",
     "date": "26.08.2026",
-    "url": "https://huggingface.co/allenai/Bwen-8B"
+    "url": "https://huggingface.co/allenai/Bwen-8B-Stage1"
   },
   {
     "name": "GLM-5.3",
@@ -47,13 +40,6 @@
     "desc": "95B",
     "date": "08.08.2026",
     "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
-  },
-  {
-    "name": "granite-4.2-3b",
-    "org": "IBM",
-    "desc": "3B",
-    "date": "07.08.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-4.2-3b"
   },
   {
     "name": "granite-4.2-8b",
@@ -110,5 +96,19 @@
     "desc": "Open language model",
     "date": "19.01.2026",
     "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+  },
+  {
+    "name": "Kimi-Linear-48B-A3B-Instruct",
+    "org": "Moonshot",
+    "desc": "48B · MoE · instruct",
+    "date": "30.10.2025",
+    "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct"
+  },
+  {
+    "name": "gpt-oss-safeguard-120b",
+    "org": "OpenAI",
+    "desc": "120B",
+    "date": "18.09.2025",
+    "url": "https://huggingface.co/openai/gpt-oss-safeguard-120b"
   }
 ]
