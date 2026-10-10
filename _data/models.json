@@ -42,11 +42,11 @@
     "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
   },
   {
-    "name": "granite-4.2-8b",
+    "name": "granite-4.2-3b",
     "org": "IBM",
-    "desc": "8B",
+    "desc": "3B",
     "date": "07.08.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-4.2-8b"
+    "url": "https://huggingface.co/ibm-granite/granite-4.2-3b"
   },
   {
     "name": "GLM-5.2",
