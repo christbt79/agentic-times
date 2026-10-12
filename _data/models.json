@@ -21,13 +21,6 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
   },
   {
-    "name": "Bwen-8B-Stage1",
-    "org": "AllenAI",
-    "desc": "8B",
-    "date": "26.08.2026",
-    "url": "https://huggingface.co/allenai/Bwen-8B-Stage1"
-  },
-  {
     "name": "GLM-5.3",
     "org": "Zhipu",
     "desc": "Open language model",
@@ -49,11 +42,18 @@
     "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
   },
   {
-    "name": "granite-4.2-3b",
+    "name": "granite-4.2-30b",
     "org": "IBM",
-    "desc": "3B",
+    "desc": "30B",
     "date": "07.08.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-4.2-3b"
+    "url": "https://huggingface.co/ibm-granite/granite-4.2-30b"
+  },
+  {
+    "name": "Nemotron-Labs-Audex-2B",
+    "org": "NVIDIA",
+    "desc": "2B",
+    "date": "06.07.2026",
+    "url": "https://huggingface.co/nvidia/Nemotron-Labs-Audex-2B"
   },
   {
     "name": "GLM-5.2",
@@ -77,13 +77,6 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
   },
   {
-    "name": "Mamba2-primed-HQwen3-8B-Instruct",
-    "org": "Amazon",
-    "desc": "8B · instruct",
-    "date": "31.03.2026",
-    "url": "https://huggingface.co/amazon/Mamba2-primed-HQwen3-8B-Instruct"
-  },
-  {
     "name": "tiny-aya-global",
     "org": "Cohere",
     "desc": "Open language model",
@@ -98,17 +91,24 @@
     "url": "https://huggingface.co/allenai/AstaBrief_8B"
   },
   {
-    "name": "Qwen3-Coder-Next",
-    "org": "Qwen",
-    "desc": "coding",
-    "date": "30.01.2026",
-    "url": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
-  },
-  {
     "name": "GLM-4.7-Flash",
     "org": "Zhipu",
     "desc": "Open language model",
     "date": "19.01.2026",
     "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+  },
+  {
+    "name": "Olmo-3-7B-Instruct",
+    "org": "AllenAI",
+    "desc": "7B · instruct",
+    "date": "19.11.2025",
+    "url": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+  },
+  {
+    "name": "Kimi-Linear-48B-A3B-Instruct",
+    "org": "Moonshot",
+    "desc": "48B · MoE · instruct",
+    "date": "30.10.2025",
+    "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct"
   }
 ]
