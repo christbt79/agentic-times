@@ -1,5 +1,26 @@
 [
   {
+    "name": "granite-switch-4.1-30b",
+    "org": "IBM",
+    "desc": "30B",
+    "date": "14.10.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-30b"
+  },
+  {
+    "name": "granite-switch-4.1-8b",
+    "org": "IBM",
+    "desc": "8B",
+    "date": "14.10.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-8b"
+  },
+  {
+    "name": "NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr",
+    "org": "NVIDIA",
+    "desc": "74B",
+    "date": "12.10.2026",
+    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr"
+  },
+  {
     "name": "ALoDLM-8B",
     "org": "Amazon",
     "desc": "8B",
@@ -28,20 +49,6 @@
     "url": "https://huggingface.co/zai-org/GLM-5.3"
   },
   {
-    "name": "granite-4.2-8b",
-    "org": "IBM",
-    "desc": "8B",
-    "date": "07.08.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-4.2-8b"
-  },
-  {
-    "name": "granite-4.2-30b",
-    "org": "IBM",
-    "desc": "30B",
-    "date": "07.08.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-4.2-30b"
-  },
-  {
     "name": "Nemotron-Labs-Audex-2B",
     "org": "NVIDIA",
     "desc": "2B",
@@ -56,11 +63,11 @@
     "url": "https://huggingface.co/google/gemma-4-31B-it-assistant"
   },
   {
-    "name": "DeepSeek-V4-Pro",
-    "org": "DeepSeek",
+    "name": "Falcon-OCR",
+    "org": "TII",
     "desc": "Open language model",
-    "date": "22.04.2026",
-    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+    "date": "22.02.2026",
+    "url": "https://huggingface.co/tiiuae/Falcon-OCR"
   },
   {
     "name": "tiny-aya-global",
@@ -84,11 +91,11 @@
     "url": "https://huggingface.co/allenai/AstaBrief_8B"
   },
   {
-    "name": "GLM-4.7-Flash",
+    "name": "GLM-4.7",
     "org": "Zhipu",
     "desc": "Open language model",
-    "date": "19.01.2026",
-    "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+    "date": "22.12.2025",
+    "url": "https://huggingface.co/zai-org/GLM-4.7"
   },
   {
     "name": "Olmo-3-7B-Instruct",
@@ -103,12 +110,5 @@
     "desc": "reasoning",
     "date": "04.11.2025",
     "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking"
-  },
-  {
-    "name": "Kimi-Linear-48B-A3B-Instruct",
-    "org": "Moonshot",
-    "desc": "48B · MoE · instruct",
-    "date": "30.10.2025",
-    "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct"
   }
 ]
