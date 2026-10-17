@@ -1,10 +1,17 @@
 [
   {
-    "name": "granite-switch-4.1-30b",
-    "org": "IBM",
-    "desc": "30B",
+    "name": "DeepSeek-V4.1-Flash-1017",
+    "org": "DeepSeek",
+    "desc": "multimodal",
+    "date": "17.10.2026",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+  },
+  {
+    "name": "UserRepGen-4B",
+    "org": "Microsoft",
+    "desc": "4B · multimodal",
     "date": "14.10.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-30b"
+    "url": "https://huggingface.co/microsoft/UserRepGen-4B"
   },
   {
     "name": "granite-switch-4.1-8b",
@@ -12,6 +19,13 @@
     "desc": "8B",
     "date": "14.10.2026",
     "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-8b"
+  },
+  {
+    "name": "granite-switch-4.1-30b",
+    "org": "IBM",
+    "desc": "30B",
+    "date": "14.10.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-30b"
   },
   {
     "name": "NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr",
@@ -56,6 +70,13 @@
     "url": "https://huggingface.co/nvidia/Nemotron-Labs-Audex-2B"
   },
   {
+    "name": "North-Mini-Code-1.0",
+    "org": "Cohere",
+    "desc": "coding",
+    "date": "05.06.2026",
+    "url": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0"
+  },
+  {
     "name": "gemma-4-31B-it-assistant",
     "org": "Google",
     "desc": "31B · instruct",
@@ -77,13 +98,6 @@
     "url": "https://huggingface.co/CohereLabs/tiny-aya-global"
   },
   {
-    "name": "GLM-5",
-    "org": "Zhipu",
-    "desc": "Open language model",
-    "date": "11.02.2026",
-    "url": "https://huggingface.co/zai-org/GLM-5"
-  },
-  {
     "name": "AstaBrief_8B",
     "org": "AllenAI",
     "desc": "8B",
@@ -91,24 +105,10 @@
     "url": "https://huggingface.co/allenai/AstaBrief_8B"
   },
   {
-    "name": "GLM-4.7",
+    "name": "GLM-4.7-Flash",
     "org": "Zhipu",
     "desc": "Open language model",
-    "date": "22.12.2025",
-    "url": "https://huggingface.co/zai-org/GLM-4.7"
-  },
-  {
-    "name": "Olmo-3-7B-Instruct",
-    "org": "AllenAI",
-    "desc": "7B · instruct",
-    "date": "19.11.2025",
-    "url": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
-  },
-  {
-    "name": "Kimi-K2-Thinking",
-    "org": "Moonshot",
-    "desc": "reasoning",
-    "date": "04.11.2025",
-    "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking"
+    "date": "19.01.2026",
+    "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
   }
 ]
