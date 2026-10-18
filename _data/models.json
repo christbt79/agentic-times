@@ -56,11 +56,25 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
   },
   {
+    "name": "Nemotron-3.5-Parse",
+    "org": "NVIDIA",
+    "desc": "multimodal",
+    "date": "03.09.2026",
+    "url": "https://huggingface.co/nvidia/Nemotron-3.5-Parse"
+  },
+  {
     "name": "GLM-5.3",
     "org": "Zhipu",
     "desc": "Open language model",
     "date": "25.08.2026",
     "url": "https://huggingface.co/zai-org/GLM-5.3"
+  },
+  {
+    "name": "granite-4.2-8b",
+    "org": "IBM",
+    "desc": "8B",
+    "date": "07.08.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-4.2-8b"
   },
   {
     "name": "Nemotron-Labs-Audex-2B",
@@ -96,19 +110,5 @@
     "desc": "Open language model",
     "date": "13.02.2026",
     "url": "https://huggingface.co/CohereLabs/tiny-aya-global"
-  },
-  {
-    "name": "AstaBrief_8B",
-    "org": "AllenAI",
-    "desc": "8B",
-    "date": "09.02.2026",
-    "url": "https://huggingface.co/allenai/AstaBrief_8B"
-  },
-  {
-    "name": "GLM-4.7-Flash",
-    "org": "Zhipu",
-    "desc": "Open language model",
-    "date": "19.01.2026",
-    "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
   }
 ]
