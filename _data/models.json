@@ -70,6 +70,13 @@
     "url": "https://huggingface.co/zai-org/GLM-5.3"
   },
   {
+    "name": "North-Small-Translate-1.0",
+    "org": "Cohere",
+    "desc": "Open language model",
+    "date": "14.08.2026",
+    "url": "https://huggingface.co/CohereLabs/North-Small-Translate-1.0"
+  },
+  {
     "name": "granite-4.2-8b",
     "org": "IBM",
     "desc": "8B",
@@ -98,17 +105,10 @@
     "url": "https://huggingface.co/tiiuae/Falcon-OCR"
   },
   {
-    "name": "tiny-aya-global",
+    "name": "tiny-aya-base",
     "org": "Cohere",
     "desc": "Open language model",
     "date": "13.02.2026",
-    "url": "https://huggingface.co/CohereLabs/tiny-aya-global"
-  },
-  {
-    "name": "AstaBrief_8B",
-    "org": "AllenAI",
-    "desc": "8B",
-    "date": "09.02.2026",
-    "url": "https://huggingface.co/allenai/AstaBrief_8B"
+    "url": "https://huggingface.co/CohereLabs/tiny-aya-base"
   }
 ]
