@@ -7,6 +7,13 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
   },
   {
+    "name": "Sentiment-Analysis-7B",
+    "org": "Microsoft",
+    "desc": "7B",
+    "date": "17.10.2026",
+    "url": "https://huggingface.co/microsoft/Sentiment-Analysis-7B"
+  },
+  {
     "name": "UserRepGen-4B",
     "org": "Microsoft",
     "desc": "4B · multimodal",
@@ -103,12 +110,5 @@
     "desc": "Open language model",
     "date": "22.02.2026",
     "url": "https://huggingface.co/tiiuae/Falcon-OCR"
-  },
-  {
-    "name": "tiny-aya-base",
-    "org": "Cohere",
-    "desc": "Open language model",
-    "date": "13.02.2026",
-    "url": "https://huggingface.co/CohereLabs/tiny-aya-base"
   }
 ]
