@@ -91,6 +91,13 @@
     "url": "https://huggingface.co/zai-org/GLM-5.2"
   },
   {
+    "name": "North-Mini-Code-1.0",
+    "org": "Cohere",
+    "desc": "coding",
+    "date": "05.06.2026",
+    "url": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0"
+  },
+  {
     "name": "DeepSeek-V4-Pro",
     "org": "DeepSeek",
     "desc": "Open language model",
@@ -98,17 +105,10 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
   },
   {
-    "name": "Falcon-OCR",
-    "org": "TII",
-    "desc": "Open language model",
-    "date": "22.02.2026",
-    "url": "https://huggingface.co/tiiuae/Falcon-OCR"
-  },
-  {
-    "name": "tiny-aya-base",
-    "org": "Cohere",
-    "desc": "Open language model",
-    "date": "13.02.2026",
-    "url": "https://huggingface.co/CohereLabs/tiny-aya-base"
+    "name": "granite-4.1-3b",
+    "org": "IBM",
+    "desc": "3B",
+    "date": "06.04.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-4.1-3b"
   }
 ]
