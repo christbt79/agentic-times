@@ -28,13 +28,6 @@
     "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-8b"
   },
   {
-    "name": "granite-switch-4.1-30b",
-    "org": "IBM",
-    "desc": "30B",
-    "date": "14.10.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-30b"
-  },
-  {
     "name": "NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
     "org": "NVIDIA",
     "desc": "4B",
@@ -54,13 +47,6 @@
     "desc": "8B",
     "date": "02.10.2026",
     "url": "https://huggingface.co/amazon/ALoDLM-8B"
-  },
-  {
-    "name": "ALoDLM-1.7B",
-    "org": "Amazon",
-    "desc": "1.7B",
-    "date": "02.10.2026",
-    "url": "https://huggingface.co/amazon/ALoDLM-1.7B"
   },
   {
     "name": "DeepSeek-V4.1-Flash",
@@ -110,5 +96,19 @@
     "desc": "Open language model",
     "date": "22.04.2026",
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
+  },
+  {
+    "name": "GKA-primed-HQwen3-32B-Reasoner",
+    "org": "Amazon",
+    "desc": "32B · reasoning",
+    "date": "31.03.2026",
+    "url": "https://huggingface.co/amazon/GKA-primed-HQwen3-32B-Reasoner"
+  },
+  {
+    "name": "Falcon-Perception",
+    "org": "TII",
+    "desc": "Open language model",
+    "date": "22.02.2026",
+    "url": "https://huggingface.co/tiiuae/Falcon-Perception"
   }
 ]
