@@ -14,13 +14,6 @@
     "url": "https://huggingface.co/microsoft/Sentiment-Analysis-7B"
   },
   {
-    "name": "UserRepGen-4B",
-    "org": "Microsoft",
-    "desc": "4B · multimodal",
-    "date": "14.10.2026",
-    "url": "https://huggingface.co/microsoft/UserRepGen-4B"
-  },
-  {
     "name": "granite-switch-4.1-8b",
     "org": "IBM",
     "desc": "8B",
@@ -75,6 +68,13 @@
     "desc": "Open language model",
     "date": "14.08.2026",
     "url": "https://huggingface.co/CohereLabs/North-Small-Translate-1.0"
+  },
+  {
+    "name": "Qwen3.8-2.4T-A95B",
+    "org": "Qwen",
+    "desc": "95B",
+    "date": "08.08.2026",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
   },
   {
     "name": "GLM-5.2",
