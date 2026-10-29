@@ -21,6 +21,13 @@
     "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-8b"
   },
   {
+    "name": "granite-switch-4.1-30b",
+    "org": "IBM",
+    "desc": "30B",
+    "date": "14.10.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-30b"
+  },
+  {
     "name": "NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
     "org": "NVIDIA",
     "desc": "4B",
@@ -61,13 +68,6 @@
     "desc": "Open language model",
     "date": "25.08.2026",
     "url": "https://huggingface.co/zai-org/GLM-5.3"
-  },
-  {
-    "name": "North-Small-Translate-1.0",
-    "org": "Cohere",
-    "desc": "Open language model",
-    "date": "14.08.2026",
-    "url": "https://huggingface.co/CohereLabs/North-Small-Translate-1.0"
   },
   {
     "name": "Qwen3.8-2.4T-A95B",
