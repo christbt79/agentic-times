@@ -42,13 +42,6 @@
     "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB-DFlash"
   },
   {
-    "name": "ALoDLM-8B",
-    "org": "Amazon",
-    "desc": "8B",
-    "date": "02.10.2026",
-    "url": "https://huggingface.co/amazon/ALoDLM-8B"
-  },
-  {
     "name": "DeepSeek-V4.1-Flash",
     "org": "DeepSeek",
     "desc": "multimodal",
@@ -91,6 +84,13 @@
     "url": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0"
   },
   {
+    "name": "gemma-4-12B-it-assistant",
+    "org": "Google",
+    "desc": "12B · instruct",
+    "date": "23.05.2026",
+    "url": "https://huggingface.co/google/gemma-4-12B-it-assistant"
+  },
+  {
     "name": "DeepSeek-V4-Flash",
     "org": "DeepSeek",
     "desc": "Open language model",
@@ -98,17 +98,17 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
   },
   {
-    "name": "GKA-primed-HQwen3-32B-Reasoner",
-    "org": "Amazon",
-    "desc": "32B · reasoning",
-    "date": "31.03.2026",
-    "url": "https://huggingface.co/amazon/GKA-primed-HQwen3-32B-Reasoner"
-  },
-  {
     "name": "Falcon-Perception",
     "org": "TII",
     "desc": "Open language model",
     "date": "22.02.2026",
     "url": "https://huggingface.co/tiiuae/Falcon-Perception"
+  },
+  {
+    "name": "Falcon-OCR",
+    "org": "TII",
+    "desc": "Open language model",
+    "date": "22.02.2026",
+    "url": "https://huggingface.co/tiiuae/Falcon-OCR"
   }
 ]
