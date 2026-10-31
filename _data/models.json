@@ -14,18 +14,18 @@
     "url": "https://huggingface.co/microsoft/Sentiment-Analysis-7B"
   },
   {
-    "name": "granite-switch-4.1-8b",
-    "org": "IBM",
-    "desc": "8B",
-    "date": "14.10.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-8b"
-  },
-  {
     "name": "granite-switch-4.1-30b",
     "org": "IBM",
     "desc": "30B",
     "date": "14.10.2026",
     "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-30b"
+  },
+  {
+    "name": "granite-switch-4.1-8b",
+    "org": "IBM",
+    "desc": "8B",
+    "date": "14.10.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-8b"
   },
   {
     "name": "NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
@@ -98,17 +98,17 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
   },
   {
-    "name": "Falcon-Perception",
-    "org": "TII",
-    "desc": "Open language model",
-    "date": "22.02.2026",
-    "url": "https://huggingface.co/tiiuae/Falcon-Perception"
-  },
-  {
     "name": "Falcon-OCR",
     "org": "TII",
     "desc": "Open language model",
     "date": "22.02.2026",
     "url": "https://huggingface.co/tiiuae/Falcon-OCR"
+  },
+  {
+    "name": "Falcon-Perception",
+    "org": "TII",
+    "desc": "Open language model",
+    "date": "22.02.2026",
+    "url": "https://huggingface.co/tiiuae/Falcon-Perception"
   }
 ]
