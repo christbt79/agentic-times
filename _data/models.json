@@ -42,6 +42,13 @@
     "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB-DFlash"
   },
   {
+    "name": "UserLM-2.0",
+    "org": "Microsoft",
+    "desc": "8B",
+    "date": "01.10.2026",
+    "url": "https://huggingface.co/microsoft/UserLM-2.0"
+  },
+  {
     "name": "DeepSeek-V4.1-Flash",
     "org": "DeepSeek",
     "desc": "multimodal",
@@ -61,6 +68,13 @@
     "desc": "Open language model",
     "date": "25.08.2026",
     "url": "https://huggingface.co/zai-org/GLM-5.3"
+  },
+  {
+    "name": "North-Small-Translate-1.0",
+    "org": "Cohere",
+    "desc": "Open language model",
+    "date": "14.08.2026",
+    "url": "https://huggingface.co/CohereLabs/North-Small-Translate-1.0"
   },
   {
     "name": "Qwen3.8-2.4T-A95B",
@@ -84,13 +98,6 @@
     "url": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0"
   },
   {
-    "name": "gemma-4-12B-it-assistant",
-    "org": "Google",
-    "desc": "12B · instruct",
-    "date": "23.05.2026",
-    "url": "https://huggingface.co/google/gemma-4-12B-it-assistant"
-  },
-  {
     "name": "DeepSeek-V4-Flash",
     "org": "DeepSeek",
     "desc": "Open language model",
@@ -103,12 +110,5 @@
     "desc": "Open language model",
     "date": "22.02.2026",
     "url": "https://huggingface.co/tiiuae/Falcon-OCR"
-  },
-  {
-    "name": "Falcon-Perception",
-    "org": "TII",
-    "desc": "Open language model",
-    "date": "22.02.2026",
-    "url": "https://huggingface.co/tiiuae/Falcon-Perception"
   }
 ]
