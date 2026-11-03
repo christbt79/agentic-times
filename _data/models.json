@@ -7,13 +7,6 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
   },
   {
-    "name": "Sentiment-Analysis-7B",
-    "org": "Microsoft",
-    "desc": "7B",
-    "date": "17.10.2026",
-    "url": "https://huggingface.co/microsoft/Sentiment-Analysis-7B"
-  },
-  {
     "name": "granite-switch-4.1-30b",
     "org": "IBM",
     "desc": "30B",
@@ -70,13 +63,6 @@
     "url": "https://huggingface.co/zai-org/GLM-5.3"
   },
   {
-    "name": "North-Small-Translate-1.0",
-    "org": "Cohere",
-    "desc": "Open language model",
-    "date": "14.08.2026",
-    "url": "https://huggingface.co/CohereLabs/North-Small-Translate-1.0"
-  },
-  {
     "name": "Qwen3.8-2.4T-A95B",
     "org": "Qwen",
     "desc": "95B",
@@ -110,5 +96,19 @@
     "desc": "Open language model",
     "date": "22.02.2026",
     "url": "https://huggingface.co/tiiuae/Falcon-OCR"
+  },
+  {
+    "name": "tiny-aya-global",
+    "org": "Cohere",
+    "desc": "Open language model",
+    "date": "13.02.2026",
+    "url": "https://huggingface.co/CohereLabs/tiny-aya-global"
+  },
+  {
+    "name": "Qwen3-Coder-Next",
+    "org": "Qwen",
+    "desc": "coding",
+    "date": "30.01.2026",
+    "url": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
   }
 ]
