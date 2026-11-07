@@ -14,25 +14,11 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
   },
   {
-    "name": "granite-switch-4.1-30b",
-    "org": "IBM",
-    "desc": "30B",
-    "date": "14.10.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-switch-4.1-30b"
-  },
-  {
     "name": "NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
     "org": "NVIDIA",
     "desc": "4B",
     "date": "05.10.2026",
     "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB"
-  },
-  {
-    "name": "NVIDIA-Nemotron-3.5-Bolt-E4B-4GB-DFlash",
-    "org": "NVIDIA",
-    "desc": "4B",
-    "date": "05.10.2026",
-    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB-DFlash"
   },
   {
     "name": "UserLM-2.0",
@@ -77,6 +63,13 @@
     "url": "https://huggingface.co/ibm-granite/granite-4.2-3b"
   },
   {
+    "name": "granite-4.2-8b",
+    "org": "IBM",
+    "desc": "8B",
+    "date": "07.08.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-4.2-8b"
+  },
+  {
     "name": "GLM-5.2",
     "org": "Zhipu",
     "desc": "Open language model",
@@ -98,6 +91,13 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
   },
   {
+    "name": "Falcon-Perception-300M",
+    "org": "TII",
+    "desc": "Open language model",
+    "date": "03.04.2026",
+    "url": "https://huggingface.co/tiiuae/Falcon-Perception-300M"
+  },
+  {
     "name": "tiny-aya-global",
     "org": "Cohere",
     "desc": "Open language model",
@@ -105,10 +105,10 @@
     "url": "https://huggingface.co/CohereLabs/tiny-aya-global"
   },
   {
-    "name": "tiny-aya-base",
+    "name": "tiny-aya-earth",
     "org": "Cohere",
     "desc": "Open language model",
     "date": "13.02.2026",
-    "url": "https://huggingface.co/CohereLabs/tiny-aya-base"
+    "url": "https://huggingface.co/CohereLabs/tiny-aya-earth"
   }
 ]
