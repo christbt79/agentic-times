@@ -91,11 +91,11 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
   },
   {
-    "name": "Falcon-Perception-300M",
+    "name": "Falcon-Perception",
     "org": "TII",
     "desc": "Open language model",
-    "date": "03.04.2026",
-    "url": "https://huggingface.co/tiiuae/Falcon-Perception-300M"
+    "date": "22.02.2026",
+    "url": "https://huggingface.co/tiiuae/Falcon-Perception"
   },
   {
     "name": "tiny-aya-global",
@@ -105,10 +105,10 @@
     "url": "https://huggingface.co/CohereLabs/tiny-aya-global"
   },
   {
-    "name": "tiny-aya-earth",
+    "name": "tiny-aya-base",
     "org": "Cohere",
     "desc": "Open language model",
     "date": "13.02.2026",
-    "url": "https://huggingface.co/CohereLabs/tiny-aya-earth"
+    "url": "https://huggingface.co/CohereLabs/tiny-aya-base"
   }
 ]
