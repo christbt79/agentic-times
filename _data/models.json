@@ -21,11 +21,18 @@
     "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB"
   },
   {
-    "name": "UserLM-2.0",
-    "org": "Microsoft",
+    "name": "ALoDLM-8B",
+    "org": "Amazon",
     "desc": "8B",
-    "date": "01.10.2026",
-    "url": "https://huggingface.co/microsoft/UserLM-2.0"
+    "date": "02.10.2026",
+    "url": "https://huggingface.co/amazon/ALoDLM-8B"
+  },
+  {
+    "name": "ALoDLM-1.7B",
+    "org": "Amazon",
+    "desc": "1.7B",
+    "date": "02.10.2026",
+    "url": "https://huggingface.co/amazon/ALoDLM-1.7B"
   },
   {
     "name": "DeepSeek-V4.1-Flash",
@@ -82,13 +89,6 @@
     "desc": "coding",
     "date": "05.06.2026",
     "url": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0"
-  },
-  {
-    "name": "DeepSeek-V4-Flash",
-    "org": "DeepSeek",
-    "desc": "Open language model",
-    "date": "22.04.2026",
-    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
   },
   {
     "name": "Falcon-Perception",
