@@ -56,13 +56,6 @@
     "url": "https://huggingface.co/zai-org/GLM-5.3"
   },
   {
-    "name": "Qwen3.8-2.4T-A95B",
-    "org": "Qwen",
-    "desc": "95B",
-    "date": "08.08.2026",
-    "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
-  },
-  {
     "name": "granite-4.2-3b",
     "org": "IBM",
     "desc": "3B",
@@ -89,6 +82,13 @@
     "desc": "coding",
     "date": "05.06.2026",
     "url": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0"
+  },
+  {
+    "name": "DeepSeek-V4-Flash",
+    "org": "DeepSeek",
+    "desc": "Open language model",
+    "date": "22.04.2026",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
   },
   {
     "name": "Falcon-Perception",
