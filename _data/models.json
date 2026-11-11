@@ -56,6 +56,13 @@
     "url": "https://huggingface.co/zai-org/GLM-5.3"
   },
   {
+    "name": "Qwen3.8-2.4T-A95B",
+    "org": "Qwen",
+    "desc": "95B",
+    "date": "08.08.2026",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+  },
+  {
     "name": "granite-4.2-3b",
     "org": "IBM",
     "desc": "3B",
@@ -68,6 +75,13 @@
     "desc": "8B",
     "date": "07.08.2026",
     "url": "https://huggingface.co/ibm-granite/granite-4.2-8b"
+  },
+  {
+    "name": "granite-4.2-30b",
+    "org": "IBM",
+    "desc": "30B",
+    "date": "07.08.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-4.2-30b"
   },
   {
     "name": "GLM-5.2",
@@ -91,24 +105,10 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
   },
   {
-    "name": "Falcon-Perception",
+    "name": "Falcon-OCR",
     "org": "TII",
     "desc": "Open language model",
     "date": "22.02.2026",
-    "url": "https://huggingface.co/tiiuae/Falcon-Perception"
-  },
-  {
-    "name": "tiny-aya-global",
-    "org": "Cohere",
-    "desc": "Open language model",
-    "date": "13.02.2026",
-    "url": "https://huggingface.co/CohereLabs/tiny-aya-global"
-  },
-  {
-    "name": "tiny-aya-base",
-    "org": "Cohere",
-    "desc": "Open language model",
-    "date": "13.02.2026",
-    "url": "https://huggingface.co/CohereLabs/tiny-aya-base"
+    "url": "https://huggingface.co/tiiuae/Falcon-OCR"
   }
 ]
