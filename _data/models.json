@@ -21,11 +21,11 @@
     "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB"
   },
   {
-    "name": "NVIDIA-Nemotron-3.5-Bolt-E4B-4GB-DFlash",
+    "name": "Nemotron-Labs-Sigma-8B",
     "org": "NVIDIA",
-    "desc": "4B",
+    "desc": "8B",
     "date": "05.10.2026",
-    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB-DFlash"
+    "url": "https://huggingface.co/nvidia/Nemotron-Labs-Sigma-8B"
   },
   {
     "name": "ALoDLM-8B",
