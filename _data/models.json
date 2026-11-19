@@ -1,5 +1,12 @@
 [
   {
+    "name": "Aion-1.0-Instruct-2.3B",
+    "org": "Microsoft",
+    "desc": "2.3B · instruct",
+    "date": "18.11.2026",
+    "url": "https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B"
+  },
+  {
     "name": "Qwen3.5-4B-Qwen3.8-27B-Draft",
     "org": "NVIDIA",
     "desc": "4B",
@@ -103,12 +110,5 @@
     "desc": "Open language model",
     "date": "22.02.2026",
     "url": "https://huggingface.co/tiiuae/Falcon-Perception"
-  },
-  {
-    "name": "Falcon-OCR",
-    "org": "TII",
-    "desc": "Open language model",
-    "date": "22.02.2026",
-    "url": "https://huggingface.co/tiiuae/Falcon-OCR"
   }
 ]
