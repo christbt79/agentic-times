@@ -42,18 +42,18 @@
     "url": "https://huggingface.co/amazon/ALoDLM-8B"
   },
   {
-    "name": "granite-4.1-8b-llmon-preview",
-    "org": "IBM",
-    "desc": "8B",
-    "date": "01.10.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-4.1-8b-llmon-preview"
-  },
-  {
     "name": "granite-4.1-3b-llmon-preview",
     "org": "IBM",
     "desc": "3B",
     "date": "01.10.2026",
     "url": "https://huggingface.co/ibm-granite/granite-4.1-3b-llmon-preview"
+  },
+  {
+    "name": "granite-4.1-8b-llmon-preview",
+    "org": "IBM",
+    "desc": "8B",
+    "date": "01.10.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-4.1-8b-llmon-preview"
   },
   {
     "name": "DeepSeek-V4.1-Flash",
