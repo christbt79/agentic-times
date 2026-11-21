@@ -42,20 +42,6 @@
     "url": "https://huggingface.co/amazon/ALoDLM-8B"
   },
   {
-    "name": "granite-4.1-3b-llmon-preview",
-    "org": "IBM",
-    "desc": "3B",
-    "date": "01.10.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-4.1-3b-llmon-preview"
-  },
-  {
-    "name": "granite-4.1-8b-llmon-preview",
-    "org": "IBM",
-    "desc": "8B",
-    "date": "01.10.2026",
-    "url": "https://huggingface.co/ibm-granite/granite-4.1-8b-llmon-preview"
-  },
-  {
     "name": "DeepSeek-V4.1-Flash",
     "org": "DeepSeek",
     "desc": "multimodal",
@@ -91,11 +77,11 @@
     "url": "https://huggingface.co/ibm-granite/granite-4.2-8b"
   },
   {
-    "name": "DeepSeek-V4-Flash-0731",
-    "org": "DeepSeek",
-    "desc": "Open language model",
-    "date": "31.07.2026",
-    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731"
+    "name": "granite-4.2-3b",
+    "org": "IBM",
+    "desc": "3B",
+    "date": "07.08.2026",
+    "url": "https://huggingface.co/ibm-granite/granite-4.2-3b"
   },
   {
     "name": "GLM-5.2",
@@ -105,10 +91,24 @@
     "url": "https://huggingface.co/zai-org/GLM-5.2"
   },
   {
+    "name": "North-Mini-Code-1.0",
+    "org": "Cohere",
+    "desc": "coding",
+    "date": "05.06.2026",
+    "url": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0"
+  },
+  {
     "name": "Falcon-Perception",
     "org": "TII",
     "desc": "Open language model",
     "date": "22.02.2026",
     "url": "https://huggingface.co/tiiuae/Falcon-Perception"
+  },
+  {
+    "name": "Falcon-OCR",
+    "org": "TII",
+    "desc": "Open language model",
+    "date": "22.02.2026",
+    "url": "https://huggingface.co/tiiuae/Falcon-OCR"
   }
 ]
