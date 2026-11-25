@@ -42,6 +42,13 @@
     "url": "https://huggingface.co/amazon/ALoDLM-8B"
   },
   {
+    "name": "Nemotron-Labs-Image-30B-A3B",
+    "org": "NVIDIA",
+    "desc": "30B · MoE",
+    "date": "24.09.2026",
+    "url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B"
+  },
+  {
     "name": "DeepSeek-V4.1-Flash",
     "org": "DeepSeek",
     "desc": "multimodal",
@@ -49,18 +56,18 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
   },
   {
-    "name": "Nemotron-3.5-Parse",
-    "org": "NVIDIA",
-    "desc": "multimodal",
-    "date": "03.09.2026",
-    "url": "https://huggingface.co/nvidia/Nemotron-3.5-Parse"
-  },
-  {
     "name": "GLM-5.3",
     "org": "Zhipu",
     "desc": "Open language model",
     "date": "25.08.2026",
     "url": "https://huggingface.co/zai-org/GLM-5.3"
+  },
+  {
+    "name": "Qwen3.8-2.4T-A95B",
+    "org": "Qwen",
+    "desc": "95B",
+    "date": "08.08.2026",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
   },
   {
     "name": "granite-4.2-3b",
@@ -91,24 +98,17 @@
     "url": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0"
   },
   {
-    "name": "Falcon-Perception",
+    "name": "DeepSeek-V4-Pro",
+    "org": "DeepSeek",
+    "desc": "Open language model",
+    "date": "22.04.2026",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+  },
+  {
+    "name": "Falcon-OCR",
     "org": "TII",
     "desc": "Open language model",
     "date": "22.02.2026",
-    "url": "https://huggingface.co/tiiuae/Falcon-Perception"
-  },
-  {
-    "name": "tiny-aya-base",
-    "org": "Cohere",
-    "desc": "Open language model",
-    "date": "13.02.2026",
-    "url": "https://huggingface.co/CohereLabs/tiny-aya-base"
-  },
-  {
-    "name": "GLM-4.7-Flash",
-    "org": "Zhipu",
-    "desc": "Open language model",
-    "date": "19.01.2026",
-    "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+    "url": "https://huggingface.co/tiiuae/Falcon-OCR"
   }
 ]
