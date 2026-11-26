@@ -7,13 +7,6 @@
     "url": "https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B"
   },
   {
-    "name": "Qwen3.5-4B-Qwen3.8-27B-Draft",
-    "org": "NVIDIA",
-    "desc": "4B",
-    "date": "11.11.2026",
-    "url": "https://huggingface.co/nvidia/Qwen3.5-4B-Qwen3.8-27B-Draft"
-  },
-  {
     "name": "Kimi-K3.1-Pro",
     "org": "Moonshot",
     "desc": "multimodal",
@@ -49,11 +42,11 @@
     "url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B"
   },
   {
-    "name": "DeepSeek-V4.1-Flash",
-    "org": "DeepSeek",
+    "name": "Nemotron-3.5-Parse",
+    "org": "NVIDIA",
     "desc": "multimodal",
-    "date": "10.09.2026",
-    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
+    "date": "03.09.2026",
+    "url": "https://huggingface.co/nvidia/Nemotron-3.5-Parse"
   },
   {
     "name": "GLM-5.3",
@@ -61,13 +54,6 @@
     "desc": "Open language model",
     "date": "25.08.2026",
     "url": "https://huggingface.co/zai-org/GLM-5.3"
-  },
-  {
-    "name": "Qwen3.8-2.4T-A95B",
-    "org": "Qwen",
-    "desc": "95B",
-    "date": "08.08.2026",
-    "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
   },
   {
     "name": "granite-4.2-3b",
@@ -110,5 +96,19 @@
     "desc": "Open language model",
     "date": "22.02.2026",
     "url": "https://huggingface.co/tiiuae/Falcon-OCR"
+  },
+  {
+    "name": "tiny-aya-base",
+    "org": "Cohere",
+    "desc": "Open language model",
+    "date": "13.02.2026",
+    "url": "https://huggingface.co/CohereLabs/tiny-aya-base"
+  },
+  {
+    "name": "GLM-4.7-Flash",
+    "org": "Zhipu",
+    "desc": "Open language model",
+    "date": "19.01.2026",
+    "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
   }
 ]
